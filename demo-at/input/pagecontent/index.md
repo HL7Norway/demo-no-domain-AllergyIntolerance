@@ -1,6 +1,6 @@
 ### Demo AllergyIntolerance Europa og Norge
 
-Dette er en demo-IG som viser et enkelt oppsett for AllergyIntolerance-beskrivelser med FHIR Shorthand.
+Dette er en demo-IG som viser et enkelt oppsett for AllergyIntolerance. 
 
 ### Mål
 
