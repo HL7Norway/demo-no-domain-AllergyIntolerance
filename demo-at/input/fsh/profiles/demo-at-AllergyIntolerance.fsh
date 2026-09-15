@@ -13,6 +13,11 @@ Description: "Profil for registrering av allergi og intoleranse i demo-IG."
 // * clinicalStatus MS 
 // * verificationStatus MS
 // * code MS
+* code from Kjernejournal (preferred)
+* code.coding[Kjernejournal].system = "urn:oid:2.16.578.1.12.4.1.1.7514"
+* code.coding[Kjernejournal].display = "Annen allergi som kritisk informasjon"
+// * code.slicing.discriminator = "system"
+// * code.slicing.description = "TMP Kjernejournal (7514)"
 * recordedDate 1..1
 * recordedDate ^definition = "Dato for registrering av allergi eller intoleranse"
 * recordedDate ^requirements = "Obligatorisk i Kjernejournal"
