@@ -1,4 +1,4 @@
-# Demo pasient - Demo AT v0.1.0
+# Demo pasient - Demo AllergyIntolerance Europa (EU Core/EHDS) og Norge v0.1.1
 
 * [**Table of Contents**](toc.md)
 * [**Artifacts Summary**](artifacts.md)
@@ -8,7 +8,7 @@
 
 | | |
 | :--- | :--- |
-| *Official URL*:http://hl7.no/fhir/ig/demo-at/StructureDefinition/demo-at-patient | *Version*:0.1.0 |
+| *Official URL*:http://hl7.no/fhir/ig/demo-at/StructureDefinition/demo-at-patient | *Version*:0.1.1 |
 | Draft as of 2026-09-15 | *Computable Name*:DemoAtPatient |
 
  
@@ -37,17 +37,17 @@ Other representations of profile: [CSV](StructureDefinition-demo-at-patient.csv)
   "resourceType" : "StructureDefinition",
   "id" : "demo-at-patient",
   "url" : "http://hl7.no/fhir/ig/demo-at/StructureDefinition/demo-at-patient",
-  "version" : "0.1.0",
+  "version" : "0.1.1",
   "name" : "DemoAtPatient",
   "title" : "Demo pasient",
   "status" : "draft",
   "date" : "2026-09-15",
-  "publisher" : "HL7 Norge",
+  "publisher" : "Helsedirektoratet",
   "contact" : [{
-    "name" : "HL7 Norge",
+    "name" : "Helsedirektoratet",
     "telecom" : [{
       "system" : "url",
-      "value" : "https://www.hl7.no"
+      "value" : "https://www.helsedirektoratet.no"
     }]
   }],
   "description" : "Pasientprofil brukt i demo-IG for AllergyIntolerance.",

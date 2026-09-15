@@ -2,8 +2,8 @@ DemoAT : Validation Results
 =========================================
 
 err = 1, warn = 18, info = 13
-IG Publisher Version: 2.3.4 Out of date - current version is null
-Generated Tue Sep 15 10:04:37 UTC 2026. FHIR version 4.0.1 for hl7.fhir.no.demo-at#0.1.0 (canonical = http://hl7.no/fhir/ig/demo-at)
+IG Publisher Version: 2.3.4
+Generated Tue Sep 15 11:14:25 UTC 2026. FHIR version 4.0.1 for hl7.fhir.no.demo-at#0.1.1 (canonical = http://hl7.no/fhir/ig/demo-at)
  Build Errors : 0 / 5 / 0
  /__w/demo-no-domain-AllergyIntolerance/demo-no-domain-AllergyIntolerance/demo-at/fsh-generated/resources/AllergyIntolerance-DemoAtAllergyIntolerance-1 : 1 / 0 / 7
  /__w/demo-no-domain-AllergyIntolerance/demo-no-domain-AllergyIntolerance/demo-at/fsh-generated/resources/ImplementationGuide-hl7.fhir.no.demo-at : 0 / 2 / 3
@@ -22,8 +22,8 @@ INFORMATION: AllergyIntolerance/DemoAtAllergyIntolerance-1: AllergyIntolerance.c
 INFORMATION: AllergyIntolerance/DemoAtAllergyIntolerance-1: AllergyIntolerance.code: None of the codings provided are in the value set 'eHDSI Allergen No Drug' (http://terminology.ehdsi.eu/ValueSet/eHDSIAllergenNoDrug|0.2.0) specified in an additional binding, and a coding is recommended to come from this value set (codes = http://snomed.info/sct#91935009)
 INFORMATION: AllergyIntolerance/DemoAtAllergyIntolerance-1: AllergyIntolerance.code: None of the codings provided are in the value set 'WHO ATC - IPS' (http://hl7.org/fhir/uv/ips/ValueSet/whoatc-uv-ips|2.0.0) specified in an additional binding, and a coding is recommended to come from this value set (codes = http://snomed.info/sct#91935009)
 INFORMATION: AllergyIntolerance/DemoAtAllergyIntolerance-1: AllergyIntolerance.reaction[0].substance.coding[0].display: There are no valid display names found for the code http://snomed.info/sct#762952008 for language(s) 'no-NO'. The display is 'Peanut' which is a valid display for the default language
-INFORMATION: AllergyIntolerance/DemoAtAllergyIntolerance-1: AllergyIntolerance.reaction[0].manifestation[0].coding[0].display: There are no valid display names found for the code http://snomed.info/sct#247472004 for language(s) 'no-NO'. The display is 'Urticarial rash' which is a valid display for the default language
-ERROR: AllergyIntolerance/DemoAtAllergyIntolerance-1: AllergyIntolerance.reaction[0].manifestation[0].coding[0].display: Wrong Display Name 'Urticarial rash' for http://snomed.info/sct#247472004. Valid display is 'Weal' (for the language(s) 'no-NO')
+INFORMATION: AllergyIntolerance/DemoAtAllergyIntolerance-1: AllergyIntolerance.reaction[0].manifestation[0].coding[0].display: There are no valid display names found for the code http://snomed.info/sct#247472004 for language(s) 'no-NO'. The display is 'Wheal (finding)' which is a valid display for the default language
+ERROR: AllergyIntolerance/DemoAtAllergyIntolerance-1: AllergyIntolerance.reaction[0].manifestation[0].coding[0].display: Wrong Display Name 'Wheal (finding)' for http://snomed.info/sct#247472004. Valid display is 'Weal' (for the language(s) 'no-NO')
 INFORMATION: AllergyIntolerance/DemoAtAllergyIntolerance-1: AllergyIntolerance.reaction[0].manifestation[0]: None of the codings provided are in the value set 'eHDSI Reaction Allergy' (http://terminology.ehdsi.eu/ValueSet/eHDSIReactionAllergy|0.2.0) specified in an additional binding, and a coding is recommended to come from this value set (codes = http://snomed.info/sct#247472004)
 == fsh-generated/resources/ImplementationGuide-hl7.fhir.no.demo-at.json ==
 INFORMATION: ImplementationGuide/hl7.fhir.no.demo-at: ImplementationGuide.jurisdiction[0].coding[0].display: There are no valid display names found for the code urn:iso:std:iso:3166#NO for language(s) 'no-NO'. The display is 'Norway' which is a valid display for the default language

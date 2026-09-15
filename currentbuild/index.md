@@ -1,4 +1,4 @@
-# Home - Demo AT v0.1.0
+# Home - Demo AllergyIntolerance Europa (EU Core/EHDS) og Norge v0.1.1
 
 * [**Table of Contents**](toc.md)
 * **Home**
@@ -7,12 +7,12 @@
 
 | | |
 | :--- | :--- |
-| *Official URL*:http://hl7.no/fhir/ig/demo-at/ImplementationGuide/hl7.fhir.no.demo-at | *Version*:0.1.0 |
+| *Official URL*:http://hl7.no/fhir/ig/demo-at/ImplementationGuide/hl7.fhir.no.demo-at | *Version*:0.1.1 |
 | Draft as of 2026-09-15 | *Computable Name*:DemoAT |
 
 ### Demo AllergyIntolerance Europa og Norge
 
-Dette er en demo-IG som viser et enkelt oppsett for AllergyIntolerance-beskrivelser med FHIR Shorthand.
+Dette er en demo-IG som viser et enkelt oppsett for AllergyIntolerance.
 
 ### Mål
 
@@ -33,17 +33,17 @@ Espen Stranger Seland, Helsedirektoratet
   "resourceType" : "ImplementationGuide",
   "id" : "hl7.fhir.no.demo-at",
   "url" : "http://hl7.no/fhir/ig/demo-at/ImplementationGuide/hl7.fhir.no.demo-at",
-  "version" : "0.1.0",
+  "version" : "0.1.1",
   "name" : "DemoAT",
-  "title" : "Demo AT",
+  "title" : "Demo AllergyIntolerance Europa (EU Core/EHDS) og Norge",
   "status" : "draft",
-  "date" : "2026-09-15T09:57:36+00:00",
-  "publisher" : "HL7 Norge",
+  "date" : "2026-09-15T11:12:40+00:00",
+  "publisher" : "Helsedirektoratet",
   "contact" : [{
-    "name" : "HL7 Norge",
+    "name" : "Helsedirektoratet",
     "telecom" : [{
       "system" : "url",
-      "value" : "https://www.hl7.no"
+      "value" : "https://www.helsedirektoratet.no"
     }]
   }],
   "description" : "Demo implementation guide for AllergyIntolerance.",

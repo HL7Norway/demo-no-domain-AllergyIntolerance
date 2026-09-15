@@ -95,7 +95,7 @@ Age {[]} {[]}Period {[]} {[]}Range {[]} {[]}string {[]} {[]}","Date of onset of 
 ","Onset date","Estimated or actual date,  date-time, or age when allergy or intolerance was identified.","","","","","","","","","",,,,,"",,,,"AllergyIntolerance.onset[x]",0,1,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 "
 "demo-at-allergy-intolerance","AllergyIntolerance.recordedDate","AllergyIntolerance.recordedDate","","","",1,1,"","","","dateTime {[]} {[]}
-","Registreringsdato","Dato for registrering av allergi eller intoleranse","Obligatorisk i Kjernejournal","","","","","","","","",,,,,"",,,,"AllergyIntolerance.recordedDate",0,1,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
+","Registreringsdato","Dato for registrering av allergi eller intoleranse","","Obligatorisk i Kjernejournal","","","","","","","",,,,,"",,,,"AllergyIntolerance.recordedDate",0,1,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 "
 "demo-at-allergy-intolerance","AllergyIntolerance.recorder","AllergyIntolerance.recorder","","Author
 ","",0,1,"","","","Reference {[]} {[CanonicalType[http://hl7.org/fhir/StructureDefinition/Practitioner|4.0.1], CanonicalType[http://hl7.org/fhir/StructureDefinition/PractitionerRole|4.0.1], CanonicalType[http://hl7.org/fhir/StructureDefinition/Patient|4.0.1], CanonicalType[http://hl7.org/fhir/StructureDefinition/RelatedPerson|4.0.1]]}

@@ -1,4 +1,4 @@
-# DemoAtPatient-1 - Demo AT v0.1.0
+# DemoAtPatient-1 - Demo AllergyIntolerance Europa (EU Core/EHDS) og Norge v0.1.1
 
 * [**Table of Contents**](toc.md)
 * [**Artifacts Summary**](artifacts.md)

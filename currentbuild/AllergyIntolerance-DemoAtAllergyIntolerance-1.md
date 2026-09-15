@@ -1,4 +1,4 @@
-# DemoAtAllergyIntolerance-1 - Demo AT v0.1.0
+# DemoAtAllergyIntolerance-1 - Demo AllergyIntolerance Europa (EU Core/EHDS) og Norge v0.1.1
 
 * [**Table of Contents**](toc.md)
 * [**Artifacts Summary**](artifacts.md)
@@ -29,7 +29,7 @@ Profile: [Demo AllergyIntolerance](StructureDefinition-demo-at-allergy-intoleran
 | | | |
 | :--- | :--- | :--- |
 | - | **Substance** | **Manifestation** |
-| * | Peanut | Urticarial rash |
+| * | Peanut | Wheal (finding) |
 
 
 
@@ -82,7 +82,7 @@ Profile: [Demo AllergyIntolerance](StructureDefinition-demo-at-allergy-intoleran
       "coding" : [{
         "system" : "http://snomed.info/sct",
         "code" : "247472004",
-        "display" : "Urticarial rash"
+        "display" : "Wheal (finding)"
       }]
     }]
   }]

@@ -1,4 +1,4 @@
-# Demo AllergyIntolerance - Demo AT v0.1.0
+# Demo AllergyIntolerance - Demo AllergyIntolerance Europa (EU Core/EHDS) og Norge v0.1.1
 
 * [**Table of Contents**](toc.md)
 * [**Artifacts Summary**](artifacts.md)
@@ -8,7 +8,7 @@
 
 | | |
 | :--- | :--- |
-| *Official URL*:http://hl7.no/fhir/ig/demo-at/StructureDefinition/demo-at-allergy-intolerance | *Version*:0.1.0 |
+| *Official URL*:http://hl7.no/fhir/ig/demo-at/StructureDefinition/demo-at-allergy-intolerance | *Version*:0.1.1 |
 | Draft as of 2026-09-15 | *Computable Name*:DemoAtAllergyIntolerance |
 
  
@@ -37,17 +37,17 @@ Other representations of profile: [CSV](StructureDefinition-demo-at-allergy-into
   "resourceType" : "StructureDefinition",
   "id" : "demo-at-allergy-intolerance",
   "url" : "http://hl7.no/fhir/ig/demo-at/StructureDefinition/demo-at-allergy-intolerance",
-  "version" : "0.1.0",
+  "version" : "0.1.1",
   "name" : "DemoAtAllergyIntolerance",
   "title" : "Demo AllergyIntolerance",
   "status" : "draft",
   "date" : "2026-09-15",
-  "publisher" : "HL7 Norge",
+  "publisher" : "Helsedirektoratet",
   "contact" : [{
-    "name" : "HL7 Norge",
+    "name" : "Helsedirektoratet",
     "telecom" : [{
       "system" : "url",
-      "value" : "https://www.hl7.no"
+      "value" : "https://www.helsedirektoratet.no"
     }]
   }],
   "description" : "Profil for registrering av allergi og intoleranse i demo-IG.",
@@ -89,7 +89,7 @@ Other representations of profile: [CSV](StructureDefinition-demo-at-allergy-into
       "path" : "AllergyIntolerance.recordedDate",
       "short" : "Registreringsdato",
       "definition" : "Dato for registrering av allergi eller intoleranse",
-      "comment" : "Obligatorisk i Kjernejournal",
+      "requirements" : "Obligatorisk i Kjernejournal",
       "min" : 1
     },
     {

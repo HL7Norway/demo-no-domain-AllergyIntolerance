@@ -1,4 +1,4 @@
-# hl7.fhir.no.demo-at#0.1.0: Demo AT
+# hl7.fhir.no.demo-at#0.1.1: Demo AllergyIntolerance Europa (EU Core/EHDS) og Norge
 
 ## Pages
 
@@ -14,7 +14,7 @@
 
 ### ImplementationGuides
 
-* [Demo AT](index.md)
+* [Demo AllergyIntolerance Europa (EU Core/EHDS) og Norge](index.md)
 
 ### Examples
 
