@@ -16,7 +16,6 @@ Pasientprofil brukt i demo-IG for AllergyIntolerance.
 
 **Usages:**
 
-* Refer to this Profile: [Demo AllergyIntolerance](StructureDefinition-demo-at-allergy-intolerance.md)
 * Examples for this Profile: [Patient/DemoAtPatient-1](Patient-DemoAtPatient-1.md)
 
 You can also check for [usages in the FHIR IG Statistics](https://packages2.fhir.org/xig/resource/hl7.fhir.no.demo-at|current/StructureDefinition/StructureDefinition-demo-at-patient.json)

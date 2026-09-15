@@ -17,26 +17,23 @@
   ] ;
   fhir:DomainResource.text [
      fhir:Narrative.status [ fhir:value "generated" ] ;
-     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><strong>Kari Elisabeth Hansen</strong></p><p>Fødselsnummer: 13031353453</p><p>Kjønn: Kvinne</p><p>Fødselsdato: 13. mars 1990</p><p>Telefon: +47 12 34 56 78 (mobil)</p><p>E-post: kari.hansen@example.no</p><p>Adresse: Storgata 123, 5020 Bergen, Norge</p></div>"
+     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><strong>Line Danser</strong></p><p>Fødselsnummer: 131169 00216</p><p>Kjønn: Kvinne</p><p>Fødselsdato: 13. november 1969</p></div>"
   ] ;
   fhir:Patient.identifier [
      fhir:index 0 ;
      fhir:Identifier.system [ fhir:value "urn:oid:2.16.578.1.12.4.1.4.1" ] ;
-     fhir:Identifier.value [ fhir:value "13031353453" ]
+     fhir:Identifier.value [ fhir:value "13116900216" ]
   ] ;
   fhir:Patient.name [
      fhir:index 0 ;
-     fhir:HumanName.family [ fhir:value "Hansen" ] ;
+     fhir:HumanName.family [ fhir:value "Danser" ] ;
      fhir:HumanName.given [
-       fhir:value "Kari" ;
+       fhir:value "Line" ;
        fhir:index 0
-     ], [
-       fhir:value "Elisabeth" ;
-       fhir:index 1
      ]
   ] ;
   fhir:Patient.gender [ fhir:value "female"] ;
-  fhir:Patient.birthDate [ fhir:value "1990-03-13"^^xsd:date] .
+  fhir:Patient.birthDate [ fhir:value "1969-11-13"^^xsd:date] .
 
 # - ontology header ------------------------------------------------------------
 

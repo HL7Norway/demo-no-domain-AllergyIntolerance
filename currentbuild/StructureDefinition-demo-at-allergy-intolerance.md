@@ -85,32 +85,22 @@ Other representations of profile: [CSV](StructureDefinition-demo-at-allergy-into
       "path" : "AllergyIntolerance"
     },
     {
-      "id" : "AllergyIntolerance.clinicalStatus",
-      "path" : "AllergyIntolerance.clinicalStatus",
-      "mustSupport" : true
-    },
-    {
-      "id" : "AllergyIntolerance.verificationStatus",
-      "path" : "AllergyIntolerance.verificationStatus",
-      "mustSupport" : true
-    },
-    {
-      "id" : "AllergyIntolerance.code",
-      "path" : "AllergyIntolerance.code",
-      "mustSupport" : true
-    },
-    {
-      "id" : "AllergyIntolerance.patient",
-      "path" : "AllergyIntolerance.patient",
-      "type" : [{
-        "code" : "Reference",
-        "targetProfile" : ["http://hl7.no/fhir/ig/demo-at/StructureDefinition/demo-at-patient"]
-      }]
+      "id" : "AllergyIntolerance.recordedDate",
+      "path" : "AllergyIntolerance.recordedDate",
+      "short" : "Registreringsdato",
+      "definition" : "Dato for registrering av allergi eller intoleranse",
+      "comment" : "Obligatorisk i Kjernejournal",
+      "min" : 1
     },
     {
       "id" : "AllergyIntolerance.reaction.substance",
       "path" : "AllergyIntolerance.reaction.substance",
       "mustSupport" : true
+    },
+    {
+      "id" : "AllergyIntolerance.reaction.manifestation",
+      "path" : "AllergyIntolerance.reaction.manifestation",
+      "definition" : "Eksempel på kommentar/tillegg i norsk utgave"
     }]
   }
 }

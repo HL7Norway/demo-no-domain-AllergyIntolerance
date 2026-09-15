@@ -37,7 +37,7 @@ Espen Stranger Seland, Helsedirektoratet
   "name" : "DemoAT",
   "title" : "Demo AT",
   "status" : "draft",
-  "date" : "2026-09-15T08:34:16+00:00",
+  "date" : "2026-09-15T09:57:36+00:00",
   "publisher" : "HL7 Norge",
   "contact" : [{
     "name" : "HL7 Norge",

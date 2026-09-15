@@ -6,19 +6,13 @@
 
 ## Example Patient: DemoAtPatient-1
 
-**Kari Elisabeth Hansen**
+**Line Danser**
 
-Fødselsnummer: 13031353453
+Fødselsnummer: 131169 00216
 
 Kjønn: Kvinne
 
-Fødselsdato: 13. mars 1990
-
-Telefon: +47 12 34 56 78 (mobil)
-
-E-post: kari.hansen@example.no
-
-Adresse: Storgata 123, 5020 Bergen, Norge
+Fødselsdato: 13. november 1969
 
 
 
@@ -33,14 +27,14 @@ Adresse: Storgata 123, 5020 Bergen, Norge
   },
   "identifier" : [{
     "system" : "urn:oid:2.16.578.1.12.4.1.4.1",
-    "value" : "13031353453"
+    "value" : "13116900216"
   }],
   "name" : [{
-    "family" : "Hansen",
-    "given" : ["Kari", "Elisabeth"]
+    "family" : "Danser",
+    "given" : ["Line"]
   }],
   "gender" : "female",
-  "birthDate" : "1990-03-13"
+  "birthDate" : "1969-11-13"
 }
 
 ```

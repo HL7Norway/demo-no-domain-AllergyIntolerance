@@ -20,7 +20,7 @@ Profile: [Demo AllergyIntolerance](StructureDefinition-demo-at-allergy-intoleran
 
 **code**: Allergy to peanut
 
-**patient**: [Kari Elisabeth Hansen Female, DoB: 1990-03-13 ( urn:oid:2.16.578.1.12.4.1.4.1#Foedselsnummer#13031353453)](Patient-DemoAtPatient-1.md)
+**patient**: [Line Danser Female, DoB: 1969-11-13 ( urn:oid:2.16.578.1.12.4.1.4.1#Foedselsnummer#13116900216)](Patient-DemoAtPatient-1.md)
 
 **recordedDate**: 2026-09-15
 
@@ -74,7 +74,7 @@ Profile: [Demo AllergyIntolerance](StructureDefinition-demo-at-allergy-intoleran
     "substance" : {
       "coding" : [{
         "system" : "http://snomed.info/sct",
-        "code" : "256349002",
+        "code" : "762952008",
         "display" : "Peanut"
       }]
     },

@@ -95,8 +95,8 @@
     "sources" : ["2.16.840.1.113883.4.642.3.20"],
     "uses" : {
     },
-    "StructureDefinition-demo-at-patient.html" : "Demo pasient",
-    "StructureDefinition-demo-at-allergy-intolerance.html" : "Demo AllergyIntolerance"
+    "StructureDefinition-demo-at-allergy-intolerance.html" : "Demo AllergyIntolerance",
+    "StructureDefinition-demo-at-patient.html" : "Demo pasient"
   },
   {
     "url" : "http://hl7.org/fhir/ValueSet/link-type",
