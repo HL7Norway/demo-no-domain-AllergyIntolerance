@@ -1,33 +1,31 @@
 ![Under utvikling!](https://img.shields.io/badge/Status-Under%20utvikling-orange)
-[![ig-gh-pages](https://github.com/HL7Norway/ig-mal/actions/workflows/ig-gh-pages.yml/badge.svg)](https://github.com/HL7Norway/ig-mal/actions/workflows/ig-gh-pages.yml)
-[![Validate FSH Files](https://github.com/HL7Norway/ig-mal/actions/workflows/validate-fsh.yml/badge.svg)](https://github.com/HL7Norway/ig-mal/actions/workflows/validate-fsh.yml)
+[![ig-gh-pages](https://github.com/HL7Norway/demo-no-domain-AllergyIntolerance/actions/workflows/ig-gh-pages.yml/badge.svg)](https://github.com/HL7Norway/demo-no-domain-AllergyIntolerance/actions/workflows/ig-gh-pages.yml)
+[![Validate FSH Files](https://github.com/HL7Norway/demo-no-domain-AllergyIntolerance/actions/workflows/validate-fsh.yml/badge.svg)](https://github.com/HL7Norway/demo-no-domain-AllergyIntolerance/actions/workflows/validate-fsh.yml)
 
-# Mal for implementasjonsguider (IG)
+# Demo AT Implementation Guide
 
-Dette er en mal du kan bruke som utgangspunkt for en HL7 FHIR implementasjonsguide. Malen benytter FHIR Shorthand (FSH) for å definere profiler og GitHub Actions for automatisering, slik at all utvikling kan skje på GitHub.
+Dette repositoryet inneholder en demo for en HL7 FHIR implementasjonsguide for AllergyIntolerance. Oppsettet er basert på `ig-mal` og bruker FHIR Shorthand (FSH) og GitHub Actions for validering og publisering.
 
-## ✨ Hva får du med malen?
+## ✨ Hva inneholder demoen?
 
-- **FSH-profiler:** Eksempelprofiler basert på no-basis
-- **Automatisk validering:** FSH og SUSHI-validering via GitHub Actions  
+- **FSH-profiler:** Demo-profiler for `Patient` og `AllergyIntolerance`
+- **Automatisk validering:** FSH og SUSHI-validering via GitHub Actions
 - **Automatisk publisering:** Bygg og publiser IG til GitHub Pages
-- **FTP/SFTP deployment:** Publiser til din egen web-server (noe eksperimentell)
-- **Dokumentasjonsstruktur:** Klar mappestruktur for innhold
 - **PlantUML-støtte:** Automatisk generering av diagrammer
 
-## 🚀 Kom i gang på 5 minutter
+## 🚀 Kom i gang
 
 ![Use this template](documentation/use-this-template.png)
 
-**Steg 1:** Klikk "Use this template" → "Create a new repository"
+**Steg 1:** Arbeid videre i `demo-at/`-mappen med profiler, eksempler og sideinnhold.
 
-**Steg 2:** Følg [setup-checklisten](documentation/setup-checklist.md) eller den [detaljerte oppsettsguiden](documentation/bruke-repo-som-mal.md)
+**Steg 2:** Bruk workflowene for å validere og publisere IG-en.
 
 ## 📚 Dokumentasjon
 
-Se malens [dokumentasjon for bruk, konfigurering og automatisering](documentation/README.md), inkludert:
+Se [dokumentasjonen for bruk, konfigurering og automatisering](documentation/README.md), inkludert:
 
-- [Hvordan bruke denne repoen som en mal for eget prosjekt](documentation/bruke-repo-som-mal.md)
+- [Hvordan bruke `ig-mal` som en mal for eget prosjekt](documentation/bruke-repo-som-mal.md)
 
 ## 🎯 Beste praksis
 
@@ -36,4 +34,4 @@ Følg beste praksis for implementasjonsguider. Utvalgte ressurser:
 
 ---
 
-> **Status:** Malen er under kontinuerlig utvikling. Se [plan og bidrag](CONTRIBUTING.md) for mer informasjon.
+> **Status:** Demo-IG under utvikling. Se [plan og bidrag](CONTRIBUTING.md) for mer informasjon.
