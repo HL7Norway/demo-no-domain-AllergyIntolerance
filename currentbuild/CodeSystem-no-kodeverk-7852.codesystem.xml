@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CodeSystem xmlns="http://hl7.org/fhir">
+  <id value="no-kodeverk-7852.codesystem"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Generated Narrative: CodeSystem no-kodeverk-7852.codesystem</b></p><a name="no-kodeverk-7852.codesystem"> </a><a name="hcno-kodeverk-7852.codesystem"> </a><p>This case-sensitive code system <code>http://helsedir.no/fhir/CodeSystem/no-kodeverk-7852</code> defines the following codes:</p><table class="codes"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style="white-space:nowrap">1<a name="no-kodeverk-7852.codesystem-1"> </a></td><td>Gluten</td></tr><tr><td style="white-space:nowrap">2<a name="no-kodeverk-7852.codesystem-2"> </a></td><td>Hvete</td></tr><tr><td style="white-space:nowrap">3<a name="no-kodeverk-7852.codesystem-3"> </a></td><td>Rug</td></tr><tr><td style="white-space:nowrap">4<a name="no-kodeverk-7852.codesystem-4"> </a></td><td>Bygg</td></tr><tr><td style="white-space:nowrap">5<a name="no-kodeverk-7852.codesystem-5"> </a></td><td>Havre</td></tr><tr><td style="white-space:nowrap">6<a name="no-kodeverk-7852.codesystem-6"> </a></td><td>Skalldyr</td></tr><tr><td style="white-space:nowrap">7<a name="no-kodeverk-7852.codesystem-7"> </a></td><td>Egg (spiselig)</td></tr><tr><td style="white-space:nowrap">8<a name="no-kodeverk-7852.codesystem-8"> </a></td><td>Fisk</td></tr><tr><td style="white-space:nowrap">9<a name="no-kodeverk-7852.codesystem-9"> </a></td><td>Nøtt</td></tr><tr><td style="white-space:nowrap">10<a name="no-kodeverk-7852.codesystem-10"> </a></td><td>Peanøtt</td></tr><tr><td style="white-space:nowrap">11<a name="no-kodeverk-7852.codesystem-11"> </a></td><td>Soyabønner</td></tr><tr><td style="white-space:nowrap">12<a name="no-kodeverk-7852.codesystem-12"> </a></td><td>Kumelk</td></tr><tr><td style="white-space:nowrap">13<a name="no-kodeverk-7852.codesystem-13"> </a></td><td>Kumelksprotein</td></tr><tr><td style="white-space:nowrap">14<a name="no-kodeverk-7852.codesystem-14"> </a></td><td>Laktose</td></tr><tr><td style="white-space:nowrap">15<a name="no-kodeverk-7852.codesystem-15"> </a></td><td>Selleri</td></tr><tr><td style="white-space:nowrap">16<a name="no-kodeverk-7852.codesystem-16"> </a></td><td>Sennepsfrø</td></tr><tr><td style="white-space:nowrap">17<a name="no-kodeverk-7852.codesystem-17"> </a></td><td>Sesamfrø</td></tr><tr><td style="white-space:nowrap">18<a name="no-kodeverk-7852.codesystem-18"> </a></td><td>Svoveldioksid</td></tr><tr><td style="white-space:nowrap">19<a name="no-kodeverk-7852.codesystem-19"> </a></td><td>Sulfitt og sulfittderivater</td></tr><tr><td style="white-space:nowrap">20<a name="no-kodeverk-7852.codesystem-20"> </a></td><td>Lupinfrø</td></tr><tr><td style="white-space:nowrap">21<a name="no-kodeverk-7852.codesystem-21"> </a></td><td>Sjøbløtdyr</td></tr></table></div>
+  </text>
+  <url value="http://helsedir.no/fhir/CodeSystem/no-kodeverk-7852"/>
+  <identifier>
+    <system value="urn:ietf:rfc:3986"/>
+    <value value="urn:oid:2.16.578.1.12.4.1.1.7852"/>
+  </identifier>
+  <version value="0.1.1"/>
+  <name value="NoKodeverk7852"/>
+  <title value="7852 Allergener"/>
+  <status value="active"/>
+  <date value="2021-01-13"/>
+  <publisher value="Helsedirektoratet"/>
+  <contact>
+    <name value="Helsedirektoratet"/>
+    <telecom>
+      <system value="url"/>
+      <value value="https://www.helsedirektoratet.no"/>
+    </telecom>
+  </contact>
+  <description value="Dette kodeverket angir hvilke allergener som kan forekomme i enterale ernæringsmidler. Informasjonen skal brukes på sykehus i forbindelse med at pasienter skal få ernæringsmidler. Kodene fra dette kodeverket inngår i en egen REST-tjeneste for ernæringsmidler til SAFEST."/>
+  <jurisdiction>
+    <coding>
+      <system value="urn:iso:std:iso:3166"/>
+      <code value="NO"/>
+      <display value="Norway"/>
+    </coding>
+  </jurisdiction>
+  <caseSensitive value="true"/>
+  <compositional value="false"/>
+  <content value="complete"/>
+  <count value="21"/>
+  <concept>
+    <code value="1"/>
+    <display value="Gluten"/>
+  </concept>
+  <concept>
+    <code value="2"/>
+    <display value="Hvete"/>
+  </concept>
+  <concept>
+    <code value="3"/>
+    <display value="Rug"/>
+  </concept>
+  <concept>
+    <code value="4"/>
+    <display value="Bygg"/>
+  </concept>
+  <concept>
+    <code value="5"/>
+    <display value="Havre"/>
+  </concept>
+  <concept>
+    <code value="6"/>
+    <display value="Skalldyr"/>
+  </concept>
+  <concept>
+    <code value="7"/>
+    <display value="Egg (spiselig)"/>
+  </concept>
+  <concept>
+    <code value="8"/>
+    <display value="Fisk"/>
+  </concept>
+  <concept>
+    <code value="9"/>
+    <display value="Nøtt"/>
+  </concept>
+  <concept>
+    <code value="10"/>
+    <display value="Peanøtt"/>
+  </concept>
+  <concept>
+    <code value="11"/>
+    <display value="Soyabønner"/>
+  </concept>
+  <concept>
+    <code value="12"/>
+    <display value="Kumelk"/>
+  </concept>
+  <concept>
+    <code value="13"/>
+    <display value="Kumelksprotein"/>
+  </concept>
+  <concept>
+    <code value="14"/>
+    <display value="Laktose"/>
+  </concept>
+  <concept>
+    <code value="15"/>
+    <display value="Selleri"/>
+  </concept>
+  <concept>
+    <code value="16"/>
+    <display value="Sennepsfrø"/>
+  </concept>
+  <concept>
+    <code value="17"/>
+    <display value="Sesamfrø"/>
+  </concept>
+  <concept>
+    <code value="18"/>
+    <display value="Svoveldioksid"/>
+  </concept>
+  <concept>
+    <code value="19"/>
+    <display value="Sulfitt og sulfittderivater"/>
+  </concept>
+  <concept>
+    <code value="20"/>
+    <display value="Lupinfrø"/>
+  </concept>
+  <concept>
+    <code value="21"/>
+    <display value="Sjøbløtdyr"/>
+  </concept>
+</CodeSystem>

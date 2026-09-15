@@ -11,7 +11,7 @@
   <name value="DemoAT"/>
   <title value="Demo AllergyIntolerance Europa (EU Core/EHDS) og Norge"/>
   <status value="draft"/>
-  <date value="2026-09-15T12:51:38+00:00"/>
+  <date value="2026-09-15T13:41:56+00:00"/>
   <publisher value="Helsedirektoratet"/>
   <contact>
     <name value="Helsedirektoratet"/>
@@ -474,6 +474,28 @@
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="CodeSystem"/>
+      </extension>
+      <reference>
+        <reference value="CodeSystem/no-kodeverk-7852.codesystem"/>
+      </reference>
+      <name value="7852 Allergener"/>
+      <description value="Dette kodeverket angir hvilke allergener som kan forekomme i enterale ernæringsmidler. Informasjonen skal brukes på sykehus i forbindelse med at pasienter skal få ernæringsmidler. Kodene fra dette kodeverket inngår i en egen REST-tjeneste for ernæringsmidler til SAFEST."/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/allergener-7852"/>
+      </reference>
+      <name value="Allergener (7852)"/>
+      <description value="Alle koder fra Mattilsynet/SAFEST/Farmalogg sitt kodeverk 7852."/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
         <valueString value="ValueSet"/>
       </extension>
       <reference>
@@ -491,7 +513,7 @@
         <reference value="StructureDefinition/demo-at-allergy-intolerance"/>
       </reference>
       <name value="Demo AllergyIntolerance"/>
-      <description value="Profil for registrering av allergi og intoleranse i demo-IG."/>
+      <description value="Dummy-tekst: Helse-NIM for overfølsomhet er en liste som inneholder informasjon om unormale reaksjoner, symptomer eller funn initiert av eksponering for en definert stimulus i en dose som normalt tolereres av andre. Informasjon om en pasients overfølsomhet er relevant i mange situasjoner, som ved vaksinasjon, kost på institusjon, rekvirering og utlevering av legemidler, herunder inkludert muligheten til å dele informasjon om en avkreftet overfølsomhet."/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>

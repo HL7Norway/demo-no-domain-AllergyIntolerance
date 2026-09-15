@@ -37,7 +37,7 @@ Espen Stranger Seland, Helsedirektoratet
   "name" : "DemoAT",
   "title" : "Demo AllergyIntolerance Europa (EU Core/EHDS) og Norge",
   "status" : "draft",
-  "date" : "2026-09-15T12:51:38+00:00",
+  "date" : "2026-09-15T13:41:56+00:00",
   "publisher" : "Helsedirektoratet",
   "contact" : [{
     "name" : "Helsedirektoratet",
@@ -663,6 +663,38 @@ Espen Stranger Seland, Helsedirektoratet
     {
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "CodeSystem"
+      },
+      {
+        "url" : "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+        "valueUri" : "CodeSystem-no-kodeverk-7852.codesystem.html"
+      }],
+      "reference" : {
+        "reference" : "CodeSystem/no-kodeverk-7852.codesystem"
+      },
+      "name" : "7852 Allergener",
+      "description" : "Dette kodeverket angir hvilke allergener som kan forekomme i enterale ernæringsmidler. Informasjonen skal brukes på sykehus i forbindelse med at pasienter skal få ernæringsmidler. Kodene fra dette kodeverket inngår i en egen REST-tjeneste for ernæringsmidler til SAFEST.",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "ValueSet"
+      },
+      {
+        "url" : "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+        "valueUri" : "ValueSet-allergener-7852.html"
+      }],
+      "reference" : {
+        "reference" : "ValueSet/allergener-7852"
+      },
+      "name" : "Allergener (7852)",
+      "description" : "Alle koder fra Mattilsynet/SAFEST/Farmalogg sitt kodeverk 7852.",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
         "valueString" : "ValueSet"
       },
       {
@@ -689,7 +721,7 @@ Espen Stranger Seland, Helsedirektoratet
         "reference" : "StructureDefinition/demo-at-allergy-intolerance"
       },
       "name" : "Demo AllergyIntolerance",
-      "description" : "Profil for registrering av allergi og intoleranse i demo-IG.",
+      "description" : "Dummy-tekst: Helse-NIM for overfølsomhet er en liste som inneholder informasjon om unormale reaksjoner, symptomer eller funn initiert av eksponering for en definert stimulus i en dose som normalt tolereres av andre. Informasjon om en pasients overfølsomhet er relevant i mange situasjoner, som ved vaksinasjon, kost på institusjon, rekvirering og utlevering av legemidler, herunder inkludert muligheten til å dele informasjon om en avkreftet overfølsomhet.",
       "exampleBoolean" : false
     },
     {

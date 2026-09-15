@@ -9,14 +9,14 @@
 | | |
 | :--- | :--- |
 | *Official URL*:http://hl7.no/fhir/ig/demo-at/ValueSet/annen-allergi-som-kritisk-informasjon-7514 | *Version*:0.1.1 |
-| Draft as of 2026-09-15 | *Computable Name*:AnnenAllergiSomKritiskInformasjon7514 |
+| Active as of 2026-09-15 | *Computable Name*:AnnenAllergiSomKritiskInformasjon7514 |
 
  
 Alle koder fra Kjernejournals kodeverk 7514. 
 
  **References** 
 
-* [Demo AllergyIntolerance](StructureDefinition-demo-at-allergy-intolerance.md)
+This value set is not used here; it may be used elsewhere (e.g. specifications and/or implementations that use this content)
 
 ### Logical Definition (CLD)
 
@@ -49,8 +49,8 @@ Alle koder fra Kjernejournals kodeverk 7514.
   "version" : "0.1.1",
   "name" : "AnnenAllergiSomKritiskInformasjon7514",
   "title" : "Annen allergi som kritisk informasjon (7514)",
-  "status" : "draft",
-  "date" : "2026-09-15T12:51:38+00:00",
+  "status" : "active",
+  "date" : "2026-09-15T13:41:56+00:00",
   "publisher" : "Helsedirektoratet",
   "contact" : [{
     "name" : "Helsedirektoratet",

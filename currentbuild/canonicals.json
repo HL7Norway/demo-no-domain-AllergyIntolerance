@@ -7,6 +7,14 @@
   "oids" : ["2.16.578.1.12.4.1.1.7514"]
 },
 {
+  "id" : "no-kodeverk-7852.codesystem",
+  "type" : "CodeSystem",
+  "url" : "http://helsedir.no/fhir/CodeSystem/no-kodeverk-7852",
+  "version" : "0.1.1",
+  "name" : "NoKodeverk7852",
+  "oids" : ["2.16.578.1.12.4.1.1.7852"]
+},
+{
   "id" : "hl7.fhir.no.demo-at",
   "type" : "ImplementationGuide",
   "url" : "http://hl7.no/fhir/ig/demo-at/ImplementationGuide/hl7.fhir.no.demo-at",
@@ -26,6 +34,13 @@
   "url" : "http://hl7.no/fhir/ig/demo-at/StructureDefinition/demo-at-patient",
   "version" : "0.1.1",
   "name" : "DemoAtPatient"
+},
+{
+  "id" : "allergener-7852",
+  "type" : "ValueSet",
+  "url" : "http://hl7.no/fhir/ig/demo-at/ValueSet/allergener-7852",
+  "version" : "0.1.1",
+  "name" : "Allergener7852"
 },
 {
   "id" : "annen-allergi-som-kritisk-informasjon-7514",

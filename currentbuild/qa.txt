@@ -1,16 +1,18 @@
 DemoAT : Validation Results
 =========================================
 
-err = 4, warn = 20, info = 15
+err = 7, warn = 22, info = 17
 IG Publisher Version: 2.3.4
-Generated Tue Sep 15 12:53:34 UTC 2026. FHIR version 4.0.1 for hl7.fhir.no.demo-at#0.1.1 (canonical = http://hl7.no/fhir/ig/demo-at)
+Generated Tue Sep 15 13:43:45 UTC 2026. FHIR version 4.0.1 for hl7.fhir.no.demo-at#0.1.1 (canonical = http://hl7.no/fhir/ig/demo-at)
  Build Errors : 0 / 5 / 0
  /__w/demo-no-domain-AllergyIntolerance/demo-no-domain-AllergyIntolerance/demo-at/fsh-generated/resources/AllergyIntolerance-DemoAtAllergyIntolerance-1 : 1 / 0 / 7
  /__w/demo-no-domain-AllergyIntolerance/demo-no-domain-AllergyIntolerance/demo-at/fsh-generated/resources/CodeSystem-no-kodeverk-7514.codesystem : 2 / 1 / 2
+ /__w/demo-no-domain-AllergyIntolerance/demo-no-domain-AllergyIntolerance/demo-at/fsh-generated/resources/CodeSystem-no-kodeverk-7852.codesystem : 2 / 1 / 2
  /__w/demo-no-domain-AllergyIntolerance/demo-no-domain-AllergyIntolerance/demo-at/fsh-generated/resources/ImplementationGuide-hl7.fhir.no.demo-at : 0 / 2 / 3
  /__w/demo-no-domain-AllergyIntolerance/demo-no-domain-AllergyIntolerance/demo-at/fsh-generated/resources/Patient-DemoAtPatient-1 : 0 / 0 / 1
  /__w/demo-no-domain-AllergyIntolerance/demo-no-domain-AllergyIntolerance/demo-at/fsh-generated/resources/StructureDefinition-demo-at-allergy-intolerance : 0 / 4 / 4
  /__w/demo-no-domain-AllergyIntolerance/demo-no-domain-AllergyIntolerance/demo-at/fsh-generated/resources/StructureDefinition-demo-at-patient : 0 / 7 / 3
+ /__w/demo-no-domain-AllergyIntolerance/demo-no-domain-AllergyIntolerance/demo-at/fsh-generated/resources/ValueSet-allergener-7852 : 1 / 1 / 2
  /__w/demo-no-domain-AllergyIntolerance/demo-no-domain-AllergyIntolerance/demo-at/fsh-generated/resources/ValueSet-annen-allergi-som-kritisk-informasjon-7514 : 1 / 1 / 2
 </table>
 == n/a ==
@@ -20,7 +22,7 @@ WARNING: 3: An HTML fragment from the set [dependency-table.xhtml, dependency-ta
 WARNING: 4: The HTML fragment 'globals-table.xhtml' is not included anywhere in the produced implementation guide
 WARNING: IG: The IG is not for the international realm, and it uses SNOMED CT, so it should fix the SCT edition in the expansion parameters
 == fsh-generated/resources/AllergyIntolerance-DemoAtAllergyIntolerance-1.json ==
-INFORMATION: AllergyIntolerance/DemoAtAllergyIntolerance-1: AllergyIntolerance.code: None of the codings provided are in the value set 'Annen allergi som kritisk informasjon (7514)' (http://hl7.no/fhir/ig/demo-at/ValueSet/annen-allergi-som-kritisk-informasjon-7514|0.1.1), and a coding is recommended to come from this value set (codes = http://snomed.info/sct#91935009)
+INFORMATION: AllergyIntolerance/DemoAtAllergyIntolerance-1: AllergyIntolerance.code: None of the codings provided are in the value set 'Allergener (7852)' (http://hl7.no/fhir/ig/demo-at/ValueSet/allergener-7852|0.1.1), and a coding is recommended to come from this value set (codes = http://snomed.info/sct#91935009)
 INFORMATION: AllergyIntolerance/DemoAtAllergyIntolerance-1: AllergyIntolerance.code: None of the codings provided are in the value set 'eHDSI Allergen No Drug' (http://terminology.ehdsi.eu/ValueSet/eHDSIAllergenNoDrug|0.2.0) specified in an additional binding, and a coding is recommended to come from this value set (codes = http://snomed.info/sct#91935009)
 INFORMATION: AllergyIntolerance/DemoAtAllergyIntolerance-1: AllergyIntolerance.code: None of the codings provided are in the value set 'WHO ATC - IPS' (http://hl7.org/fhir/uv/ips/ValueSet/whoatc-uv-ips|2.0.0) specified in an additional binding, and a coding is recommended to come from this value set (codes = http://snomed.info/sct#91935009)
 INFORMATION: AllergyIntolerance/DemoAtAllergyIntolerance-1: AllergyIntolerance.reaction[0].substance.coding[0].display: There are no valid display names found for the code http://snomed.info/sct#762952008 for language(s) 'no-NO'. The display is 'Peanut' which is a valid display for the default language
@@ -32,6 +34,11 @@ ERROR: CodeSystem.where(url = 'http://helsedir.no/fhir/CodeSystem/no-kodeverk-75
 INFORMATION: CodeSystem/no-kodeverk-7514.codesystem: CodeSystem.jurisdiction[0].coding[0].display: There are no valid display names found for the code urn:iso:std:iso:3166#NO for language(s) 'no-NO'. The display is 'Norway' which is a valid display for the default language
 WARNING: CodeSystem/no-kodeverk-7514.codesystem: CodeSystem: Published code systems SHOULD conform to the ShareableCodeSystem profile, which says that the element CodeSystem.experimental is mandatory, but it is not present
 ERROR: /__w/demo-no-domain-AllergyIntolerance/demo-no-domain-AllergyIntolerance/demo-at/fsh-generated/resources/CodeSystem-no-kodeverk-7514.codesystem: URL Mismatch http://hl7.no/fhir/ig/demo-at/CodeSystem/no-kodeverk-7514.codesystem vs http://helsedir.no/fhir/CodeSystem/no-kodeverk-7514
+== fsh-generated/resources/CodeSystem-no-kodeverk-7852.codesystem.json ==
+ERROR: CodeSystem.where(url = 'http://helsedir.no/fhir/CodeSystem/no-kodeverk-7852'): Conformance resource /__w/demo-no-domain-AllergyIntolerance/demo-no-domain-AllergyIntolerance/demo-at/fsh-generated/resources/CodeSystem-no-kodeverk-7852.codesystem.json - the canonical URL (http://hl7.no/fhir/ig/demo-at/CodeSystem/no-kodeverk-7852.codesystem) does not match the URL (http://helsedir.no/fhir/CodeSystem/no-kodeverk-7852). Use the special-url parameter if you really mean for it not to match
+INFORMATION: CodeSystem/no-kodeverk-7852.codesystem: CodeSystem.jurisdiction[0].coding[0].display: There are no valid display names found for the code urn:iso:std:iso:3166#NO for language(s) 'no-NO'. The display is 'Norway' which is a valid display for the default language
+WARNING: CodeSystem/no-kodeverk-7852.codesystem: CodeSystem: Published code systems SHOULD conform to the ShareableCodeSystem profile, which says that the element CodeSystem.experimental is mandatory, but it is not present
+ERROR: /__w/demo-no-domain-AllergyIntolerance/demo-no-domain-AllergyIntolerance/demo-at/fsh-generated/resources/CodeSystem-no-kodeverk-7852.codesystem: URL Mismatch http://hl7.no/fhir/ig/demo-at/CodeSystem/no-kodeverk-7852.codesystem vs http://helsedir.no/fhir/CodeSystem/no-kodeverk-7852
 == fsh-generated/resources/ImplementationGuide-hl7.fhir.no.demo-at.json ==
 INFORMATION: ImplementationGuide/hl7.fhir.no.demo-at: ImplementationGuide.jurisdiction[0].coding[0].display: There are no valid display names found for the code urn:iso:std:iso:3166#NO for language(s) 'no-NO'. The display is 'Norway' which is a valid display for the default language
 WARNING: ImplementationGuide/hl7.fhir.no.demo-at: ImplementationGuide.dependsOn[2].uri: A definition could not be found for Canonical URL 'http://fhir.org/packages/hl7.fhir.no.basis/ImplementationGuide/hl7.fhir.no.basis'
@@ -56,6 +63,10 @@ WARNING: StructureDefinition/demo-at-patient: StructureDefinition.snapshot.eleme
 WARNING: StructureDefinition/demo-at-patient: StructureDefinition.snapshot.element[17].type[0].profile[0]: There are multiple different potential matches for the url 'http://hl7.org/fhir/StructureDefinition/patient-nationality'. It might be a good idea to fix to the correct version to reduce the likelihood of a wrong version being selected by an implementation/implementer, or use the [IG Parameter `pin-canonicals`](https://hl7.org/fhir/tools/CodeSystem-ig-parameters.html). Using version '5.3.0', found versions: 4.0.1 (from hl7.fhir.r4.core#4.0.1), 5.2.0 (from hl7.fhir.uv.extensions.r4#5.2.0), 5.3.0 (from hl7.fhir.uv.extensions.r4#5.3.0). Suggested fix: change the canonical reference from 'http://hl7.org/fhir/StructureDefinition/patient-nationality' to 'http://hl7.org/fhir/StructureDefinition/patient-nationality|5.3.0'
 WARNING: StructureDefinition/demo-at-patient: StructureDefinition.snapshot.element[18].type[0].profile[0]: There are multiple different potential matches for the url 'http://hl7.org/fhir/StructureDefinition/patient-birthTime'. It might be a good idea to fix to the correct version to reduce the likelihood of a wrong version being selected by an implementation/implementer, or use the [IG Parameter `pin-canonicals`](https://hl7.org/fhir/tools/CodeSystem-ig-parameters.html). Using version '5.3.0', found versions: 4.0.1 (from hl7.fhir.r4.core#4.0.1), 5.2.0 (from hl7.fhir.uv.extensions.r4#5.2.0), 5.3.0 (from hl7.fhir.uv.extensions.r4#5.3.0). Suggested fix: change the canonical reference from 'http://hl7.org/fhir/StructureDefinition/patient-birthTime' to 'http://hl7.org/fhir/StructureDefinition/patient-birthTime|5.3.0'
 INFORMATION: Resource: The resource StructureDefinition/demo-at-patient could usefully have an OID assigned (OIDs are easy to assign - see https://build.fhir.org/ig/FHIR/fhir-tools-ig/CodeSystem-ig-parameters.html#ig-parameters-auto-oid-root)
+== fsh-generated/resources/ValueSet-allergener-7852.json ==
+INFORMATION: ValueSet/allergener-7852: ValueSet.jurisdiction[0].coding[0].display: There are no valid display names found for the code urn:iso:std:iso:3166#NO for language(s) 'no-NO'. The display is 'Norway' which is a valid display for the default language
+ERROR: ValueSet/allergener-7852: ValueSet: Value sets published by HL7 SHALL conform to the ShareableValueSet profile, which says that the element ValueSet.experimental is mandatory, but it is not present
+WARNING: Resource: The resource ValueSet/allergener-7852 should have an OID assigned to cater for possible use with OID based terminology systems e.g. CDA usage (OIDs are easy to assign - see https://build.fhir.org/ig/FHIR/fhir-tools-ig/CodeSystem-ig-parameters.html#ig-parameters-auto-oid-root)
 == fsh-generated/resources/ValueSet-annen-allergi-som-kritisk-informasjon-7514.json ==
 INFORMATION: ValueSet/annen-allergi-som-kritisk-informasjon-7514: ValueSet.jurisdiction[0].coding[0].display: There are no valid display names found for the code urn:iso:std:iso:3166#NO for language(s) 'no-NO'. The display is 'Norway' which is a valid display for the default language
 ERROR: ValueSet/annen-allergi-som-kritisk-informasjon-7514: ValueSet: Value sets published by HL7 SHALL conform to the ShareableValueSet profile, which says that the element ValueSet.experimental is mandatory, but it is not present

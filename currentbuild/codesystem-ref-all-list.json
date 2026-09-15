@@ -12,6 +12,18 @@
     "ValueSet-annen-allergi-som-kritisk-informasjon-7514.html" : "Annen allergi som kritisk informasjon (7514)"
   },
   {
+    "url" : "http://helsedir.no/fhir/CodeSystem/no-kodeverk-7852",
+    "version" : "0.1.1",
+    "status" : "active",
+    "name" : "NoKodeverk7852",
+    "title" : "7852 Allergener",
+    "description" : "Dette kodeverket angir hvilke allergener som kan forekomme i enterale ernæringsmidler. Informasjonen skal brukes på sykehus i forbindelse med at pasienter skal få ernæringsmidler. Kodene fra dette kodeverket inngår i en egen REST-tjeneste for ernæringsmidler til SAFEST.",
+    "oids" : ["2.16.578.1.12.4.1.1.7852"],
+    "uses" : {
+    },
+    "ValueSet-allergener-7852.html" : "Allergener (7852)"
+  },
+  {
     "url" : "http://hl7.org/fhir/administrative-gender",
     "version" : "4.0.1",
     "status" : "active",
@@ -105,10 +117,10 @@
     "oids" : ["2.16.840.1.113883.6.96"],
     "uses" : {
     },
-    "http://tx.hl7europe.eu/r4/ValueSet/allergy-reaction-uv-ips" : "Allergy Reaction - IPS",
+    "http://tx.hl7europe.eu/r4/ValueSet/eHDSIAllergenNoDrug-8.1.0" : "eHDSI Allergen No Drug",
     "http://tx.hl7europe.eu/r4/ValueSet/eHDSIReactionAllergy-8.1.0" : "eHDSI Reaction Allergy",
-    "http://hl7.org/fhir/R4/valueset-route-codes.html" : "SNOMED CT Route Codes",
-    "http://tx.hl7europe.eu/r4/ValueSet/eHDSIAllergenNoDrug-8.1.0" : "eHDSI Allergen No Drug"
+    "http://tx.hl7europe.eu/r4/ValueSet/allergy-reaction-uv-ips" : "Allergy Reaction - IPS",
+    "http://hl7.org/fhir/R4/valueset-route-codes.html" : "SNOMED CT Route Codes"
   },
   {
     "url" : "http://terminology.hl7.org/CodeSystem/allergyintolerance-clinical",

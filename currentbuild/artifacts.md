@@ -13,7 +13,7 @@ These define constraints on FHIR resources for systems conforming to this implem
 
 | | |
 | :--- | :--- |
-| [Demo AllergyIntolerance](StructureDefinition-demo-at-allergy-intolerance.md) | Profil for registrering av allergi og intoleranse i demo-IG. |
+| [Demo AllergyIntolerance](StructureDefinition-demo-at-allergy-intolerance.md) | Dummy-tekst: Helse-NIM for overfølsomhet er en liste som inneholder informasjon om unormale reaksjoner, symptomer eller funn initiert av eksponering for en definert stimulus i en dose som normalt tolereres av andre. Informasjon om en pasients overfølsomhet er relevant i mange situasjoner, som ved vaksinasjon, kost på institusjon, rekvirering og utlevering av legemidler, herunder inkludert muligheten til å dele informasjon om en avkreftet overfølsomhet. |
 | [Demo pasient](StructureDefinition-demo-at-patient.md) | Pasientprofil brukt i demo-IG for AllergyIntolerance. |
 
 ### Terminology: Value Sets 
@@ -22,6 +22,7 @@ These define sets of codes used by systems conforming to this implementation gui
 
 | | |
 | :--- | :--- |
+| [Allergener (7852)](ValueSet-allergener-7852.md) | Alle koder fra Mattilsynet/SAFEST/Farmalogg sitt kodeverk 7852. |
 | [Annen allergi som kritisk informasjon (7514)](ValueSet-annen-allergi-som-kritisk-informasjon-7514.md) | Alle koder fra Kjernejournals kodeverk 7514. |
 
 ### Terminology: Code Systems 
@@ -31,6 +32,7 @@ These define new code systems used by systems conforming to this implementation 
 | | |
 | :--- | :--- |
 | [7514 Annen allergi som kritisk informasjon](CodeSystem-no-kodeverk-7514.codesystem.md) | Angir annet allergen enn legemidler som årsak til alvorlig allergisk reaksjon registert som kritisk informasjon. Registrering og utveksling av kritisk informasjon i kjernejournal. |
+| [7852 Allergener](CodeSystem-no-kodeverk-7852.codesystem.md) | Dette kodeverket angir hvilke allergener som kan forekomme i enterale ernæringsmidler. Informasjonen skal brukes på sykehus i forbindelse med at pasienter skal få ernæringsmidler. Kodene fra dette kodeverket inngår i en egen REST-tjeneste for ernæringsmidler til SAFEST. |
 
 ### Example: Example Instances 
 

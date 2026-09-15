@@ -17,7 +17,7 @@
   fhir:ImplementationGuide.name [ fhir:value "DemoAT"] ;
   fhir:ImplementationGuide.title [ fhir:value "Demo AllergyIntolerance Europa (EU Core/EHDS) og Norge"] ;
   fhir:ImplementationGuide.status [ fhir:value "draft"] ;
-  fhir:ImplementationGuide.date [ fhir:value "2026-09-15T12:51:38+00:00"^^xsd:dateTime] ;
+  fhir:ImplementationGuide.date [ fhir:value "2026-09-15T13:41:56+00:00"^^xsd:dateTime] ;
   fhir:ImplementationGuide.publisher [ fhir:value "Helsedirektoratet"] ;
   fhir:ImplementationGuide.contact [
      fhir:index 0 ;
@@ -716,6 +716,34 @@
        fhir:Element.extension [
          fhir:index 0 ;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ] ;
+         fhir:Extension.valueString [ fhir:value "CodeSystem" ]
+       ] ;
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <http://hl7.no/fhir/ig/demo-at/CodeSystem/no-kodeverk-7852.codesystem> ;
+         fhir:Reference.reference [ fhir:value "CodeSystem/no-kodeverk-7852.codesystem" ]
+       ] ;
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "7852 Allergener" ] ;
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Dette kodeverket angir hvilke allergener som kan forekomme i enterale ernæringsmidler. Informasjonen skal brukes på sykehus i forbindelse med at pasienter skal få ernæringsmidler. Kodene fra dette kodeverket inngår i en egen REST-tjeneste for ernæringsmidler til SAFEST." ] ;
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
+     ], [
+       fhir:index 2 ;
+       fhir:Element.extension [
+         fhir:index 0 ;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ] ;
+         fhir:Extension.valueString [ fhir:value "ValueSet" ]
+       ] ;
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <http://hl7.no/fhir/ig/demo-at/ValueSet/allergener-7852> ;
+         fhir:Reference.reference [ fhir:value "ValueSet/allergener-7852" ]
+       ] ;
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Allergener (7852)" ] ;
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Alle koder fra Mattilsynet/SAFEST/Farmalogg sitt kodeverk 7852." ] ;
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
+     ], [
+       fhir:index 3 ;
+       fhir:Element.extension [
+         fhir:index 0 ;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ] ;
          fhir:Extension.valueString [ fhir:value "ValueSet" ]
        ] ;
        fhir:ImplementationGuide.definition.resource.reference [
@@ -726,7 +754,7 @@
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "Alle koder fra Kjernejournals kodeverk 7514." ] ;
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
      ], [
-       fhir:index 2 ;
+       fhir:index 4 ;
        fhir:Element.extension [
          fhir:index 0 ;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ] ;
@@ -737,10 +765,10 @@
          fhir:Reference.reference [ fhir:value "StructureDefinition/demo-at-allergy-intolerance" ]
        ] ;
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "Demo AllergyIntolerance" ] ;
-       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Profil for registrering av allergi og intoleranse i demo-IG." ] ;
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Dummy-tekst: Helse-NIM for overfølsomhet er en liste som inneholder informasjon om unormale reaksjoner, symptomer eller funn initiert av eksponering for en definert stimulus i en dose som normalt tolereres av andre. Informasjon om en pasients overfølsomhet er relevant i mange situasjoner, som ved vaksinasjon, kost på institusjon, rekvirering og utlevering av legemidler, herunder inkludert muligheten til å dele informasjon om en avkreftet overfølsomhet." ] ;
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
      ], [
-       fhir:index 3 ;
+       fhir:index 5 ;
        fhir:Element.extension [
          fhir:index 0 ;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ] ;
@@ -754,7 +782,7 @@
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "Pasientprofil brukt i demo-IG for AllergyIntolerance." ] ;
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
      ], [
-       fhir:index 4 ;
+       fhir:index 6 ;
        fhir:Element.extension [
          fhir:index 0 ;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ] ;
@@ -771,7 +799,7 @@
          fhir:link <http://hl7.no/fhir/ig/demo-at/StructureDefinition/demo-at-allergy-intolerance>
        ]
      ], [
-       fhir:index 5 ;
+       fhir:index 7 ;
        fhir:Element.extension [
          fhir:index 0 ;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ] ;

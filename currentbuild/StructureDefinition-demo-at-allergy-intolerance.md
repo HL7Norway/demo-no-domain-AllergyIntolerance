@@ -4,7 +4,7 @@
 * [**Artifacts Summary**](artifacts.md)
 * **Demo AllergyIntolerance**
 
-## Resource Profile: Demo AllergyIntolerance 
+## Resource Profile: Demo AllergyIntolerance ( Experimental ) 
 
 | | |
 | :--- | :--- |
@@ -12,7 +12,7 @@
 | Draft as of 2026-09-15 | *Computable Name*:DemoAtAllergyIntolerance |
 
  
-Profil for registrering av allergi og intoleranse i demo-IG. 
+Dummy-tekst: Helse-NIM for overfølsomhet er en liste som inneholder informasjon om unormale reaksjoner, symptomer eller funn initiert av eksponering for en definert stimulus i en dose som normalt tolereres av andre. Informasjon om en pasients overfølsomhet er relevant i mange situasjoner, som ved vaksinasjon, kost på institusjon, rekvirering og utlevering av legemidler, herunder inkludert muligheten til å dele informasjon om en avkreftet overfølsomhet. 
 
 **Usages:**
 
@@ -41,6 +41,7 @@ Other representations of profile: [CSV](StructureDefinition-demo-at-allergy-into
   "name" : "DemoAtAllergyIntolerance",
   "title" : "Demo AllergyIntolerance",
   "status" : "draft",
+  "experimental" : true,
   "date" : "2026-09-15",
   "publisher" : "Helsedirektoratet",
   "contact" : [{
@@ -50,7 +51,7 @@ Other representations of profile: [CSV](StructureDefinition-demo-at-allergy-into
       "value" : "https://www.helsedirektoratet.no"
     }]
   }],
-  "description" : "Profil for registrering av allergi og intoleranse i demo-IG.",
+  "description" : "Dummy-tekst: Helse-NIM for overfølsomhet er en liste som inneholder informasjon om unormale reaksjoner, symptomer eller funn initiert av eksponering for en definert stimulus i en dose som normalt tolereres av andre. Informasjon om en pasients overfølsomhet er relevant i mange situasjoner, som ved vaksinasjon, kost på institusjon, rekvirering og utlevering av legemidler, herunder inkludert muligheten til å dele informasjon om en avkreftet overfølsomhet.",
   "jurisdiction" : [{
     "coding" : [{
       "system" : "urn:iso:std:iso:3166",
@@ -87,28 +88,25 @@ Other representations of profile: [CSV](StructureDefinition-demo-at-allergy-into
     {
       "id" : "AllergyIntolerance.code",
       "path" : "AllergyIntolerance.code",
+      "definition" : "Hvilke agens (substans, trigger, materiale) som kan knyttes til overfølsomheten.",
+      "comment" : "Merk: Det vil bli endringer i anbefaling til koding av legemidler og substanser (agens) når ny standard for identifisering av legemidler implementeres i Norge (IDMP).",
       "binding" : {
         "strength" : "preferred",
-        "valueSet" : "http://hl7.no/fhir/ig/demo-at/ValueSet/annen-allergi-som-kritisk-informasjon-7514"
+        "valueSet" : "http://hl7.no/fhir/ig/demo-at/ValueSet/allergener-7852"
       }
     },
     {
       "id" : "AllergyIntolerance.recordedDate",
       "path" : "AllergyIntolerance.recordedDate",
       "short" : "Registreringsdato",
-      "definition" : "Dato for registrering av allergi eller intoleranse",
+      "definition" : "Tidspunkt da overfølsomheten eller den uønskede reaksjonen ble konstatert. Tidspunkt kan være spesifikk (dag-tidspunkt) eller uspesifikk (årstall, tiår). ",
       "requirements" : "Obligatorisk i Kjernejournal",
       "min" : 1
     },
     {
-      "id" : "AllergyIntolerance.reaction.substance",
-      "path" : "AllergyIntolerance.reaction.substance",
-      "mustSupport" : true
-    },
-    {
-      "id" : "AllergyIntolerance.reaction.manifestation",
-      "path" : "AllergyIntolerance.reaction.manifestation",
-      "definition" : "Eksempel på kommentar/tillegg i norsk utgave"
+      "id" : "AllergyIntolerance.note",
+      "path" : "AllergyIntolerance.note",
+      "definition" : "Kommentar eller supplerende opplysninger."
     }]
   }
 }

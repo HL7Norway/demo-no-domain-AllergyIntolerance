@@ -10,9 +10,11 @@
 ### CodeSystems
 
 * [7514 Annen allergi som kritisk informasjon](CodeSystem-no-kodeverk-7514.codesystem.md)
+* [7852 Allergener](CodeSystem-no-kodeverk-7852.codesystem.md)
 
 ### ValueSets
 
+* [Allergener (7852)](ValueSet-allergener-7852.md)
 * [Annen allergi som kritisk informasjon (7514)](ValueSet-annen-allergi-som-kritisk-informasjon-7514.md)
 
 ### Resource Profiles
