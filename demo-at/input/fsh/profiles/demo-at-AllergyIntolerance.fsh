@@ -1,6 +1,6 @@
 Profile:     DemoAtAllergyIntolerance
 Id:          demo-at-allergy-intolerance
-Parent:      AllergyIntolerance
+Parent:      allergyIntolerance-eu-core
 Title:       "Demo AllergyIntolerance"
 Description: "Profil for registrering av allergi og intoleranse i demo-IG."
 * ^status = #draft
