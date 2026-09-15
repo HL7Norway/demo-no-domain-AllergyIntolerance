@@ -4,7 +4,7 @@
 
 # Demo AT Implementation Guide
 
-Dette repositoryet inneholder en demo for en HL7 FHIR implementasjonsguide for AllergyIntolerance. Oppsettet er basert på `ig-mal` og bruker FHIR Shorthand (FSH) og GitHub Actions for validering og publisering.
+Dette repositoryet inneholder en demo for en HL7 FHIR implementasjonsguide for AllergyIntolerance. Oppsettet er basert på `ig-mal` og bruker FHIR Shorthand (FSH) og GitHub Actions for validering og publisering. AllergyIntolerance skal basere seg på [HL7 Europe Base and Core FHIR IG R4](https://github.com/hl7-eu/base).
 
 ## ✨ Hva inneholder demoen?
 
@@ -12,24 +12,6 @@ Dette repositoryet inneholder en demo for en HL7 FHIR implementasjonsguide for A
 - **Automatisk validering:** FSH og SUSHI-validering via GitHub Actions
 - **Automatisk publisering:** Bygg og publiser IG til GitHub Pages
 - **PlantUML-støtte:** Automatisk generering av diagrammer
-
-## 🚀 Kom i gang
-
-![Use this template](documentation/use-this-template.png)
-
-**Steg 1:** Arbeid videre i `demo-at/`-mappen med profiler, eksempler og sideinnhold.
-
-**Steg 2:** Bruk workflowene for å validere og publisere IG-en.
-
-## 📚 Dokumentasjon
-
-Se [dokumentasjonen for bruk, konfigurering og automatisering](documentation/README.md), inkludert:
-
-- [Hvordan bruke `ig-mal` som en mal for eget prosjekt](documentation/bruke-repo-som-mal.md)
-
-## 🎯 Beste praksis
-
-Følg beste praksis for implementasjonsguider. Utvalgte ressurser:
 
 
 ---
