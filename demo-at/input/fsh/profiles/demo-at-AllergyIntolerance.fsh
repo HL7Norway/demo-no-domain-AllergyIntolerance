@@ -34,4 +34,4 @@ Description: "Eksempel på registrert peanøttallergi"
 * patient = Reference(DemoAtPatient-1)
 * recordedDate = "2026-09-15"
 * reaction[0].substance = $sct#762952008 "Peanut"
-* reaction[0].manifestation[0] = $sct#247472004 "Urticarial rash"
+* reaction[0].manifestation[0] = $sct#247472004 "Wheal (finding)"
