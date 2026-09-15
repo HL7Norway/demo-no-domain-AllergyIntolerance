@@ -1,11 +1,11 @@
 Profile:     DemoAtPatient
 Id:          demo-at-patient
-Parent:      NoBasisPatient
+Parent:      PatientEuCore
 Title:       "Demo pasient"
 Description: "Pasientprofil brukt i demo-IG for AllergyIntolerance."
 * ^status = #draft
 * ^date = "2026-09-15"
-* ^publisher = "HL7 Norge"
+* ^publisher = "Helsedirektoratet"
 
 * identifier MS
 * name.family MS
@@ -22,14 +22,5 @@ Description: "Eksempel på norsk pasient med kontaktinformasjon"
 * name.family = "Hansen"
 * name.given[0] = "Kari"
 * name.given[1] = "Elisabeth"
-* telecom[0].system = #phone
-* telecom[0].value = "+47 12 34 56 78"
-* telecom[0].use = #mobile
-* telecom[1].system = #email
-* telecom[1].value = "kari.hansen@example.no"
 * gender = #female
 * birthDate = "1990-03-13"
-* address.line = "Storgata 123"
-* address.city = "Bergen"
-* address.postalCode = "5020"
-* address.country = "NO"

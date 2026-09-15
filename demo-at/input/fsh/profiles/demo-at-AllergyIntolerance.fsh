@@ -5,7 +5,7 @@ Title:       "Demo AllergyIntolerance"
 Description: "Profil for registrering av allergi og intoleranse i demo-IG."
 * ^status = #draft
 * ^date = "2026-09-15"
-* ^publisher = "HL7 Norge"
+* ^publisher = "Helsedirektoratet"
 
 * patient only Reference(DemoAtPatient)
 * clinicalStatus MS
