@@ -1,0 +1,21 @@
+[{
+  "id" : "hl7.fhir.no.demo-at",
+  "type" : "ImplementationGuide",
+  "url" : "http://hl7.no/fhir/ig/demo-at/ImplementationGuide/hl7.fhir.no.demo-at",
+  "version" : "0.1.0",
+  "name" : "DemoAT"
+},
+{
+  "id" : "demo-at-allergy-intolerance",
+  "type" : "StructureDefinition",
+  "url" : "http://hl7.no/fhir/ig/demo-at/StructureDefinition/demo-at-allergy-intolerance",
+  "version" : "0.1.0",
+  "name" : "DemoAtAllergyIntolerance"
+},
+{
+  "id" : "demo-at-patient",
+  "type" : "StructureDefinition",
+  "url" : "http://hl7.no/fhir/ig/demo-at/StructureDefinition/demo-at-patient",
+  "version" : "0.1.0",
+  "name" : "DemoAtPatient"
+}]

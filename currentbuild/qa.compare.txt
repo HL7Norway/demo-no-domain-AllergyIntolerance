@@ -1,0 +1,43 @@
+DemoAT : Validation Results
+=========================================
+
+err = 0, warn = 13, info = 10
+$--
+Generated $--. FHIR version $-- for hl7.fhir.no.demo-at#$-- (canonical = http://hl7.no/fhir/ig/demo-at)
+ Build Errors : 1 / 5 / 0
+ /__w/demo-no-domain-AllergyIntolerance/demo-no-domain-AllergyIntolerance/demo-at/fsh-generated/resources/AllergyIntolerance-DemoAtAllergyIntolerance-1 : 0 / 1 / 4
+ /__w/demo-no-domain-AllergyIntolerance/demo-no-domain-AllergyIntolerance/demo-at/fsh-generated/resources/ImplementationGuide-hl7.fhir.no.demo-at : 0 / 2 / 3
+ /__w/demo-no-domain-AllergyIntolerance/demo-no-domain-AllergyIntolerance/demo-at/fsh-generated/resources/Patient-DemoAtPatient-1 : 0 / 0 / 1
+ /__w/demo-no-domain-AllergyIntolerance/demo-no-domain-AllergyIntolerance/demo-at/fsh-generated/resources/StructureDefinition-demo-at-allergy-intolerance : 0 / 0 / 4
+ /__w/demo-no-domain-AllergyIntolerance/demo-no-domain-AllergyIntolerance/demo-at/fsh-generated/resources/StructureDefinition-demo-at-patient : 0 / 5 / 3
+</table>
+== n/a ==
+ERROR: index.html#/html/body/div/div/div/div/div/p/img at Line 230, column 5: The image source 'test.svg' cannot be resolved
+WARNING: 1: The HTML fragment 'ip-statements.xhtml' is not included anywhere in the produced implementation guide
+WARNING: 2: An HTML fragment from the set [cross-version-analysis.xhtml, cross-version-analysis-inline.xhtml] is not included anywhere in the produced implementation guide
+WARNING: 3: An HTML fragment from the set [dependency-table.xhtml, dependency-table-short.xhtml, dependency-table-nontech.xhtml] is not included anywhere in the produced implementation guide
+WARNING: 4: The HTML fragment 'globals-table.xhtml' is not included anywhere in the produced implementation guide
+WARNING: IG: The IG is not for the international realm, and it uses SNOMED CT, so it should fix the SCT edition in the expansion parameters
+== fsh-generated/resources/AllergyIntolerance-DemoAtAllergyIntolerance-1.json ==
+INFORMATION: AllergyIntolerance/DemoAtAllergyIntolerance-1: AllergyIntolerance.code.coding[0].display: There are no valid display names found for the code http://snomed.info/sct#91935009 for language(s) 'no-NO'. The display is 'Allergy to peanut' which is a valid display for the default language
+INFORMATION: AllergyIntolerance/DemoAtAllergyIntolerance-1: AllergyIntolerance.reaction[0].substance.coding[0].display: There are no valid display names found for the code http://snomed.info/sct#256349002 for language(s) 'no-NO'. The display is 'Peanut' which is a valid display for the default language
+WARNING: AllergyIntolerance/DemoAtAllergyIntolerance-1: AllergyIntolerance.reaction[0].substance.coding[0]: The concept '256349002' has a status of inactive and its use should be reviewed
+INFORMATION: AllergyIntolerance/DemoAtAllergyIntolerance-1: AllergyIntolerance.reaction[0].manifestation[0].coding[0].display: There are no valid display names found for the code http://snomed.info/sct#247472004 for language(s) 'no-NO'. The display is 'Urticarial rash' which is a valid display for the default language
+== fsh-generated/resources/ImplementationGuide-hl7.fhir.no.demo-at.json ==
+INFORMATION: ImplementationGuide/hl7.fhir.no.demo-at: ImplementationGuide.jurisdiction[0].coding[0].display: There are no valid display names found for the code urn:iso:std:iso:3166#NO for language(s) 'no-NO'. The display is 'Norway' which is a valid display for the default language
+WARNING: ImplementationGuide/hl7.fhir.no.demo-at: ImplementationGuide.dependsOn[2].uri: A definition could not be found for Canonical URL 'http://fhir.org/packages/hl7.fhir.no.basis/ImplementationGuide/hl7.fhir.no.basis'
+WARNING: ImplementationGuide/hl7.fhir.no.demo-at: ImplementationGuide.dependsOn[2]: The canonical URL http://fhir.org/packages/hl7.fhir.no.basis/ImplementationGuide/hl7.fhir.no.basis doesn't point to an actual ImplementationGuide resource
+INFORMATION: Resource: The resource ImplementationGuide/hl7.fhir.no.demo-at could usefully have an OID assigned (OIDs are easy to assign - see https://build.fhir.org/ig/FHIR/fhir-tools-ig/CodeSystem-ig-parameters.html#ig-parameters-auto-oid-root)
+== fsh-generated/resources/Patient-DemoAtPatient-1.json ==
+== fsh-generated/resources/StructureDefinition-demo-at-allergy-intolerance.json ==
+INFORMATION: StructureDefinition/demo-at-allergy-intolerance: StructureDefinition.jurisdiction[0].coding[0].display: There are no valid display names found for the code urn:iso:std:iso:3166#NO for language(s) 'no-NO'. The display is 'Norway' which is a valid display for the default language
+INFORMATION: StructureDefinition/demo-at-allergy-intolerance: StructureDefinition.snapshot.element[4].binding.extension[0]: The extension http://hl7.org/fhir/StructureDefinition/elementdefinition-maxValueSet|5.3.0 is deprecated with the note: 'Use additionalBinding extension or element instead'
+INFORMATION: Resource: The resource StructureDefinition/demo-at-allergy-intolerance could usefully have an OID assigned (OIDs are easy to assign - see https://build.fhir.org/ig/FHIR/fhir-tools-ig/CodeSystem-ig-parameters.html#ig-parameters-auto-oid-root)
+== fsh-generated/resources/StructureDefinition-demo-at-patient.json ==
+INFORMATION: StructureDefinition/demo-at-patient: StructureDefinition.jurisdiction[0].coding[0].display: There are no valid display names found for the code urn:iso:std:iso:3166#NO for language(s) 'no-NO'. The display is 'Norway' which is a valid display for the default language
+WARNING: StructureDefinition/demo-at-patient: StructureDefinition.snapshot.element[8].type[0].profile[0]: There are multiple different potential matches for the url 'http://hl7.org/fhir/StructureDefinition/patient-citizenship'. It might be a good idea to fix to the correct version to reduce the likelihood of a wrong version being selected by an implementation/implementer, or use the [IG Parameter `pin-canonicals`](https://hl7.org/fhir/tools/CodeSystem-ig-parameters.html). Using version '5.3.0', found versions: 4.0.1 (from hl7.fhir.r4.core#4.0.1), 5.3.0 (from hl7.fhir.uv.extensions.r4#5.3.0). Suggested fix: change the canonical reference from 'http://hl7.org/fhir/StructureDefinition/patient-citizenship' to 'http://hl7.org/fhir/StructureDefinition/patient-citizenship|5.3.0'
+WARNING: StructureDefinition/demo-at-patient: StructureDefinition.snapshot: The slice 'FNR' on path 'Patient.identifier' is not marked as 'must-support' which is not consistent with the element that defines the slicing, where 'must-support' is true
+WARNING: StructureDefinition/demo-at-patient: StructureDefinition.snapshot: The slice 'FHN' on path 'Patient.identifier' is not marked as 'must-support' which is not consistent with the element that defines the slicing, where 'must-support' is true
+WARNING: StructureDefinition/demo-at-patient: StructureDefinition.snapshot: The slice 'DNR' on path 'Patient.identifier' is not marked as 'must-support' which is not consistent with the element that defines the slicing, where 'must-support' is true
+WARNING: StructureDefinition/demo-at-patient: StructureDefinition.snapshot: The slice 'HNR' on path 'Patient.identifier' is not marked as 'must-support' which is not consistent with the element that defines the slicing, where 'must-support' is true
+INFORMATION: Resource: The resource StructureDefinition/demo-at-patient could usefully have an OID assigned (OIDs are easy to assign - see https://build.fhir.org/ig/FHIR/fhir-tools-ig/CodeSystem-ig-parameters.html#ig-parameters-auto-oid-root)
