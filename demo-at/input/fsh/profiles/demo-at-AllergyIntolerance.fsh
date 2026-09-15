@@ -4,8 +4,15 @@ Parent:      AllergyIntoleranceEuCore
 Title:       "Demo AllergyIntolerance"
 Description: "Profil for registrering av allergi og intoleranse i demo-IG."
 * ^status = #draft
-* ^date = "2026-09-15"
+* ^experimental = true
 * ^publisher = "Helsedirektoratet"
+* ^contact = "Espen Stranger Seland, Helsedirektoratet"
+* ^contact.url = "https://www.helsedirektoratet.no"
+* ^fhirVersion = "4.0.1"
+* ^date = "2026-09-15"
+* ^description = "Dummy-tekst: Helse-NIM for overfølsomhet er en liste som inneholder informasjon om unormale reaksjoner, symptomer eller funn initiert av eksponering for en definert stimulus i en dose som normalt tolereres av andre. Informasjon om en pasients overfølsomhet er relevant i mange situasjoner, som ved vaksinasjon, kost på institusjon, rekvirering og utlevering av legemidler, herunder inkludert muligheten til å dele informasjon om en avkreftet overfølsomhet."
+* ^publisher = "Helsedirektoratet"
+
 
 // Elementer fra f.eks. no-basis må legges til manuelt, da man ikke kan arve fra to profiler. 
 
@@ -13,6 +20,11 @@ Description: "Profil for registrering av allergi og intoleranse i demo-IG."
 // * clinicalStatus MS 
 // * verificationStatus MS
 // * code MS
+
+// Vurdere translation-extension for flere språk
+* code ^definition = "Hvilke agens (substans, trigger, materiale) som kan knyttes til overfølsomheten."
+* code ^comment = "Merk: Det vil bli endringer i anbefaling til koding av legemidler og substanser (agens) når ny standard for identifisering av legemidler implementeres i Norge (IDMP)."
+
 * code from AnnenAllergiSomKritiskInformasjon7514 (preferred)
 * code from Allergener7852 (preferred)
 // * code.coding[kjernejournal_7514].system = "urn:oid:2.16.578.1.12.4.1.1.7514"
@@ -20,7 +32,7 @@ Description: "Profil for registrering av allergi og intoleranse i demo-IG."
 // * code.slicing.discriminator = "system"
 // * code.slicing.description = "TMP Kjernejournal (7514)"
 * recordedDate 1..1
-* recordedDate ^definition = "Dato for registrering av allergi eller intoleranse"
+* recordedDate ^definition = "Tidspunkt da overfølsomheten eller den uønskede reaksjonen ble konstatert. Tidspunkt kan være spesifikk (dag-tidspunkt) eller uspesifikk (årstall, tiår). "
 * recordedDate ^requirements = "Obligatorisk i Kjernejournal"
 * recordedDate ^short = "Registreringsdato"
 * reaction.substance MS
