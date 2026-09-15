@@ -17,8 +17,6 @@ Description: "Profil for registrering av allergi og intoleranse i demo-IG."
 * recordedDate ^definition = "Dato for registrering av allergi eller intoleranse"
 * recordedDate ^requirements = "Obligatorisk i Kjernejournal"
 * recordedDate ^short = "Registreringsdato"
-* recordedDate ^example = "2026-09-15"
-
 * reaction.substance MS
 * reaction.manifestation ^definition = "Eksempel på kommentar/tillegg i norsk utgave"
 
