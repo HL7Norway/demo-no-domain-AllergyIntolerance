@@ -28,7 +28,7 @@ Description: "Eksempel på registrert peanøttallergi"
 * type = #allergy
 * category[0] = #food
 * criticality = #high
-* code = $sct#91935009 "Allergy to peanut"
+* code = $sct#91935009 "Allergy to peanut (finding)"
 * patient = Reference(DemoAtPatient-1)
 * recordedDate = "2026-09-15"
 * reaction[0].substance = $sct#762952008 "Peanut"
