@@ -24,19 +24,14 @@ Description: "Profil for registrering av allergi og intoleranse i demo-IG."
 // Vurdere translation-extension for flere språk
 * code ^definition = "Hvilke agens (substans, trigger, materiale) som kan knyttes til overfølsomheten."
 * code ^comment = "Merk: Det vil bli endringer i anbefaling til koding av legemidler og substanser (agens) når ny standard for identifisering av legemidler implementeres i Norge (IDMP)."
-
 * code from AnnenAllergiSomKritiskInformasjon7514 (preferred)
 * code from Allergener7852 (preferred)
-// * code.coding[kjernejournal_7514].system = "urn:oid:2.16.578.1.12.4.1.1.7514"
-// * code.coding[kjernejournal_7514].display = "Annen allergi som kritisk informasjon"
-// * code.slicing.discriminator = "system"
-// * code.slicing.description = "TMP Kjernejournal (7514)"
 * recordedDate 1..1
 * recordedDate ^definition = "Tidspunkt da overfølsomheten eller den uønskede reaksjonen ble konstatert. Tidspunkt kan være spesifikk (dag-tidspunkt) eller uspesifikk (årstall, tiår). "
 * recordedDate ^requirements = "Obligatorisk i Kjernejournal"
 * recordedDate ^short = "Registreringsdato"
-* reaction.substance MS
-* reaction.manifestation ^definition = "Eksempel på kommentar/tillegg i norsk utgave"
+* note ^definition = "Kommentar eller supplerende opplysninger."
+
 
 Instance: DemoAtAllergyIntolerance-1
 InstanceOf: DemoAtAllergyIntolerance
