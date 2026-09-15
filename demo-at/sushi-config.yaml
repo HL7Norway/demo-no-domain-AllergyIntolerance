@@ -19,6 +19,7 @@ publisher:
   url: https://www.hl7.no
 dependencies:
   hl7.fhir.no.basis: 2.2.2
+  hl7.fhir.eu.base: 2.0.0 # Standard HL7 Europe Base/Core for R4
 
 # ╭────────────────────────────────────────────menu.xml────────────────────────────────────────────╮
 # │  To use a provided input/includes/menu.xml file, delete the "menu" property below.             │
