@@ -37,7 +37,7 @@ Espen Stranger Seland, Helsedirektoratet
   "name" : "DemoAT",
   "title" : "Demo AllergyIntolerance Europa (EU Core/EHDS) og Norge",
   "status" : "draft",
-  "date" : "2026-09-15T11:23:35+00:00",
+  "date" : "2026-09-15T12:51:38+00:00",
   "publisher" : "Helsedirektoratet",
   "contact" : [{
     "name" : "Helsedirektoratet",
@@ -645,6 +645,38 @@ Espen Stranger Seland, Helsedirektoratet
       "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
     }],
     "resource" : [{
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "CodeSystem"
+      },
+      {
+        "url" : "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+        "valueUri" : "CodeSystem-no-kodeverk-7514.codesystem.html"
+      }],
+      "reference" : {
+        "reference" : "CodeSystem/no-kodeverk-7514.codesystem"
+      },
+      "name" : "7514 Annen allergi som kritisk informasjon",
+      "description" : "Angir annet allergen enn legemidler som årsak til alvorlig allergisk reaksjon registert som kritisk informasjon. Registrering og utveksling av kritisk informasjon i kjernejournal.",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "ValueSet"
+      },
+      {
+        "url" : "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+        "valueUri" : "ValueSet-annen-allergi-som-kritisk-informasjon-7514.html"
+      }],
+      "reference" : {
+        "reference" : "ValueSet/annen-allergi-som-kritisk-informasjon-7514"
+      },
+      "name" : "Annen allergi som kritisk informasjon (7514)",
+      "description" : "Alle koder fra Kjernejournals kodeverk 7514.",
+      "exampleBoolean" : false
+    },
+    {
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
         "valueString" : "StructureDefinition:resource"

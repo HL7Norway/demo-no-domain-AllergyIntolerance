@@ -7,6 +7,14 @@
 
 ## Resources
 
+### CodeSystems
+
+* [7514 Annen allergi som kritisk informasjon](CodeSystem-no-kodeverk-7514.codesystem.md)
+
+### ValueSets
+
+* [Annen allergi som kritisk informasjon (7514)](ValueSet-annen-allergi-som-kritisk-informasjon-7514.md)
+
 ### Resource Profiles
 
 * [Demo AllergyIntolerance](StructureDefinition-demo-at-allergy-intolerance.md)

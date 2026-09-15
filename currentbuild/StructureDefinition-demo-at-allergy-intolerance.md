@@ -85,6 +85,14 @@ Other representations of profile: [CSV](StructureDefinition-demo-at-allergy-into
       "path" : "AllergyIntolerance"
     },
     {
+      "id" : "AllergyIntolerance.code",
+      "path" : "AllergyIntolerance.code",
+      "binding" : {
+        "strength" : "preferred",
+        "valueSet" : "http://hl7.no/fhir/ig/demo-at/ValueSet/annen-allergi-som-kritisk-informasjon-7514"
+      }
+    },
+    {
       "id" : "AllergyIntolerance.recordedDate",
       "path" : "AllergyIntolerance.recordedDate",
       "short" : "Registreringsdato",

@@ -1,5 +1,17 @@
 {
   "codeSystems" : [{
+    "url" : "http://hl7.no/fhir/ig/demo-at/ValueSet/annen-allergi-som-kritisk-informasjon-7514",
+    "version" : "0.1.1",
+    "status" : "draft",
+    "name" : "AnnenAllergiSomKritiskInformasjon7514",
+    "title" : "Annen allergi som kritisk informasjon (7514)",
+    "description" : "Alle koder fra Kjernejournals kodeverk 7514.",
+    "systems" : ["http://helsedir.no/fhir/CodeSystem/no-kodeverk-7514"],
+    "uses" : {
+    },
+    "StructureDefinition-demo-at-allergy-intolerance.html" : "Demo AllergyIntolerance"
+  },
+  {
     "url" : "http://hl7.org/fhir/ValueSet/administrative-gender",
     "version" : "4.0.1",
     "status" : "active",
@@ -179,18 +191,6 @@
     "systems" : ["http://snomed.info/sct"],
     "oids" : ["2.16.840.1.113883.4.642.3.98"],
     "sources" : ["2.16.840.1.113883.4.642.3.98"],
-    "uses" : {
-    },
-    "StructureDefinition-demo-at-allergy-intolerance.html" : "Demo AllergyIntolerance"
-  },
-  {
-    "url" : "http://hl7.org/fhir/uv/ips/ValueSet/allergies-intolerances-uv-ips",
-    "version" : "2.0.0",
-    "status" : "active",
-    "name" : "AllergiesIntolerancesUvIps",
-    "title" : "Allergies & Intolerances - IPS",
-    "description" : "IPS allergy and intolerance codes value set. This value set includes codes from SNOMED CT®: all descendants of 373873005 \\|Pharmaceutical / biologic product (product)\\|; all descendants of 105590001 \\|Substance (substance)\\|; all descendants of 420134006 \\|Propensity to adverse reaction (finding)\\|; all descendants or self of 716186003 \\|No known allergy (situation)\\|\n\nSNOMED CT® ECL definition:\\\n< 373873005 \\|Pharmaceutical / biologic product (product)\\| OR < 105590001 \\|Substance (substance)\\| OR < 420134006 \\|Propensity to adverse reaction (finding)\\| OR \\<\\< 716186003 \\|No known allergy (situation)\\|",
-    "systems" : ["http://snomed.info/sct"],
     "uses" : {
     },
     "StructureDefinition-demo-at-allergy-intolerance.html" : "Demo AllergyIntolerance"

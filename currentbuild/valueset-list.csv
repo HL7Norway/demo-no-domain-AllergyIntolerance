@@ -1,1 +1,2 @@
 URL,Version,Status,OIDs,Name,Title,Description,Uses,Used,Sources
+http://hl7.no/fhir/ig/demo-at/ValueSet/annen-allergi-som-kritisk-informasjon-7514,0.1.1,draft,,AnnenAllergiSomKritiskInformasjon7514,Annen allergi som kritisk informasjon (7514),"Alle koder fra Kjernejournals kodeverk 7514.",,"Internal"

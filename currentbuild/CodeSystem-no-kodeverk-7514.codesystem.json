@@ -1,0 +1,98 @@
+{
+  "resourceType" : "CodeSystem",
+  "id" : "no-kodeverk-7514.codesystem",
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: CodeSystem no-kodeverk-7514.codesystem</b></p><a name=\"no-kodeverk-7514.codesystem\"> </a><a name=\"hcno-kodeverk-7514.codesystem\"> </a><p>This case-sensitive code system <code>http://helsedir.no/fhir/CodeSystem/no-kodeverk-7514</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\">1<a name=\"no-kodeverk-7514.codesystem-1\"> </a></td><td>Melk</td></tr><tr><td style=\"white-space:nowrap\">2<a name=\"no-kodeverk-7514.codesystem-2\"> </a></td><td>Egg</td></tr><tr><td style=\"white-space:nowrap\">3<a name=\"no-kodeverk-7514.codesystem-3\"> </a></td><td>Hvete</td></tr><tr><td style=\"white-space:nowrap\">4<a name=\"no-kodeverk-7514.codesystem-4\"> </a></td><td>Skalldyr</td></tr><tr><td style=\"white-space:nowrap\">5<a name=\"no-kodeverk-7514.codesystem-5\"> </a></td><td>Fisk</td></tr><tr><td style=\"white-space:nowrap\">6<a name=\"no-kodeverk-7514.codesystem-6\"> </a></td><td>Erter</td></tr><tr><td style=\"white-space:nowrap\">7<a name=\"no-kodeverk-7514.codesystem-7\"> </a></td><td>Soya</td></tr><tr><td style=\"white-space:nowrap\">8<a name=\"no-kodeverk-7514.codesystem-8\"> </a></td><td>Lupin</td></tr><tr><td style=\"white-space:nowrap\">9<a name=\"no-kodeverk-7514.codesystem-9\"> </a></td><td>Bukkhornskløver</td></tr><tr><td style=\"white-space:nowrap\">10<a name=\"no-kodeverk-7514.codesystem-10\"> </a></td><td>Peanøtt</td></tr><tr><td style=\"white-space:nowrap\">11<a name=\"no-kodeverk-7514.codesystem-11\"> </a></td><td>Andre nøtter enn peanøtter</td></tr><tr><td style=\"white-space:nowrap\">12<a name=\"no-kodeverk-7514.codesystem-12\"> </a></td><td>Valmuefrø</td></tr><tr><td style=\"white-space:nowrap\">13<a name=\"no-kodeverk-7514.codesystem-13\"> </a></td><td>Insektgift</td></tr><tr><td style=\"white-space:nowrap\">14<a name=\"no-kodeverk-7514.codesystem-14\"> </a></td><td>Latex</td></tr><tr><td style=\"white-space:nowrap\">15<a name=\"no-kodeverk-7514.codesystem-15\"> </a></td><td>Annen viktig allergi</td></tr></table></div>"
+  },
+  "url" : "http://helsedir.no/fhir/CodeSystem/no-kodeverk-7514",
+  "identifier" : [{
+    "system" : "urn:ietf:rfc:3986",
+    "value" : "urn:oid:2.16.578.1.12.4.1.1.7514"
+  }],
+  "version" : "0.1.1",
+  "name" : "NoKodeverk7514",
+  "title" : "7514 Annen allergi som kritisk informasjon",
+  "status" : "active",
+  "date" : "2018-01-03",
+  "publisher" : "Helsedirektoratet",
+  "contact" : [{
+    "name" : "Helsedirektoratet",
+    "telecom" : [{
+      "system" : "url",
+      "value" : "https://www.helsedirektoratet.no"
+    }]
+  }],
+  "description" : "Angir annet allergen enn legemidler som årsak til alvorlig allergisk reaksjon registert som kritisk informasjon. Registrering og utveksling av kritisk informasjon i kjernejournal.",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "NO",
+      "display" : "Norway"
+    }]
+  }],
+  "caseSensitive" : true,
+  "compositional" : false,
+  "content" : "complete",
+  "count" : 15,
+  "concept" : [{
+    "code" : "1",
+    "display" : "Melk"
+  },
+  {
+    "code" : "2",
+    "display" : "Egg"
+  },
+  {
+    "code" : "3",
+    "display" : "Hvete"
+  },
+  {
+    "code" : "4",
+    "display" : "Skalldyr"
+  },
+  {
+    "code" : "5",
+    "display" : "Fisk"
+  },
+  {
+    "code" : "6",
+    "display" : "Erter"
+  },
+  {
+    "code" : "7",
+    "display" : "Soya"
+  },
+  {
+    "code" : "8",
+    "display" : "Lupin"
+  },
+  {
+    "code" : "9",
+    "display" : "Bukkhornskløver"
+  },
+  {
+    "code" : "10",
+    "display" : "Peanøtt"
+  },
+  {
+    "code" : "11",
+    "display" : "Andre nøtter enn peanøtter"
+  },
+  {
+    "code" : "12",
+    "display" : "Valmuefrø"
+  },
+  {
+    "code" : "13",
+    "display" : "Insektgift"
+  },
+  {
+    "code" : "14",
+    "display" : "Latex"
+  },
+  {
+    "code" : "15",
+    "display" : "Annen viktig allergi"
+  }]
+}

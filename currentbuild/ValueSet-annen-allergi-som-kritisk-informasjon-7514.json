@@ -1,0 +1,35 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "annen-allergi-som-kritisk-informasjon-7514",
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: ValueSet annen-allergi-som-kritisk-informasjon-7514</b></p><a name=\"annen-allergi-som-kritisk-informasjon-7514\"> </a><a name=\"hcannen-allergi-som-kritisk-informasjon-7514\"> </a><ul><li>Include all codes defined in <a href=\"CodeSystem-no-kodeverk-7514.codesystem.html\"><code>http://helsedir.no/fhir/CodeSystem/no-kodeverk-7514</code></a><span title=\"Version is not explicitly stated, which means it is fixed to the version provided in this specification\"> version &#x1F4E6;0.1.1</span></li></ul></div>"
+  },
+  "url" : "http://hl7.no/fhir/ig/demo-at/ValueSet/annen-allergi-som-kritisk-informasjon-7514",
+  "version" : "0.1.1",
+  "name" : "AnnenAllergiSomKritiskInformasjon7514",
+  "title" : "Annen allergi som kritisk informasjon (7514)",
+  "status" : "draft",
+  "date" : "2026-09-15T12:51:38+00:00",
+  "publisher" : "Helsedirektoratet",
+  "contact" : [{
+    "name" : "Helsedirektoratet",
+    "telecom" : [{
+      "system" : "url",
+      "value" : "https://www.helsedirektoratet.no"
+    }]
+  }],
+  "description" : "Alle koder fra Kjernejournals kodeverk 7514.",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "NO",
+      "display" : "Norway"
+    }]
+  }],
+  "compose" : {
+    "include" : [{
+      "system" : "http://helsedir.no/fhir/CodeSystem/no-kodeverk-7514"
+    }]
+  }
+}

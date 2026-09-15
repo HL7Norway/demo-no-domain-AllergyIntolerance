@@ -1,3 +1,11 @@
 {
-  "codeSystems" : []
+  "codeSystems" : [{
+    "url" : "http://helsedir.no/fhir/CodeSystem/no-kodeverk-7514",
+    "version" : "0.1.1",
+    "status" : "active",
+    "name" : "NoKodeverk7514",
+    "title" : "7514 Annen allergi som kritisk informasjon",
+    "description" : "Angir annet allergen enn legemidler som årsak til alvorlig allergisk reaksjon registert som kritisk informasjon. Registrering og utveksling av kritisk informasjon i kjernejournal.",
+    "oids" : ["2.16.578.1.12.4.1.1.7514"]
+  }]
 }

@@ -1,3 +1,14 @@
 {
-  "codeSystems" : []
+  "codeSystems" : [{
+    "url" : "http://hl7.no/fhir/ig/demo-at/ValueSet/annen-allergi-som-kritisk-informasjon-7514",
+    "version" : "0.1.1",
+    "status" : "draft",
+    "name" : "AnnenAllergiSomKritiskInformasjon7514",
+    "title" : "Annen allergi som kritisk informasjon (7514)",
+    "description" : "Alle koder fra Kjernejournals kodeverk 7514.",
+    "systems" : ["http://helsedir.no/fhir/CodeSystem/no-kodeverk-7514"],
+    "uses" : {
+    },
+    "StructureDefinition-demo-at-allergy-intolerance.html" : "Demo AllergyIntolerance"
+  }]
 }

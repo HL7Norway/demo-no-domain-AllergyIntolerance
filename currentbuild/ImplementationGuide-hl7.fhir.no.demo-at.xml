@@ -11,7 +11,7 @@
   <name value="DemoAT"/>
   <title value="Demo AllergyIntolerance Europa (EU Core/EHDS) og Norge"/>
   <status value="draft"/>
-  <date value="2026-09-15T11:23:35+00:00"/>
+  <date value="2026-09-15T12:51:38+00:00"/>
   <publisher value="Helsedirektoratet"/>
   <contact>
     <name value="Helsedirektoratet"/>
@@ -461,6 +461,28 @@
         <valueString value="true"/>
       </extension>
     </extension>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="CodeSystem"/>
+      </extension>
+      <reference>
+        <reference value="CodeSystem/no-kodeverk-7514.codesystem"/>
+      </reference>
+      <name value="7514 Annen allergi som kritisk informasjon"/>
+      <description value="Angir annet allergen enn legemidler som årsak til alvorlig allergisk reaksjon registert som kritisk informasjon. Registrering og utveksling av kritisk informasjon i kjernejournal."/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/annen-allergi-som-kritisk-informasjon-7514"/>
+      </reference>
+      <name value="Annen allergi som kritisk informasjon (7514)"/>
+      <description value="Alle koder fra Kjernejournals kodeverk 7514."/>
+      <exampleBoolean value="false"/>
+    </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
         <valueString value="StructureDefinition:resource"/>

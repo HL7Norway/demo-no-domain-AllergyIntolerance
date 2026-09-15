@@ -17,7 +17,7 @@
   fhir:ImplementationGuide.name [ fhir:value "DemoAT"] ;
   fhir:ImplementationGuide.title [ fhir:value "Demo AllergyIntolerance Europa (EU Core/EHDS) og Norge"] ;
   fhir:ImplementationGuide.status [ fhir:value "draft"] ;
-  fhir:ImplementationGuide.date [ fhir:value "2026-09-15T11:23:35+00:00"^^xsd:dateTime] ;
+  fhir:ImplementationGuide.date [ fhir:value "2026-09-15T12:51:38+00:00"^^xsd:dateTime] ;
   fhir:ImplementationGuide.publisher [ fhir:value "Helsedirektoratet"] ;
   fhir:ImplementationGuide.contact [
      fhir:index 0 ;
@@ -702,6 +702,34 @@
        fhir:Element.extension [
          fhir:index 0 ;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ] ;
+         fhir:Extension.valueString [ fhir:value "CodeSystem" ]
+       ] ;
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <http://hl7.no/fhir/ig/demo-at/CodeSystem/no-kodeverk-7514.codesystem> ;
+         fhir:Reference.reference [ fhir:value "CodeSystem/no-kodeverk-7514.codesystem" ]
+       ] ;
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "7514 Annen allergi som kritisk informasjon" ] ;
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Angir annet allergen enn legemidler som årsak til alvorlig allergisk reaksjon registert som kritisk informasjon. Registrering og utveksling av kritisk informasjon i kjernejournal." ] ;
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
+     ], [
+       fhir:index 1 ;
+       fhir:Element.extension [
+         fhir:index 0 ;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ] ;
+         fhir:Extension.valueString [ fhir:value "ValueSet" ]
+       ] ;
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <http://hl7.no/fhir/ig/demo-at/ValueSet/annen-allergi-som-kritisk-informasjon-7514> ;
+         fhir:Reference.reference [ fhir:value "ValueSet/annen-allergi-som-kritisk-informasjon-7514" ]
+       ] ;
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Annen allergi som kritisk informasjon (7514)" ] ;
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Alle koder fra Kjernejournals kodeverk 7514." ] ;
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
+     ], [
+       fhir:index 2 ;
+       fhir:Element.extension [
+         fhir:index 0 ;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ] ;
          fhir:Extension.valueString [ fhir:value "StructureDefinition:resource" ]
        ] ;
        fhir:ImplementationGuide.definition.resource.reference [
@@ -712,7 +740,7 @@
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "Profil for registrering av allergi og intoleranse i demo-IG." ] ;
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
      ], [
-       fhir:index 1 ;
+       fhir:index 3 ;
        fhir:Element.extension [
          fhir:index 0 ;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ] ;
@@ -726,7 +754,7 @@
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "Pasientprofil brukt i demo-IG for AllergyIntolerance." ] ;
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
      ], [
-       fhir:index 2 ;
+       fhir:index 4 ;
        fhir:Element.extension [
          fhir:index 0 ;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ] ;
@@ -743,7 +771,7 @@
          fhir:link <http://hl7.no/fhir/ig/demo-at/StructureDefinition/demo-at-allergy-intolerance>
        ]
      ], [
-       fhir:index 3 ;
+       fhir:index 5 ;
        fhir:Element.extension [
          fhir:index 0 ;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ] ;

@@ -16,6 +16,22 @@ These define constraints on FHIR resources for systems conforming to this implem
 | [Demo AllergyIntolerance](StructureDefinition-demo-at-allergy-intolerance.md) | Profil for registrering av allergi og intoleranse i demo-IG. |
 | [Demo pasient](StructureDefinition-demo-at-patient.md) | Pasientprofil brukt i demo-IG for AllergyIntolerance. |
 
+### Terminology: Value Sets 
+
+These define sets of codes used by systems conforming to this implementation guide.
+
+| | |
+| :--- | :--- |
+| [Annen allergi som kritisk informasjon (7514)](ValueSet-annen-allergi-som-kritisk-informasjon-7514.md) | Alle koder fra Kjernejournals kodeverk 7514. |
+
+### Terminology: Code Systems 
+
+These define new code systems used by systems conforming to this implementation guide.
+
+| | |
+| :--- | :--- |
+| [7514 Annen allergi som kritisk informasjon](CodeSystem-no-kodeverk-7514.codesystem.md) | Angir annet allergen enn legemidler som årsak til alvorlig allergisk reaksjon registert som kritisk informasjon. Registrering og utveksling av kritisk informasjon i kjernejournal. |
+
 ### Example: Example Instances 
 
 These are example instances that show what data produced and consumed by systems conforming with this implementation guide might look like.
