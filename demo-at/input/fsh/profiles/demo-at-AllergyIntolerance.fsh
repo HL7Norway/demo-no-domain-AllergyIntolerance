@@ -22,7 +22,8 @@ Description: "Profil for registrering av allergi og intoleranse i demo-IG."
 * code ^definition = "Hvilke agens (substans, trigger, materiale) som kan knyttes til overfølsomheten."
 * code ^comment = "Merk: Det vil bli endringer i anbefaling til koding av legemidler og substanser (agens) når ny standard for identifisering av legemidler implementeres i Norge (IDMP)."
 * code from AnnenAllergiSomKritiskInformasjon7514 (preferred)
-* code from Allergener7852 (preferred)
+// Må kombineres i ett ValueSet, men det er problematisk når de har like koder? 
+// * code from Allergener7852 (preferred)
 * recordedDate 1..1
 * recordedDate ^definition = "Tidspunkt da overfølsomheten eller den uønskede reaksjonen ble konstatert. Tidspunkt kan være spesifikk (dag-tidspunkt) eller uspesifikk (årstall, tiår). "
 * recordedDate ^requirements = "Obligatorisk i Kjernejournal"
