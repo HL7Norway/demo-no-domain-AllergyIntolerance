@@ -2,9 +2,9 @@
 [![ig-gh-pages](https://github.com/HL7Norway/demo-no-domain-AllergyIntolerance/actions/workflows/ig-gh-pages.yml/badge.svg)](https://github.com/HL7Norway/demo-no-domain-AllergyIntolerance/actions/workflows/ig-gh-pages.yml)
 [![Validate FSH Files](https://github.com/HL7Norway/demo-no-domain-AllergyIntolerance/actions/workflows/validate-fsh.yml/badge.svg)](https://github.com/HL7Norway/demo-no-domain-AllergyIntolerance/actions/workflows/validate-fsh.yml)
 
-# Demo AT Implementation Guide
+# Demo AllergyIntolerance Implementation Guide
 
-Dette repositoryet inneholder en demo for en HL7 FHIR implementasjonsguide for AllergyIntolerance. Oppsettet er basert på `ig-mal` og bruker FHIR Shorthand (FSH) og GitHub Actions for validering og publisering. AllergyIntolerance skal basere seg på [HL7 Europe Base and Core FHIR IG R4](https://github.com/hl7-eu/base).
+Dette repositoryet inneholder en demo for en HL7 FHIR implementasjonsguide for AllergyIntolerance. AllergyIntolerance skal basere seg på [HL7 Europe Base and Core FHIR IG R4](https://github.com/hl7-eu/base).
 
 ## ✨ Hva inneholder demoen?
 

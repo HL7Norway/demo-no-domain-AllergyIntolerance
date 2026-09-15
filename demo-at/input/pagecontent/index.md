@@ -1,22 +1,13 @@
-### Demo AT
+### Demo AllergyIntolerance Europa og Norge
 
 Dette er en demo-IG som viser et enkelt oppsett for AllergyIntolerance-beskrivelser med FHIR Shorthand.
 
 ### Mål
 
-Målet med implementasjonsguiden er å demonstrere hvordan en norsk FHIR IG kan settes opp og brukes til å beskrive allergi- og intoleranseinformasjon.
+Dette IG'en er en demo for en HL7 FHIR implementasjonsguide for AllergyIntolerance. AllergyIntolerance skal basere seg på [HL7 Europe Base and Core FHIR IG R4](https://github.com/hl7-eu/base), og inneholde relevante norske utvidelser/tilpasninger.
 
-### Omfang
+UNDER ARBEID
 
-Guiden inneholder:
+Kontakt:
 
-- en enkel pasientprofil basert på NoBasisPatient
-- en demo-profil for `AllergyIntolerance`
-- eksempelinnhold som kan valideres og publiseres med de medfølgende workflowene
-
-### Figur
-
-Eksempel på en figur laget med PlantUML.
-
-<img src="test.svg" width="40%" />
-
+Espen Stranger Seland, Helsedirektoratet
