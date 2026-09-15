@@ -13,7 +13,7 @@ Description: "Profil for registrering av allergi og intoleranse i demo-IG."
 // * clinicalStatus MS 
 // * verificationStatus MS
 // * code MS
-* code from $kjernejournal_7514 (preferred)
+* code from AnnenAllergiSomKritiskInformasjon7514 (preferred)
 // * code.coding[kjernejournal_7514].system = "urn:oid:2.16.578.1.12.4.1.1.7514"
 // * code.coding[kjernejournal_7514].display = "Annen allergi som kritisk informasjon"
 // * code.slicing.discriminator = "system"
