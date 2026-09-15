@@ -13,10 +13,10 @@ Description: "Profil for registrering av allergi og intoleranse i demo-IG."
 # * clinicalStatus MS 
 # * verificationStatus MS
 # * code MS
-* dateRecorded 1..1
-* dateRecorded ^definition = "Dato for registrering av allergi eller intoleranse"
-* dateRecorded ^short = "Registreringsdato"
-* dateRecorded ^comment = "Obligatorisk i Kjernejournal"
+* recordedDate 1..1
+* recordedDate ^definition = "Dato for registrering av allergi eller intoleranse"
+* recordedDate ^short = "Registreringsdato"
+* recordedDate ^comment = "Obligatorisk i Kjernejournal"
 
 * reaction.substance MS
 * reaction.manifestation ^definition = "Eksempel på kommentar/tillegg i norsk utgave"
