@@ -10,9 +10,14 @@ Description: "Profil for registrering av allergi og intoleranse i demo-IG."
 # Elementer fra f.eks. no-basis må legges til manuelt, da man ikke kan arve fra to profiler. 
 
 # * patient only Reference(DemoAtPatient)
-* clinicalStatus MS 
-* verificationStatus MS
-* code MS
+# * clinicalStatus MS 
+# * verificationStatus MS
+# * code MS
+* dateRecorded 1..1
+* dateRecorded ^definition = "Dato for registrering av allergi eller intoleranse"
+* dateRecorded ^short = "Registreringsdato"
+* dateRecorded ^comment = "Obligatorisk i Kjernejournal"
+
 * reaction.substance MS
 * reaction.manifestation ^definition = "Eksempel på kommentar/tillegg i norsk utgave"
 
