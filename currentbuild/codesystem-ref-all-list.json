@@ -48,18 +48,6 @@
     "http://hl7.org/fhir/R4/valueset-allergy-intolerance-type.html" : "AllergyIntoleranceType"
   },
   {
-    "url" : "http://hl7.org/fhir/identifier-use",
-    "version" : "4.0.1",
-    "status" : "active",
-    "name" : "IdentifierUse",
-    "title" : "IdentifierUse",
-    "description" : "Identifies the purpose for this identifier, if known .",
-    "oids" : ["2.16.840.1.113883.4.642.4.58"],
-    "uses" : {
-    },
-    "http://hl7.org/fhir/R4/valueset-identifier-use.html" : "IdentifierUse"
-  },
-  {
     "url" : "http://hl7.org/fhir/link-type",
     "version" : "4.0.1",
     "status" : "active",
@@ -105,10 +93,11 @@
     "oids" : ["2.16.840.1.113883.6.96"],
     "uses" : {
     },
-    "http://hl7.org/fhir/R4/valueset-substance-code.html" : "Substance Code",
+    "http://tx.hl7europe.eu/r4/ValueSet/allergies-intolerances-uv-ips" : "Allergies & Intolerances - IPS",
+    "http://tx.hl7europe.eu/r4/ValueSet/eHDSIAllergenNoDrug-8.1.0" : "eHDSI Allergen No Drug",
     "http://hl7.org/fhir/R4/valueset-route-codes.html" : "SNOMED CT Route Codes",
-    "http://hl7.org/fhir/R4/valueset-allergyintolerance-code.html" : "AllergyIntolerance Substance/Product, Condition and Negation Codes",
-    "http://hl7.org/fhir/R4/valueset-clinical-findings.html" : "SNOMED CT Clinical Findings"
+    "http://tx.hl7europe.eu/r4/ValueSet/allergy-reaction-uv-ips" : "Allergy Reaction - IPS",
+    "http://tx.hl7europe.eu/r4/ValueSet/eHDSIReactionAllergy-8.1.0" : "eHDSI Reaction Allergy"
   },
   {
     "url" : "http://terminology.hl7.org/CodeSystem/allergyintolerance-clinical",
@@ -147,18 +136,6 @@
     "http://hl7.org/fhir/R4/valueset-patient-contactrelationship.html" : "Patient Contact Relationship "
   },
   {
-    "url" : "http://terminology.hl7.org/CodeSystem/v2-0203",
-    "version" : "5.0.0",
-    "status" : "active",
-    "name" : "IdentifierType",
-    "title" : "identifierType",
-    "description" : "HL7-defined code system of concepts specifying type of identifier. Used in HL7 Version 2.x messaging data types CX, PLN, PPN, XCN and XON.",
-    "oids" : ["2.16.840.1.113883.18.108"],
-    "uses" : {
-    },
-    "http://hl7.org/fhir/R4/valueset-identifier-type.html" : "IdentifierType"
-  },
-  {
     "url" : "http://terminology.hl7.org/CodeSystem/v3-MaritalStatus",
     "version" : "5.0.0",
     "status" : "active",
@@ -181,5 +158,28 @@
     "uses" : {
     },
     "http://hl7.org/fhir/R4/valueset-marital-status.html" : "MaritalStatus"
+  },
+  {
+    "url" : "http://www.whocc.no/atc",
+    "version" : "2.0.1",
+    "status" : "active",
+    "name" : "WC",
+    "title" : "WHO ATC",
+    "description" : "WHO ATC",
+    "oids" : ["2.16.840.1.113883.6.73"],
+    "uses" : {
+    },
+    "http://tx.hl7europe.eu/r4/ValueSet/whoatc-uv-ips" : "WHO ATC - IPS"
+  },
+  {
+    "url" : "urn:ietf:bcp:47",
+    "version" : "2.0.1",
+    "status" : "active",
+    "name" : "Ietf3066",
+    "title" : "Tags for the Identification of Languages",
+    "description" : "Older value from OID registry.  Superceded; see recommendations in BCP-47.",
+    "uses" : {
+    },
+    "http://hl7.org/fhir/R4/valueset-languages.html" : "Common Languages"
   }]
 }

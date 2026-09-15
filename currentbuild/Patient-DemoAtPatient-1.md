@@ -39,23 +39,8 @@ Adresse: Storgata 123, 5020 Bergen, Norge
     "family" : "Hansen",
     "given" : ["Kari", "Elisabeth"]
   }],
-  "telecom" : [{
-    "system" : "phone",
-    "value" : "+47 12 34 56 78",
-    "use" : "mobile"
-  },
-  {
-    "system" : "email",
-    "value" : "kari.hansen@example.no"
-  }],
   "gender" : "female",
-  "birthDate" : "1990-03-13",
-  "address" : [{
-    "line" : ["Storgata 123"],
-    "city" : "Bergen",
-    "postalCode" : "5020",
-    "country" : "NO"
-  }]
+  "birthDate" : "1990-03-13"
 }
 
 ```

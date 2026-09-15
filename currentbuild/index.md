@@ -10,27 +10,19 @@
 | *Official URL*:http://hl7.no/fhir/ig/demo-at/ImplementationGuide/hl7.fhir.no.demo-at | *Version*:0.1.0 |
 | Draft as of 2026-09-15 | *Computable Name*:DemoAT |
 
-### Demo AT
+### Demo AllergyIntolerance Europa og Norge
 
 Dette er en demo-IG som viser et enkelt oppsett for AllergyIntolerance-beskrivelser med FHIR Shorthand.
 
 ### Mål
 
-Målet med implementasjonsguiden er å demonstrere hvordan en norsk FHIR IG kan settes opp og brukes til å beskrive allergi- og intoleranseinformasjon.
+Dette IG'en er en demo for en HL7 FHIR implementasjonsguide for AllergyIntolerance. AllergyIntolerance skal basere seg på [HL7 Europe Base and Core FHIR IG R4](https://github.com/hl7-eu/base), og inneholde relevante norske utvidelser/tilpasninger.
 
-### Omfang
+UNDER ARBEID
 
-Guiden inneholder:
+Kontakt:
 
-* en enkel pasientprofil basert på NoBasisPatient
-* en demo-profil for `AllergyIntolerance`
-* eksempelinnhold som kan valideres og publiseres med de medfølgende workflowene
-
-### Figur
-
-Eksempel på en figur laget med PlantUML.
-
-![](test.svg)
+Espen Stranger Seland, Helsedirektoratet
 
 
 
@@ -45,7 +37,7 @@ Eksempel på en figur laget med PlantUML.
   "name" : "DemoAT",
   "title" : "Demo AT",
   "status" : "draft",
-  "date" : "2026-09-15T07:33:39+00:00",
+  "date" : "2026-09-15T08:34:16+00:00",
   "publisher" : "HL7 Norge",
   "contact" : [{
     "name" : "HL7 Norge",
@@ -90,6 +82,12 @@ Eksempel på en figur laget med PlantUML.
     "uri" : "http://fhir.org/packages/hl7.fhir.no.basis/ImplementationGuide/hl7.fhir.no.basis",
     "packageId" : "hl7.fhir.no.basis",
     "version" : "2.2.2"
+  },
+  {
+    "id" : "hl7_fhir_eu_base",
+    "uri" : "http://hl7.eu/fhir/base/ImplementationGuide/hl7.fhir.eu.base",
+    "packageId" : "hl7.fhir.eu.base",
+    "version" : "2.0.0"
   }],
   "definition" : {
     "extension" : [{

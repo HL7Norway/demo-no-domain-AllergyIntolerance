@@ -35,28 +35,8 @@
        fhir:index 1
      ]
   ] ;
-  fhir:Patient.telecom [
-     fhir:index 0 ;
-     fhir:ContactPoint.system [ fhir:value "phone" ] ;
-     fhir:ContactPoint.value [ fhir:value "+47 12 34 56 78" ] ;
-     fhir:ContactPoint.use [ fhir:value "mobile" ]
-  ], [
-     fhir:index 1 ;
-     fhir:ContactPoint.system [ fhir:value "email" ] ;
-     fhir:ContactPoint.value [ fhir:value "kari.hansen@example.no" ]
-  ] ;
   fhir:Patient.gender [ fhir:value "female"] ;
-  fhir:Patient.birthDate [ fhir:value "1990-03-13"^^xsd:date] ;
-  fhir:Patient.address [
-     fhir:index 0 ;
-     fhir:Address.line [
-       fhir:value "Storgata 123" ;
-       fhir:index 0
-     ] ;
-     fhir:Address.city [ fhir:value "Bergen" ] ;
-     fhir:Address.postalCode [ fhir:value "5020" ] ;
-     fhir:Address.country [ fhir:value "NO" ]
-  ] .
+  fhir:Patient.birthDate [ fhir:value "1990-03-13"^^xsd:date] .
 
 # - ontology header ------------------------------------------------------------
 

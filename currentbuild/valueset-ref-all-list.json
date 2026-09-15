@@ -70,20 +70,6 @@
     "StructureDefinition-demo-at-allergy-intolerance.html" : "Demo AllergyIntolerance"
   },
   {
-    "url" : "http://hl7.org/fhir/ValueSet/allergyintolerance-code",
-    "version" : "4.0.1",
-    "status" : "draft",
-    "name" : "AllergyIntoleranceSubstance/Product,ConditionAndNegationCodes",
-    "title" : "AllergyIntolerance Substance/Product, Condition and Negation Codes",
-    "description" : "This value set includes concept codes for specific substances/pharmaceutical products, allergy or intolerance conditions, and negation/exclusion codes to specify the absence of specific types of allergies or intolerances.",
-    "systems" : ["http://snomed.info/sct"],
-    "oids" : ["2.16.840.1.113883.4.642.3.137"],
-    "sources" : ["2.16.840.1.113883.4.642.3.137"],
-    "uses" : {
-    },
-    "StructureDefinition-demo-at-allergy-intolerance.html" : "Demo AllergyIntolerance"
-  },
-  {
     "url" : "http://hl7.org/fhir/ValueSet/allergyintolerance-verification",
     "version" : "4.0.1",
     "status" : "draft",
@@ -96,48 +82,6 @@
     "uses" : {
     },
     "StructureDefinition-demo-at-allergy-intolerance.html" : "Demo AllergyIntolerance"
-  },
-  {
-    "url" : "http://hl7.org/fhir/ValueSet/clinical-findings",
-    "version" : "4.0.1",
-    "status" : "draft",
-    "name" : "SNOMEDCTClinicalFindings",
-    "title" : "SNOMED CT Clinical Findings",
-    "description" : "This value set includes all the \"Clinical finding\" [SNOMED CT](http://snomed.info/sct) codes - concepts where concept is-a 404684003 (Clinical finding (finding)).",
-    "systems" : ["http://snomed.info/sct"],
-    "oids" : ["2.16.840.1.113883.4.642.3.232"],
-    "sources" : ["2.16.840.1.113883.4.642.3.232"],
-    "uses" : {
-    },
-    "StructureDefinition-demo-at-allergy-intolerance.html" : "Demo AllergyIntolerance"
-  },
-  {
-    "url" : "http://hl7.org/fhir/ValueSet/identifier-type",
-    "version" : "4.0.1",
-    "status" : "active",
-    "name" : "Identifier Type Codes",
-    "title" : "IdentifierType",
-    "description" : "A coded type for an identifier that can be used to determine which identifier to use for a specific purpose.",
-    "systems" : ["http://terminology.hl7.org/CodeSystem/v2-0203"],
-    "oids" : ["2.16.840.1.113883.4.642.3.45"],
-    "sources" : ["2.16.840.1.113883.4.642.3.45"],
-    "uses" : {
-    },
-    "StructureDefinition-demo-at-patient.html" : "Demo pasient"
-  },
-  {
-    "url" : "http://hl7.org/fhir/ValueSet/identifier-use",
-    "version" : "4.0.1",
-    "status" : "active",
-    "name" : "IdentifierUse",
-    "title" : "IdentifierUse",
-    "description" : "Identifies the purpose for this identifier, if known .",
-    "systems" : ["http://hl7.org/fhir/identifier-use"],
-    "oids" : ["2.16.840.1.113883.4.642.3.57"],
-    "sources" : ["2.16.840.1.113883.4.642.3.57"],
-    "uses" : {
-    },
-    "StructureDefinition-demo-at-patient.html" : "Demo pasient"
   },
   {
     "url" : "http://hl7.org/fhir/ValueSet/languages",
@@ -240,15 +184,65 @@
     "StructureDefinition-demo-at-allergy-intolerance.html" : "Demo AllergyIntolerance"
   },
   {
-    "url" : "http://hl7.org/fhir/ValueSet/substance-code",
-    "version" : "4.0.1",
-    "status" : "draft",
-    "name" : "SubstanceCode",
-    "title" : "Substance Code",
-    "description" : "This value set contains concept codes for specific substances. It includes codes from [SNOMED](http://snomed.info/sct) where concept is-a 105590001 (Substance (substance)) and where concept is-a 373873005 (Pharmaceutical / biologic product (product))",
+    "url" : "http://hl7.org/fhir/uv/ips/ValueSet/allergies-intolerances-uv-ips",
+    "version" : "2.0.0",
+    "status" : "active",
+    "name" : "AllergiesIntolerancesUvIps",
+    "title" : "Allergies & Intolerances - IPS",
+    "description" : "IPS allergy and intolerance codes value set. This value set includes codes from SNOMED CT®: all descendants of 373873005 \\|Pharmaceutical / biologic product (product)\\|; all descendants of 105590001 \\|Substance (substance)\\|; all descendants of 420134006 \\|Propensity to adverse reaction (finding)\\|; all descendants or self of 716186003 \\|No known allergy (situation)\\|\n\nSNOMED CT® ECL definition:\\\n< 373873005 \\|Pharmaceutical / biologic product (product)\\| OR < 105590001 \\|Substance (substance)\\| OR < 420134006 \\|Propensity to adverse reaction (finding)\\| OR \\<\\< 716186003 \\|No known allergy (situation)\\|",
     "systems" : ["http://snomed.info/sct"],
-    "oids" : ["2.16.840.1.113883.4.642.3.473"],
-    "sources" : ["2.16.840.1.113883.4.642.3.473"],
+    "uses" : {
+    },
+    "StructureDefinition-demo-at-allergy-intolerance.html" : "Demo AllergyIntolerance"
+  },
+  {
+    "url" : "http://hl7.org/fhir/uv/ips/ValueSet/allergy-reaction-uv-ips",
+    "version" : "2.0.0",
+    "status" : "active",
+    "name" : "AllergyReactionUvIps",
+    "title" : "Allergy Reaction - IPS",
+    "description" : "IPS allergy reaction value set. This value set includes a set of SNOMED CT codes  and descendants (all top level codes are included in the SNOMED CT IPS Terminology) that may be used to represent allergy or intolerance reactions.\n\nSNOMED CT® ECL definition:\\\n\\<\\< 4386001 |Bronchospasm (finding)| OR \\<\\< 9826008 |Conjunctivitis (disorder)| OR \\<\\< 23924001 |Tight chest (finding)| OR \\<\\< 24079001 |Atopic dermatitis (disorder)| OR \\<\\< 31996006 |Vasculitis (disorder)| OR \\<\\< 39579001 |Anaphylaxis (disorder)| OR \\<\\< 41291007 |Angioedema (disorder)| OR \\<\\< 43116000 |Eczema (disorder)| OR \\<\\< 49727002 |Cough (finding)| OR \\<\\< 51599000 |Edema of larynx (disorder)| OR \\<\\< 62315008 |Diarrhea (finding)| OR \\<\\< 70076002 |Rhinitis (disorder)| OR \\<\\< 73442001 |Stevens-Johnson syndrome (disorder)| OR \\<\\< 76067001 |Sneezing (finding)| OR \\<\\< 91175000 |Seizure (finding)| OR \\<\\< 126485001 |Urticaria (disorder)| OR \\<\\< 162290004 |Dry eyes (finding)| OR \\<\\< 195967001 |Asthma (disorder)| OR \\<\\< 247472004 |Weal (disorder)| OR \\<\\< 267036007 |Dyspnea (finding)| OR \\<\\< 271757001 |Papular eruption (disorder)| OR \\<\\< 271759003 |Bullous eruption (disorder)| OR \\<\\< 271807003 |Eruption of skin (disorder)| OR \\<\\< 410430005 |Cardiorespiratory arrest (disorder)| OR \\<\\< 418363000 |Itching of skin (finding)| OR \\<\\< 422400008 |Vomiting (disorder)| OR \\<\\< 422587007 |Nausea (finding)| OR \\<\\< 698247007 |Cardiac arrhythmia (disorder)| OR \\<\\< 702809001 |Drug reaction with eosinophilia and systemic symptoms (disorder)| OR \\<\\< 768962006 |Lyell syndrome (disorder)| OR \\<\\< 781682005 |Hyperemia of eye (finding)|",
+    "systems" : ["http://snomed.info/sct"],
+    "uses" : {
+    },
+    "StructureDefinition-demo-at-allergy-intolerance.html" : "Demo AllergyIntolerance"
+  },
+  {
+    "url" : "http://hl7.org/fhir/uv/ips/ValueSet/whoatc-uv-ips",
+    "version" : "2.0.0",
+    "status" : "active",
+    "name" : "WhoAtcUvIps",
+    "title" : "WHO ATC - IPS",
+    "description" : "World Health Organization Anatomical Therapeutic Chemical (ATC) classification system.",
+    "systems" : ["http://www.whocc.no/atc"],
+    "uses" : {
+    },
+    "StructureDefinition-demo-at-allergy-intolerance.html" : "Demo AllergyIntolerance"
+  },
+  {
+    "url" : "http://terminology.ehdsi.eu/ValueSet/eHDSIAllergenNoDrug",
+    "version" : "0.2.0",
+    "status" : "active",
+    "name" : "eHDSIAllergenNoDrug",
+    "title" : "eHDSI Allergen No Drug",
+    "description" : "The value set is used to code the patient's kind of adverse reactions against substance, food or drugs",
+    "systems" : ["http://snomed.info/sct"],
+    "oids" : ["1.3.6.1.4.1.12559.11.10.1.3.1.42.19"],
+    "sources" : ["1.3.6.1.4.1.12559.11.10.1.3.1.42.19"],
+    "uses" : {
+    },
+    "StructureDefinition-demo-at-allergy-intolerance.html" : "Demo AllergyIntolerance"
+  },
+  {
+    "url" : "http://terminology.ehdsi.eu/ValueSet/eHDSIReactionAllergy",
+    "version" : "0.2.0",
+    "status" : "active",
+    "name" : "eHDSIReactionAllergy",
+    "title" : "eHDSI Reaction Allergy",
+    "description" : "Value Set is used to encode clinical manifestation of the allergic reaction.",
+    "systems" : ["http://snomed.info/sct"],
+    "oids" : ["1.3.6.1.4.1.12559.11.10.1.3.1.42.11"],
+    "sources" : ["1.3.6.1.4.1.12559.11.10.1.3.1.42.11"],
     "uses" : {
     },
     "StructureDefinition-demo-at-allergy-intolerance.html" : "Demo AllergyIntolerance"

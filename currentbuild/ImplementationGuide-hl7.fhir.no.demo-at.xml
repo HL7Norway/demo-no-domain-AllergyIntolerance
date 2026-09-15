@@ -11,7 +11,7 @@
   <name value="DemoAT"/>
   <title value="Demo AT"/>
   <status value="draft"/>
-  <date value="2026-09-15T07:33:39+00:00"/>
+  <date value="2026-09-15T08:34:16+00:00"/>
   <publisher value="HL7 Norge"/>
   <contact>
     <name value="HL7 Norge"/>
@@ -51,6 +51,11 @@
     <uri value="http://fhir.org/packages/hl7.fhir.no.basis/ImplementationGuide/hl7.fhir.no.basis"/>
     <packageId value="hl7.fhir.no.basis"/>
     <version value="2.2.2"/>
+  </dependsOn>
+  <dependsOn id="hl7_fhir_eu_base">
+    <uri value="http://hl7.eu/fhir/base/ImplementationGuide/hl7.fhir.eu.base"/>
+    <packageId value="hl7.fhir.eu.base"/>
+    <version value="2.0.0"/>
   </dependsOn>
   <definition>
     <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">

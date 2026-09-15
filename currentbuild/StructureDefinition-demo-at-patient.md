@@ -88,7 +88,7 @@ Other representations of profile: [CSV](StructureDefinition-demo-at-patient.csv)
   "kind" : "resource",
   "abstract" : false,
   "type" : "Patient",
-  "baseDefinition" : "http://hl7.no/fhir/StructureDefinition/no-basis-Patient",
+  "baseDefinition" : "http://hl7.eu/fhir/base/StructureDefinition/patient-eu-core",
   "derivation" : "constraint",
   "differential" : {
     "element" : [{

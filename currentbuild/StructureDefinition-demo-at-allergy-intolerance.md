@@ -77,7 +77,7 @@ Other representations of profile: [CSV](StructureDefinition-demo-at-allergy-into
   "kind" : "resource",
   "abstract" : false,
   "type" : "AllergyIntolerance",
-  "baseDefinition" : "http://hl7.org/fhir/StructureDefinition/AllergyIntolerance",
+  "baseDefinition" : "http://hl7.eu/fhir/base/StructureDefinition/allergyIntolerance-eu-core",
   "derivation" : "constraint",
   "differential" : {
     "element" : [{

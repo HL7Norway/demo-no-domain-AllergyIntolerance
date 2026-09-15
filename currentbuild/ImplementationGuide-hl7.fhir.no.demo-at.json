@@ -10,7 +10,7 @@
   "name" : "DemoAT",
   "title" : "Demo AT",
   "status" : "draft",
-  "date" : "2026-09-15T07:33:39+00:00",
+  "date" : "2026-09-15T08:34:16+00:00",
   "publisher" : "HL7 Norge",
   "contact" : [{
     "name" : "HL7 Norge",
@@ -55,6 +55,12 @@
     "uri" : "http://fhir.org/packages/hl7.fhir.no.basis/ImplementationGuide/hl7.fhir.no.basis",
     "packageId" : "hl7.fhir.no.basis",
     "version" : "2.2.2"
+  },
+  {
+    "id" : "hl7_fhir_eu_base",
+    "uri" : "http://hl7.eu/fhir/base/ImplementationGuide/hl7.fhir.eu.base",
+    "packageId" : "hl7.fhir.eu.base",
+    "version" : "2.0.0"
   }],
   "definition" : {
     "extension" : [{

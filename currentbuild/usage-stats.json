@@ -19,8 +19,8 @@
     ]
   },
   "usage": {
-    "http://hl7.no/fhir/StructureDefinition/no-basis-middlename": [
-      "Patient.name"
+    "http://hl7.org/fhir/StructureDefinition/allergyintolerance-abatement": [
+      "AllergyIntolerance"
     ],
     "http://hl7.org/fhir/StructureDefinition/elementdefinition-bestpractice": [
       "StructureDefinition.snapshot.element.constraint"
@@ -34,10 +34,25 @@
     "http://hl7.org/fhir/StructureDefinition/elementdefinition-maxValueSet": [
       "StructureDefinition.snapshot.element.binding"
     ],
-    "http://hl7.org/fhir/StructureDefinition/elementdefinition-translatable": [
-      "StructureDefinition.snapshot.element"
+    "http://hl7.org/fhir/StructureDefinition/individual-genderIdentity": [
+      "Patient"
+    ],
+    "http://hl7.org/fhir/StructureDefinition/individual-pronouns": [
+      "Patient"
+    ],
+    "http://hl7.org/fhir/StructureDefinition/patient-birthPlace": [
+      "Patient"
+    ],
+    "http://hl7.org/fhir/StructureDefinition/patient-birthTime": [
+      "Patient"
     ],
     "http://hl7.org/fhir/StructureDefinition/patient-citizenship": [
+      "Patient"
+    ],
+    "http://hl7.org/fhir/StructureDefinition/patient-nationality": [
+      "Patient"
+    ],
+    "http://hl7.org/fhir/StructureDefinition/patient-sexParameterForClinicalUse": [
       "Patient"
     ],
     "http://hl7.org/fhir/StructureDefinition/structuredefinition-fhir-type": [
@@ -45,6 +60,9 @@
     ],
     "http://hl7.org/fhir/StructureDefinition/structuredefinition-hierarchy": [
       "StructureDefinition.snapshot.element.type"
+    ],
+    "http://hl7.org/fhir/tools/StructureDefinition/additional-binding": [
+      "StructureDefinition.snapshot.element.binding"
     ],
     "http://hl7.org/fhir/tools/StructureDefinition/ig-internal-dependency": [
       "ImplementationGuide.definition"

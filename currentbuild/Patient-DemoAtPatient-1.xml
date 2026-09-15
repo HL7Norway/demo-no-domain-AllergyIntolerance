@@ -17,21 +17,6 @@
     <given value="Kari"/>
     <given value="Elisabeth"/>
   </name>
-  <telecom>
-    <system value="phone"/>
-    <value value="+47 12 34 56 78"/>
-    <use value="mobile"/>
-  </telecom>
-  <telecom>
-    <system value="email"/>
-    <value value="kari.hansen@example.no"/>
-  </telecom>
   <gender value="female"/>
   <birthDate value="1990-03-13"/>
-  <address>
-    <line value="Storgata 123"/>
-    <city value="Bergen"/>
-    <postalCode value="5020"/>
-    <country value="NO"/>
-  </address>
 </Patient>
