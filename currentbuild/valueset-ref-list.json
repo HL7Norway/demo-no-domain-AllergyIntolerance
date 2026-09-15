@@ -1,23 +1,23 @@
 {
   "codeSystems" : [{
     "url" : "http://hl7.no/fhir/ig/demo-at/ValueSet/allergener-7852",
-    "version" : "0.1.1",
+    "version" : "0.1.2",
     "status" : "active",
     "name" : "Allergener7852",
     "title" : "Allergener (7852)",
     "description" : "Alle koder fra Mattilsynet/SAFEST/Farmalogg sitt kodeverk 7852.",
-    "systems" : ["http://helsedir.no/fhir/CodeSystem/no-kodeverk-7852"],
-    "uses" : {
-    },
-    "StructureDefinition-demo-at-allergy-intolerance.html" : "Demo AllergyIntolerance"
+    "systems" : ["http://helsedir.no/fhir/CodeSystem/no-kodeverk-7852"]
   },
   {
     "url" : "http://hl7.no/fhir/ig/demo-at/ValueSet/annen-allergi-som-kritisk-informasjon-7514",
-    "version" : "0.1.1",
+    "version" : "0.1.2",
     "status" : "active",
     "name" : "AnnenAllergiSomKritiskInformasjon7514",
     "title" : "Annen allergi som kritisk informasjon (7514)",
     "description" : "Alle koder fra Kjernejournals kodeverk 7514.",
-    "systems" : ["http://helsedir.no/fhir/CodeSystem/no-kodeverk-7514"]
+    "systems" : ["http://helsedir.no/fhir/CodeSystem/no-kodeverk-7514"],
+    "uses" : {
+    },
+    "StructureDefinition-demo-at-allergy-intolerance.html" : "Demo AllergyIntolerance"
   }]
 }

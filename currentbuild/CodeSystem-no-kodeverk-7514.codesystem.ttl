@@ -18,7 +18,7 @@
      fhir:Identifier.system [ fhir:value "urn:ietf:rfc:3986" ] ;
      fhir:Identifier.value [ fhir:value "urn:oid:2.16.578.1.12.4.1.1.7514" ]
   ] ;
-  fhir:CodeSystem.version [ fhir:value "0.1.1"] ;
+  fhir:CodeSystem.version [ fhir:value "0.1.2"] ;
   fhir:CodeSystem.name [ fhir:value "NoKodeverk7514"] ;
   fhir:CodeSystem.title [ fhir:value "7514 Annen allergi som kritisk informasjon"] ;
   fhir:CodeSystem.status [ fhir:value "active"] ;

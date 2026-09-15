@@ -1,4 +1,4 @@
-# Annen allergi som kritisk informasjon (7514) - Demo AllergyIntolerance Europa (EU Core/EHDS) og Norge v0.1.1
+# Annen allergi som kritisk informasjon (7514) - Demo AllergyIntolerance Europa (EU Core/EHDS) og Norge v0.1.2
 
 * [**Table of Contents**](toc.md)
 * [**Artifacts Summary**](artifacts.md)
@@ -8,7 +8,7 @@
 
 | | |
 | :--- | :--- |
-| *Official URL*:http://hl7.no/fhir/ig/demo-at/ValueSet/annen-allergi-som-kritisk-informasjon-7514 | *Version*:0.1.1 |
+| *Official URL*:http://hl7.no/fhir/ig/demo-at/ValueSet/annen-allergi-som-kritisk-informasjon-7514 | *Version*:0.1.2 |
 | Active as of 2026-09-15 | *Computable Name*:AnnenAllergiSomKritiskInformasjon7514 |
 
  
@@ -16,7 +16,7 @@ Alle koder fra Kjernejournals kodeverk 7514.
 
  **References** 
 
-This value set is not used here; it may be used elsewhere (e.g. specifications and/or implementations that use this content)
+* [Demo AllergyIntolerance](StructureDefinition-demo-at-allergy-intolerance.md)
 
 ### Logical Definition (CLD)
 
@@ -46,11 +46,11 @@ This value set is not used here; it may be used elsewhere (e.g. specifications a
   "resourceType" : "ValueSet",
   "id" : "annen-allergi-som-kritisk-informasjon-7514",
   "url" : "http://hl7.no/fhir/ig/demo-at/ValueSet/annen-allergi-som-kritisk-informasjon-7514",
-  "version" : "0.1.1",
+  "version" : "0.1.2",
   "name" : "AnnenAllergiSomKritiskInformasjon7514",
   "title" : "Annen allergi som kritisk informasjon (7514)",
   "status" : "active",
-  "date" : "2026-09-15T13:41:56+00:00",
+  "date" : "2026-09-15T14:15:58+00:00",
   "publisher" : "Helsedirektoratet",
   "contact" : [{
     "name" : "Helsedirektoratet",

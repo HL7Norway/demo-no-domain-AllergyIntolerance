@@ -10,7 +10,7 @@
     <system value="urn:ietf:rfc:3986"/>
     <value value="urn:oid:2.16.578.1.12.4.1.1.7852"/>
   </identifier>
-  <version value="0.1.1"/>
+  <version value="0.1.2"/>
   <name value="NoKodeverk7852"/>
   <title value="7852 Allergener"/>
   <status value="active"/>

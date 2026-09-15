@@ -1,4 +1,4 @@
-# 7514 Annen allergi som kritisk informasjon - Demo AllergyIntolerance Europa (EU Core/EHDS) og Norge v0.1.1
+# 7514 Annen allergi som kritisk informasjon - Demo AllergyIntolerance Europa (EU Core/EHDS) og Norge v0.1.2
 
 * [**Table of Contents**](toc.md)
 * [**Artifacts Summary**](artifacts.md)
@@ -8,7 +8,7 @@
 
 | | |
 | :--- | :--- |
-| *Official URL*:http://helsedir.no/fhir/CodeSystem/no-kodeverk-7514 | *Version*:0.1.1 |
+| *Official URL*:http://helsedir.no/fhir/CodeSystem/no-kodeverk-7514 | *Version*:0.1.2 |
 | Active as of 2018-01-03 | *Computable Name*:NoKodeverk7514 |
 | *Other Identifiers:*OID:2.16.578.1.12.4.1.1.7514 | |
 
@@ -32,7 +32,7 @@ Angir annet allergen enn legemidler som årsak til alvorlig allergisk reaksjon r
     "system" : "urn:ietf:rfc:3986",
     "value" : "urn:oid:2.16.578.1.12.4.1.1.7514"
   }],
-  "version" : "0.1.1",
+  "version" : "0.1.2",
   "name" : "NoKodeverk7514",
   "title" : "7514 Annen allergi som kritisk informasjon",
   "status" : "active",

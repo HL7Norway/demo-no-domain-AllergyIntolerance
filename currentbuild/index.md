@@ -1,4 +1,4 @@
-# Home - Demo AllergyIntolerance Europa (EU Core/EHDS) og Norge v0.1.1
+# Home - Demo AllergyIntolerance Europa (EU Core/EHDS) og Norge v0.1.2
 
 * [**Table of Contents**](toc.md)
 * **Home**
@@ -7,12 +7,24 @@
 
 | | |
 | :--- | :--- |
-| *Official URL*:http://hl7.no/fhir/ig/demo-at/ImplementationGuide/hl7.fhir.no.demo-at | *Version*:0.1.1 |
+| *Official URL*:http://hl7.no/fhir/ig/demo-at/ImplementationGuide/hl7.fhir.no.demo-at | *Version*:0.1.2 |
 | Draft as of 2026-09-15 | *Computable Name*:DemoAT |
 
 ### Demo AllergyIntolerance Europa og Norge
 
-Dette er en demo-IG som viser et enkelt oppsett for AllergyIntolerance.
+Dette er en demo-IG som viser et oppsett for AllergyIntolerance, der hovedmålet er å se på metode.
+
+**MÅ IKKE IMPLEMENTERES!**
+
+Ved å implementere denne profilen vil man støtte både krav fra EHDS og nasjonale retningslinjer og tjenester:
+
+* HelseNIM (Helsedirektoratet)
+* SAFEST (Direktoratet for medisinske produkter)
+* Kjernejournal (Norsk helsenett)
+
+### Overfølsomhet
+
+Helse-NIM for overfølsomhet er en liste som inneholder informasjon om unormale reaksjoner, symptomer eller funn initiert av eksponering for en definert stimulus i en dose som normalt tolereres av andre. Informasjon om en pasients overfølsomhet er relevant i mange situasjoner, som ved vaksinasjon, kost på institusjon, rekvirering og utlevering av legemidler, herunder inkludert muligheten til å dele informasjon om en avkreftet overfølsomhet.
 
 ### Mål
 
@@ -33,11 +45,11 @@ Espen Stranger Seland, Helsedirektoratet
   "resourceType" : "ImplementationGuide",
   "id" : "hl7.fhir.no.demo-at",
   "url" : "http://hl7.no/fhir/ig/demo-at/ImplementationGuide/hl7.fhir.no.demo-at",
-  "version" : "0.1.1",
+  "version" : "0.1.2",
   "name" : "DemoAT",
   "title" : "Demo AllergyIntolerance Europa (EU Core/EHDS) og Norge",
   "status" : "draft",
-  "date" : "2026-09-15T13:41:56+00:00",
+  "date" : "2026-09-15T14:15:58+00:00",
   "publisher" : "Helsedirektoratet",
   "contact" : [{
     "name" : "Helsedirektoratet",

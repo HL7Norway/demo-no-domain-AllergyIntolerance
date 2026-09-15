@@ -2,7 +2,7 @@
   "id" : "no-kodeverk-7514.codesystem",
   "type" : "CodeSystem",
   "url" : "http://helsedir.no/fhir/CodeSystem/no-kodeverk-7514",
-  "version" : "0.1.1",
+  "version" : "0.1.2",
   "name" : "NoKodeverk7514",
   "oids" : ["2.16.578.1.12.4.1.1.7514"]
 },
@@ -10,7 +10,7 @@
   "id" : "no-kodeverk-7852.codesystem",
   "type" : "CodeSystem",
   "url" : "http://helsedir.no/fhir/CodeSystem/no-kodeverk-7852",
-  "version" : "0.1.1",
+  "version" : "0.1.2",
   "name" : "NoKodeverk7852",
   "oids" : ["2.16.578.1.12.4.1.1.7852"]
 },
@@ -18,34 +18,34 @@
   "id" : "hl7.fhir.no.demo-at",
   "type" : "ImplementationGuide",
   "url" : "http://hl7.no/fhir/ig/demo-at/ImplementationGuide/hl7.fhir.no.demo-at",
-  "version" : "0.1.1",
+  "version" : "0.1.2",
   "name" : "DemoAT"
 },
 {
   "id" : "demo-at-allergy-intolerance",
   "type" : "StructureDefinition",
   "url" : "http://hl7.no/fhir/ig/demo-at/StructureDefinition/demo-at-allergy-intolerance",
-  "version" : "0.1.1",
+  "version" : "0.1.2",
   "name" : "DemoAtAllergyIntolerance"
 },
 {
   "id" : "demo-at-patient",
   "type" : "StructureDefinition",
   "url" : "http://hl7.no/fhir/ig/demo-at/StructureDefinition/demo-at-patient",
-  "version" : "0.1.1",
+  "version" : "0.1.2",
   "name" : "DemoAtPatient"
 },
 {
   "id" : "allergener-7852",
   "type" : "ValueSet",
   "url" : "http://hl7.no/fhir/ig/demo-at/ValueSet/allergener-7852",
-  "version" : "0.1.1",
+  "version" : "0.1.2",
   "name" : "Allergener7852"
 },
 {
   "id" : "annen-allergi-som-kritisk-informasjon-7514",
   "type" : "ValueSet",
   "url" : "http://hl7.no/fhir/ig/demo-at/ValueSet/annen-allergi-som-kritisk-informasjon-7514",
-  "version" : "0.1.1",
+  "version" : "0.1.2",
   "name" : "AnnenAllergiSomKritiskInformasjon7514"
 }]

@@ -78,7 +78,7 @@ SeriousnessContra-indicationRisk","",0,1,"","","Y","code {[]} {[]}
 "
 "demo-at-allergy-intolerance","AllergyIntolerance.code","AllergyIntolerance.code","","Code
 ","",1,1,"","","Y","CodeableConcept {[]} {[]}
-","Code that identifies the allergy or intolerance","Hvilke agens (substans, trigger, materiale) som kan knyttes til overfølsomheten.","Merk: Det vil bli endringer i anbefaling til koding av legemidler og substanser (agens) når ny standard for identifisering av legemidler implementeres i Norge (IDMP).","","","","","","","","",,"preferred","","http://hl7.no/fhir/ig/demo-at/ValueSet/allergener-7852","",,,,"AllergyIntolerance.code",0,1,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
+","Code that identifies the allergy or intolerance","Hvilke agens (substans, trigger, materiale) som kan knyttes til overfølsomheten.","Merk: Det vil bli endringer i anbefaling til koding av legemidler og substanser (agens) når ny standard for identifisering av legemidler implementeres i Norge (IDMP).","","","","","","","","",,"preferred","","http://hl7.no/fhir/ig/demo-at/ValueSet/annen-allergi-som-kritisk-informasjon-7514","",,,,"AllergyIntolerance.code",0,1,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 "
 "demo-at-allergy-intolerance","AllergyIntolerance.patient","AllergyIntolerance.patient","","Patient
 ","",1,1,"","","Y","Reference {[]} {[CanonicalType[http://hl7.eu/fhir/base/StructureDefinition/patient-eu-core]]}

@@ -10,14 +10,14 @@
   fhir:Resource.id [ fhir:value "allergener-7852"] ;
   fhir:DomainResource.text [
      fhir:Narrative.status [ fhir:value "generated" ] ;
-     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: ValueSet allergener-7852</b></p><a name=\"allergener-7852\"> </a><a name=\"hcallergener-7852\"> </a><ul><li>Include all codes defined in <a href=\"CodeSystem-no-kodeverk-7852.codesystem.html\"><code>http://helsedir.no/fhir/CodeSystem/no-kodeverk-7852</code></a><span title=\"Version is not explicitly stated, which means it is fixed to the version provided in this specification\"> version ?0.1.1</span></li></ul></div>"
+     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: ValueSet allergener-7852</b></p><a name=\"allergener-7852\"> </a><a name=\"hcallergener-7852\"> </a><ul><li>Include all codes defined in <a href=\"CodeSystem-no-kodeverk-7852.codesystem.html\"><code>http://helsedir.no/fhir/CodeSystem/no-kodeverk-7852</code></a><span title=\"Version is not explicitly stated, which means it is fixed to the version provided in this specification\"> version ?0.1.2</span></li></ul></div>"
   ] ;
   fhir:ValueSet.url [ fhir:value "http://hl7.no/fhir/ig/demo-at/ValueSet/allergener-7852"] ;
-  fhir:ValueSet.version [ fhir:value "0.1.1"] ;
+  fhir:ValueSet.version [ fhir:value "0.1.2"] ;
   fhir:ValueSet.name [ fhir:value "Allergener7852"] ;
   fhir:ValueSet.title [ fhir:value "Allergener (7852)"] ;
   fhir:ValueSet.status [ fhir:value "active"] ;
-  fhir:ValueSet.date [ fhir:value "2026-09-15T13:41:56+00:00"^^xsd:dateTime] ;
+  fhir:ValueSet.date [ fhir:value "2026-09-15T14:15:58+00:00"^^xsd:dateTime] ;
   fhir:ValueSet.publisher [ fhir:value "Helsedirektoratet"] ;
   fhir:ValueSet.contact [
      fhir:index 0 ;

@@ -3,14 +3,14 @@
 <ValueSet xmlns="http://hl7.org/fhir">
   <id value="annen-allergi-som-kritisk-informasjon-7514"/>
   <text>
-    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Generated Narrative: ValueSet annen-allergi-som-kritisk-informasjon-7514</b></p><a name="annen-allergi-som-kritisk-informasjon-7514"> </a><a name="hcannen-allergi-som-kritisk-informasjon-7514"> </a><ul><li>Include all codes defined in <a href="CodeSystem-no-kodeverk-7514.codesystem.html"><code>http://helsedir.no/fhir/CodeSystem/no-kodeverk-7514</code></a><span title="Version is not explicitly stated, which means it is fixed to the version provided in this specification"> version &#x1F4E6;0.1.1</span></li></ul></div>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Generated Narrative: ValueSet annen-allergi-som-kritisk-informasjon-7514</b></p><a name="annen-allergi-som-kritisk-informasjon-7514"> </a><a name="hcannen-allergi-som-kritisk-informasjon-7514"> </a><ul><li>Include all codes defined in <a href="CodeSystem-no-kodeverk-7514.codesystem.html"><code>http://helsedir.no/fhir/CodeSystem/no-kodeverk-7514</code></a><span title="Version is not explicitly stated, which means it is fixed to the version provided in this specification"> version &#x1F4E6;0.1.2</span></li></ul></div>
   </text>
   <url value="http://hl7.no/fhir/ig/demo-at/ValueSet/annen-allergi-som-kritisk-informasjon-7514"/>
-  <version value="0.1.1"/>
+  <version value="0.1.2"/>
   <name value="AnnenAllergiSomKritiskInformasjon7514"/>
   <title value="Annen allergi som kritisk informasjon (7514)"/>
   <status value="active"/>
-  <date value="2026-09-15T13:41:56+00:00"/>
+  <date value="2026-09-15T14:15:58+00:00"/>
   <publisher value="Helsedirektoratet"/>
   <contact>
     <name value="Helsedirektoratet"/>
