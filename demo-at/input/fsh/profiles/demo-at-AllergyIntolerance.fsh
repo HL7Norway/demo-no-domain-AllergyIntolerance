@@ -7,12 +7,12 @@ Description: "Profil for registrering av allergi og intoleranse i demo-IG."
 * ^date = "2026-09-15"
 * ^publisher = "Helsedirektoratet"
 
-# Elementer fra f.eks. no-basis må legges til manuelt, da man ikke kan arve fra to profiler. 
+// Elementer fra f.eks. no-basis må legges til manuelt, da man ikke kan arve fra to profiler. 
 
-# * patient only Reference(DemoAtPatient)
-# * clinicalStatus MS 
-# * verificationStatus MS
-# * code MS
+// * patient only Reference(DemoAtPatient)
+// * clinicalStatus MS 
+// * verificationStatus MS
+// * code MS
 * recordedDate 1..1
 * recordedDate ^definition = "Dato for registrering av allergi eller intoleranse"
 * recordedDate ^short = "Registreringsdato"
