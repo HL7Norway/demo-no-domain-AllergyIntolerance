@@ -3,7 +3,7 @@ DemoAT : Validation Results
 
 err = 1, warn = 18, info = 13
 IG Publisher Version: 2.3.4
-Generated Tue Sep 15 11:14:25 UTC 2026. FHIR version 4.0.1 for hl7.fhir.no.demo-at#0.1.1 (canonical = http://hl7.no/fhir/ig/demo-at)
+Generated Tue Sep 15 11:25:32 UTC 2026. FHIR version 4.0.1 for hl7.fhir.no.demo-at#0.1.1 (canonical = http://hl7.no/fhir/ig/demo-at)
  Build Errors : 0 / 5 / 0
  /__w/demo-no-domain-AllergyIntolerance/demo-no-domain-AllergyIntolerance/demo-at/fsh-generated/resources/AllergyIntolerance-DemoAtAllergyIntolerance-1 : 1 / 0 / 7
  /__w/demo-no-domain-AllergyIntolerance/demo-no-domain-AllergyIntolerance/demo-at/fsh-generated/resources/ImplementationGuide-hl7.fhir.no.demo-at : 0 / 2 / 3
@@ -18,7 +18,7 @@ WARNING: 3: An HTML fragment from the set [dependency-table.xhtml, dependency-ta
 WARNING: 4: The HTML fragment 'globals-table.xhtml' is not included anywhere in the produced implementation guide
 WARNING: IG: The IG is not for the international realm, and it uses SNOMED CT, so it should fix the SCT edition in the expansion parameters
 == fsh-generated/resources/AllergyIntolerance-DemoAtAllergyIntolerance-1.json ==
-INFORMATION: AllergyIntolerance/DemoAtAllergyIntolerance-1: AllergyIntolerance.code.coding[0].display: There are no valid display names found for the code http://snomed.info/sct#91935009 for language(s) 'no-NO'. The display is 'Allergy to peanut' which is a valid display for the default language
+INFORMATION: AllergyIntolerance/DemoAtAllergyIntolerance-1: AllergyIntolerance.code.coding[0].display: There are no valid display names found for the code http://snomed.info/sct#91935009 for language(s) 'no-NO'. The display is 'Allergy to peanut (finding)' which is a valid display for the default language
 INFORMATION: AllergyIntolerance/DemoAtAllergyIntolerance-1: AllergyIntolerance.code: None of the codings provided are in the value set 'eHDSI Allergen No Drug' (http://terminology.ehdsi.eu/ValueSet/eHDSIAllergenNoDrug|0.2.0) specified in an additional binding, and a coding is recommended to come from this value set (codes = http://snomed.info/sct#91935009)
 INFORMATION: AllergyIntolerance/DemoAtAllergyIntolerance-1: AllergyIntolerance.code: None of the codings provided are in the value set 'WHO ATC - IPS' (http://hl7.org/fhir/uv/ips/ValueSet/whoatc-uv-ips|2.0.0) specified in an additional binding, and a coding is recommended to come from this value set (codes = http://snomed.info/sct#91935009)
 INFORMATION: AllergyIntolerance/DemoAtAllergyIntolerance-1: AllergyIntolerance.reaction[0].substance.coding[0].display: There are no valid display names found for the code http://snomed.info/sct#762952008 for language(s) 'no-NO'. The display is 'Peanut' which is a valid display for the default language

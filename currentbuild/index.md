@@ -37,7 +37,7 @@ Espen Stranger Seland, Helsedirektoratet
   "name" : "DemoAT",
   "title" : "Demo AllergyIntolerance Europa (EU Core/EHDS) og Norge",
   "status" : "draft",
-  "date" : "2026-09-15T11:12:40+00:00",
+  "date" : "2026-09-15T11:23:35+00:00",
   "publisher" : "Helsedirektoratet",
   "contact" : [{
     "name" : "Helsedirektoratet",

@@ -18,7 +18,7 @@ Profile: [Demo AllergyIntolerance](StructureDefinition-demo-at-allergy-intoleran
 
 **criticality**: High Risk
 
-**code**: Allergy to peanut
+**code**: Allergy to peanut (finding)
 
 **patient**: [Line Danser Female, DoB: 1969-11-13 ( urn:oid:2.16.578.1.12.4.1.4.1#Foedselsnummer#13116900216)](Patient-DemoAtPatient-1.md)
 
@@ -63,7 +63,7 @@ Profile: [Demo AllergyIntolerance](StructureDefinition-demo-at-allergy-intoleran
     "coding" : [{
       "system" : "http://snomed.info/sct",
       "code" : "91935009",
-      "display" : "Allergy to peanut"
+      "display" : "Allergy to peanut (finding)"
     }]
   },
   "patient" : {

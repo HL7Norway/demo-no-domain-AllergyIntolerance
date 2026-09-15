@@ -1,12 +1,12 @@
 Source File	Size	loadResources	load	generateSnapshots	load-configure	scan	loadDepInfo	loadInfo	checkR4R4B	generateNarratives	validate	loadLists	checkConformanceResources	checkConformanceResources2	checkConformanceResources3	generateLogicalMaps	validateExpressions	scanForUsageStats	checkURLsUnique	processProvenanceDetails	generate1	generate2	generateLogicals	makeDependencies	generateExampleZip	generateValidationPack	scanProfilesForR5	scanExamplesForR5
-/fsh-generated/resources/ImplementationGuide-hl7.fhir.no.demo-at.json	2929	-	0	0	0	0	0	0	9	46	0	0	0	0	0	0	0	0	0	0	69	59	0	0	0	2	0	1
-fsh-generated/resources/AllergyIntolerance-DemoAtAllergyIntolerance-1.json	1445	4	0	0	3	0	0	0	1	451	0	0	0	0	0	0	0	0	0	0	11	18	0	0	1	0	0	0
-fsh-generated/resources/Patient-DemoAtPatient-1.json	669	2	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	4	9	0	0	0	0	0	0
-fsh-generated/resources/StructureDefinition-demo-at-allergy-intolerance.json	1351	2	0	40	0	0	1	0	0	80	0	0	1	0	0	0	0	2	0	0	218	1307	0	0	0	13	0	1
-fsh-generated/resources/StructureDefinition-demo-at-patient.json	848	2	0	38	0	0	0	0	0	22	0	0	0	0	0	0	0	2	0	0	172	358	0	0	0	17	1	2
+/fsh-generated/resources/ImplementationGuide-hl7.fhir.no.demo-at.json	2929	-	0	0	0	0	0	0	12	35	0	0	0	0	0	0	0	0	0	0	57	46	0	0	0	2	0	1
+fsh-generated/resources/AllergyIntolerance-DemoAtAllergyIntolerance-1.json	1455	3	0	0	2	0	0	0	0	347	0	0	0	0	0	0	0	0	0	0	10	11	0	0	1	0	0	0
+fsh-generated/resources/Patient-DemoAtPatient-1.json	669	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	4	5	0	0	0	0	0	0
+fsh-generated/resources/StructureDefinition-demo-at-allergy-intolerance.json	1351	2	0	30	0	0	0	0	1	57	0	0	1	0	0	0	0	2	0	0	134	896	0	0	0	6	1	1
+fsh-generated/resources/StructureDefinition-demo-at-patient.json	848	1	0	31	0	0	0	0	0	17	0	0	0	0	0	0	0	1	0	0	138	265	0	0	0	7	0	1
 /fsh-generated/includes/menu.xml	1089	-	-	-	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
 /fsh-generated/includes/fsh-link-references.md	267	-	-	-	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
-/input/pagecontent/index.md	444	-	-	-	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
-/template/config	0	-	-	-	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0
+/input/pagecontent/index.md	444	-	-	-	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0
+/template/config	0	-	-	-	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
 /template/config/_config.yml	140	-	-	-	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
 /temp/pages/_includes/artifacts.xml	2953	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	0	0	0	0	0	0	0
