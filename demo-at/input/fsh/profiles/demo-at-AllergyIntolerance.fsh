@@ -12,13 +12,13 @@ Description: "Profil for registrering av allergi og intoleranse i demo-IG."
 
 
 // Elementer fra f.eks. no-basis må legges til manuelt, da man ikke kan arve fra to profiler. 
-
 // * patient only Reference(DemoAtPatient)
-// * clinicalStatus MS 
-// * verificationStatus MS
-// * code MS
 
 // Vurdere translation-extension for flere språk
+
+* clinicalStatus MS 
+* verificationStatus MS
+* code MS
 * code ^definition = "Hvilke agens (substans, trigger, materiale) som kan knyttes til overfølsomheten."
 * code ^comment = "Merk: Det vil bli endringer i anbefaling til koding av legemidler og substanser (agens) når ny standard for identifisering av legemidler implementeres i Norge (IDMP)."
 * code from AnnenAllergiSomKritiskInformasjon7514 (preferred)
