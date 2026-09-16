@@ -17,7 +17,11 @@ Description: "Profil for registrering av allergi og intoleranse i demo-IG."
 // Vurdere translation-extension for flere språk
 
 * clinicalStatus MS 
-* verificationStatus MS
+* criticality 1..1
+* criticality ^comment = "Import need to handle missing criticality"
+* verificationStatus 1..1
+* verificationStatus ^comment = "Import need to handle missing verificationStatus"
+
 * code MS
 * code ^definition = "Hvilke agens (substans, trigger, materiale) som kan knyttes til overfølsomheten."
 * code ^comment = "Merk: Det vil bli endringer i anbefaling til koding av legemidler og substanser (agens) når ny standard for identifisering av legemidler implementeres i Norge (IDMP)."
