@@ -18,7 +18,7 @@ publisher:
   name: Helsedirektoratet
   url: https://www.helsedirektoratet.no
 dependencies:
-  hl7.fhir.no.basis: 2.2.2
+#  hl7.fhir.no.basis: 2.2.2
   hl7.fhir.eu.base: 2.0.0
 
 # ╭────────────────────────────────────────────menu.xml────────────────────────────────────────────╮
