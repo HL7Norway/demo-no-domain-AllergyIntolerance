@@ -24,8 +24,11 @@ Description: "Profil for registrering av allergi og intoleranse i demo-IG."
 * code from AnnenAllergiSomKritiskInformasjon7514 (preferred)
 // Må kombineres i ett ValueSet, men det er problematisk når de har like koder? 
 // * code from Allergener7852 (preferred)
+* onset ^definition = "Tidspunkt da overfølsomheten eller den uønskede reaksjonen ble konstatert. Tidspunkt kan være spesifikk (dag-tidspunkt) eller uspesifikk (årstall, tiår). "
+* onset ^requirements = "Obligatorisk i Kjernejournal"
+* onsetDateTime ^short = "Starttidspunkt"
 * recordedDate 1..1
-* recordedDate ^definition = "Tidspunkt da overfølsomheten eller den uønskede reaksjonen ble konstatert. Tidspunkt kan være spesifikk (dag-tidspunkt) eller uspesifikk (årstall, tiår). "
+
 * recordedDate ^requirements = "Obligatorisk i Kjernejournal"
 * recordedDate ^short = "Registreringsdato"
 * note ^definition = "Kommentar eller supplerende opplysninger."
