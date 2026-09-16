@@ -1,4 +1,4 @@
-# Demo AllergyIntolerance - Demo AllergyIntolerance Europa (EU Core/EHDS) og Norge v0.1.2
+# Demo AllergyIntolerance - Demo AllergyIntolerance Europa (EU Core/EHDS) og Norge v0.1.3
 
 * [**Table of Contents**](toc.md)
 * [**Artifacts Summary**](artifacts.md)
@@ -8,7 +8,7 @@
 
 | | |
 | :--- | :--- |
-| *Official URL*:http://hl7.no/fhir/ig/demo-at/StructureDefinition/demo-at-allergy-intolerance | *Version*:0.1.2 |
+| *Official URL*:http://hl7.no/fhir/ig/demo-at/StructureDefinition/demo-at-allergy-intolerance | *Version*:0.1.3 |
 | Draft as of 2026-09-15 | *Computable Name*:DemoAtAllergyIntolerance |
 
  
@@ -37,7 +37,7 @@ Other representations of profile: [CSV](StructureDefinition-demo-at-allergy-into
   "resourceType" : "StructureDefinition",
   "id" : "demo-at-allergy-intolerance",
   "url" : "http://hl7.no/fhir/ig/demo-at/StructureDefinition/demo-at-allergy-intolerance",
-  "version" : "0.1.2",
+  "version" : "0.1.3",
   "name" : "DemoAtAllergyIntolerance",
   "title" : "Demo AllergyIntolerance",
   "status" : "draft",
@@ -86,20 +86,41 @@ Other representations of profile: [CSV](StructureDefinition-demo-at-allergy-into
       "path" : "AllergyIntolerance"
     },
     {
+      "id" : "AllergyIntolerance.clinicalStatus",
+      "path" : "AllergyIntolerance.clinicalStatus",
+      "mustSupport" : true
+    },
+    {
+      "id" : "AllergyIntolerance.verificationStatus",
+      "path" : "AllergyIntolerance.verificationStatus",
+      "mustSupport" : true
+    },
+    {
       "id" : "AllergyIntolerance.code",
       "path" : "AllergyIntolerance.code",
       "definition" : "Hvilke agens (substans, trigger, materiale) som kan knyttes til overfølsomheten.",
       "comment" : "Merk: Det vil bli endringer i anbefaling til koding av legemidler og substanser (agens) når ny standard for identifisering av legemidler implementeres i Norge (IDMP).",
+      "mustSupport" : true,
       "binding" : {
         "strength" : "preferred",
         "valueSet" : "http://hl7.no/fhir/ig/demo-at/ValueSet/annen-allergi-som-kritisk-informasjon-7514"
       }
     },
     {
+      "id" : "AllergyIntolerance.onset[x]:onsetDateTime",
+      "path" : "AllergyIntolerance.onset[x]",
+      "sliceName" : "onsetDateTime",
+      "short" : "Starttidspunkt",
+      "definition" : "Tidspunkt da overfølsomheten eller den uønskede reaksjonen ble konstatert. Tidspunkt kan være spesifikk (dag-tidspunkt) eller uspesifikk (årstall, tiår). ",
+      "requirements" : "EHDS krever dato/tid, alder må konverteres.",
+      "type" : [{
+        "code" : "dateTime"
+      }]
+    },
+    {
       "id" : "AllergyIntolerance.recordedDate",
       "path" : "AllergyIntolerance.recordedDate",
       "short" : "Registreringsdato",
-      "definition" : "Tidspunkt da overfølsomheten eller den uønskede reaksjonen ble konstatert. Tidspunkt kan være spesifikk (dag-tidspunkt) eller uspesifikk (årstall, tiår). ",
       "requirements" : "Obligatorisk i Kjernejournal",
       "min" : 1
     },

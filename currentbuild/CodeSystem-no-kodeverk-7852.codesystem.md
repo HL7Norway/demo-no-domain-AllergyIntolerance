@@ -1,4 +1,4 @@
-# 7852 Allergener - Demo AllergyIntolerance Europa (EU Core/EHDS) og Norge v0.1.2
+# 7852 Allergener - Demo AllergyIntolerance Europa (EU Core/EHDS) og Norge v0.1.3
 
 * [**Table of Contents**](toc.md)
 * [**Artifacts Summary**](artifacts.md)
@@ -8,7 +8,7 @@
 
 | | |
 | :--- | :--- |
-| *Official URL*:http://helsedir.no/fhir/CodeSystem/no-kodeverk-7852 | *Version*:0.1.2 |
+| *Official URL*:http://helsedir.no/fhir/CodeSystem/no-kodeverk-7852 | *Version*:0.1.3 |
 | Active as of 2021-01-13 | *Computable Name*:NoKodeverk7852 |
 | *Other Identifiers:*OID:2.16.578.1.12.4.1.1.7852 | |
 
@@ -32,7 +32,7 @@ Dette kodeverket angir hvilke allergener som kan forekomme i enterale ernærings
     "system" : "urn:ietf:rfc:3986",
     "value" : "urn:oid:2.16.578.1.12.4.1.1.7852"
   }],
-  "version" : "0.1.2",
+  "version" : "0.1.3",
   "name" : "NoKodeverk7852",
   "title" : "7852 Allergener",
   "status" : "active",

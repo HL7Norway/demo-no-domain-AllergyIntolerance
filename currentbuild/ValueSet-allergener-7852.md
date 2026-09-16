@@ -1,4 +1,4 @@
-# Allergener (7852) - Demo AllergyIntolerance Europa (EU Core/EHDS) og Norge v0.1.2
+# Allergener (7852) - Demo AllergyIntolerance Europa (EU Core/EHDS) og Norge v0.1.3
 
 * [**Table of Contents**](toc.md)
 * [**Artifacts Summary**](artifacts.md)
@@ -8,8 +8,8 @@
 
 | | |
 | :--- | :--- |
-| *Official URL*:http://hl7.no/fhir/ig/demo-at/ValueSet/allergener-7852 | *Version*:0.1.2 |
-| Active as of 2026-09-15 | *Computable Name*:Allergener7852 |
+| *Official URL*:http://hl7.no/fhir/ig/demo-at/ValueSet/allergener-7852 | *Version*:0.1.3 |
+| Active as of 2026-09-16 | *Computable Name*:Allergener7852 |
 
  
 Alle koder fra Mattilsynet/SAFEST/Farmalogg sitt kodeverk 7852. 
@@ -46,11 +46,11 @@ This value set is not used here; it may be used elsewhere (e.g. specifications a
   "resourceType" : "ValueSet",
   "id" : "allergener-7852",
   "url" : "http://hl7.no/fhir/ig/demo-at/ValueSet/allergener-7852",
-  "version" : "0.1.2",
+  "version" : "0.1.3",
   "name" : "Allergener7852",
   "title" : "Allergener (7852)",
   "status" : "active",
-  "date" : "2026-09-15T14:15:58+00:00",
+  "date" : "2026-09-16T07:31:07+00:00",
   "publisher" : "Helsedirektoratet",
   "contact" : [{
     "name" : "Helsedirektoratet",

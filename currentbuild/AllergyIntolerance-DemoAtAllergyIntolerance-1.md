@@ -1,4 +1,4 @@
-# DemoAtAllergyIntolerance-1 - Demo AllergyIntolerance Europa (EU Core/EHDS) og Norge v0.1.2
+# DemoAtAllergyIntolerance-1 - Demo AllergyIntolerance Europa (EU Core/EHDS) og Norge v0.1.3
 
 * [**Table of Contents**](toc.md)
 * [**Artifacts Summary**](artifacts.md)
@@ -20,7 +20,7 @@ Profile: [Demo AllergyIntolerance](StructureDefinition-demo-at-allergy-intoleran
 
 **code**: Allergy to peanut (finding)
 
-**patient**: [Line Danser Female, DoB: 1969-11-13 ( urn:oid:2.16.578.1.12.4.1.4.1#Foedselsnummer#13116900216)](Patient-DemoAtPatient-1.md)
+**patient**: [Line Danser Female, DoB: 1969-11-13 ( urn:oid:2.16.578.1.12.4.1.4.1#13116900216)](Patient-DemoAtPatient-1.md)
 
 **recordedDate**: 2026-09-15
 

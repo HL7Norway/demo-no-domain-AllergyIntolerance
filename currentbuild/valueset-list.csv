@@ -1,3 +1,3 @@
 URL,Version,Status,OIDs,Name,Title,Description,Uses,Used,Sources
-http://hl7.no/fhir/ig/demo-at/ValueSet/allergener-7852,0.1.2,active,,Allergener7852,Allergener (7852),"Alle koder fra Mattilsynet/SAFEST/Farmalogg sitt kodeverk 7852.",,"Internal"
-http://hl7.no/fhir/ig/demo-at/ValueSet/annen-allergi-som-kritisk-informasjon-7514,0.1.2,active,,AnnenAllergiSomKritiskInformasjon7514,Annen allergi som kritisk informasjon (7514),"Alle koder fra Kjernejournals kodeverk 7514.",,"Internal"
+http://hl7.no/fhir/ig/demo-at/ValueSet/allergener-7852,0.1.3,active,,Allergener7852,Allergener (7852),"Alle koder fra Mattilsynet/SAFEST/Farmalogg sitt kodeverk 7852.",,"Internal"
+http://hl7.no/fhir/ig/demo-at/ValueSet/annen-allergi-som-kritisk-informasjon-7514,0.1.3,active,,AnnenAllergiSomKritiskInformasjon7514,Annen allergi som kritisk informasjon (7514),"Alle koder fra Kjernejournals kodeverk 7514.",,"Internal"

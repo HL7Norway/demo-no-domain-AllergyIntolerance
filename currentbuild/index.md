@@ -1,4 +1,4 @@
-# Home - Demo AllergyIntolerance Europa (EU Core/EHDS) og Norge v0.1.2
+# Home - Demo AllergyIntolerance Europa (EU Core/EHDS) og Norge v0.1.3
 
 * [**Table of Contents**](toc.md)
 * **Home**
@@ -7,8 +7,8 @@
 
 | | |
 | :--- | :--- |
-| *Official URL*:http://hl7.no/fhir/ig/demo-at/ImplementationGuide/hl7.fhir.no.demo-at | *Version*:0.1.2 |
-| Draft as of 2026-09-15 | *Computable Name*:DemoAT |
+| *Official URL*:http://hl7.no/fhir/ig/demo-at/ImplementationGuide/hl7.fhir.no.demo-at | *Version*:0.1.3 |
+| Draft as of 2026-09-16 | *Computable Name*:DemoAT |
 
 ### Demo AllergyIntolerance Europa og Norge
 
@@ -45,11 +45,11 @@ Espen Stranger Seland, Helsedirektoratet
   "resourceType" : "ImplementationGuide",
   "id" : "hl7.fhir.no.demo-at",
   "url" : "http://hl7.no/fhir/ig/demo-at/ImplementationGuide/hl7.fhir.no.demo-at",
-  "version" : "0.1.2",
+  "version" : "0.1.3",
   "name" : "DemoAT",
   "title" : "Demo AllergyIntolerance Europa (EU Core/EHDS) og Norge",
   "status" : "draft",
-  "date" : "2026-09-15T14:15:58+00:00",
+  "date" : "2026-09-16T07:31:07+00:00",
   "publisher" : "Helsedirektoratet",
   "contact" : [{
     "name" : "Helsedirektoratet",
@@ -88,12 +88,6 @@ Espen Stranger Seland, Helsedirektoratet
     "uri" : "http://hl7.org/fhir/extensions/ImplementationGuide/hl7.fhir.uv.extensions",
     "packageId" : "hl7.fhir.uv.extensions.r4",
     "version" : "5.3.0"
-  },
-  {
-    "id" : "hl7_fhir_no_basis",
-    "uri" : "http://fhir.org/packages/hl7.fhir.no.basis/ImplementationGuide/hl7.fhir.no.basis",
-    "packageId" : "hl7.fhir.no.basis",
-    "version" : "2.2.2"
   },
   {
     "id" : "hl7_fhir_eu_base",
