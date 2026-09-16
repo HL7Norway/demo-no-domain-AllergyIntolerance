@@ -30,6 +30,8 @@ Description: "Profil for registrering av allergi og intoleranse i demo-IG."
 // * onset ^definition = "Tidspunkt da overfølsomheten eller den uønskede reaksjonen ble konstatert. Tidspunkt kan være spesifikk (dag-tidspunkt) eller uspesifikk (årstall, tiår). "
 // * onset ^requirements = "Obligatorisk i Kjernejournal"
 
+* onsetDateTime ^definition = "Tidspunkt da overfølsomheten eller den uønskede reaksjonen ble konstatert. Tidspunkt kan være spesifikk (dag-tidspunkt) eller uspesifikk (årstall, tiår). "
+* onsetDateTime ^requirements = "EHDS krever dato/tid, alder må konverteres." 
 * onsetDateTime ^short = "Starttidspunkt"
 * recordedDate 1..1
 
