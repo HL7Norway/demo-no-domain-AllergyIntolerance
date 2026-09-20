@@ -47,3 +47,6 @@ temp/
 template/
 qa.html
 package-list.json
+
+# Espen local dev-stuff
+NOTES.md
