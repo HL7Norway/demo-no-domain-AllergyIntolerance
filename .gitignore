@@ -50,3 +50,5 @@ package-list.json
 
 # Espen local dev-stuff
 NOTES.md
+.venv/
+demo-at/validator_cli.jar
