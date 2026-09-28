@@ -45,6 +45,8 @@ Description: "Profil for registrering av allergi og intoleranse i demo-IG."
 * recordedDate ^requirements = "Obligatorisk i Kjernejournal"
 * recordedDate ^short = "Registreringsdato"
 * note ^definition = "Kommentar eller supplerende opplysninger."
+* reaction.severity MS
+* reaction.severity ^definition = "Hvor alvorlig reaksjon pasienten har hatt."
 
 
 Instance: DemoAtAllergyIntolerance-1
