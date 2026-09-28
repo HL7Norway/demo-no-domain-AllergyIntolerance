@@ -7,7 +7,7 @@ Description: "Profil for registrering av allergi og intoleranse i demo-IG."
 * ^experimental = true
 * ^publisher = "Helsedirektoratet"
 * ^date = "2026-09-15"
-* ^description = "Dummy-tekst: Helse-NIM for overfølsomhet er en liste som inneholder informasjon om unormale reaksjoner, symptomer eller funn initiert av eksponering for en definert stimulus i en dose som normalt tolereres av andre. Informasjon om en pasients overfølsomhet er relevant i mange situasjoner, som ved vaksinasjon, kost på institusjon, rekvirering og utlevering av legemidler, herunder inkludert muligheten til å dele informasjon om en avkreftet overfølsomhet."
+* ^description = "Demo-profil for registrering av allergi og intoleranse med utgangspunkt i HL7 EU Core og relevante norske føringer for overfølsomhet."
 * ^publisher = "Helsedirektoratet"
 
 
