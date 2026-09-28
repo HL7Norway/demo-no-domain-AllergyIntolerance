@@ -10,7 +10,7 @@ Description: "Dette kodeverket angir hvilke allergener som kan forekomme i enter
 * ^date = "2021-01-13"
 * ^publisher = "Farmalogg AS"
 * ^jurisdiction = urn:iso:std:iso:3166#NO "Norway"
-* ^language = #no
+* ^language = #no "Norwegian"
 * ^caseSensitive = true
 * ^compositional = false
 * ^content = #complete

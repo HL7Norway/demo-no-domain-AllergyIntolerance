@@ -10,7 +10,7 @@ Description: "Angir annet allergen enn legemidler som årsak til alvorlig allerg
 * ^date = "2018-01-03"
 * ^publisher = "Norsk Helsenett"
 * ^jurisdiction = urn:iso:std:iso:3166#NO "Norway"
-* ^language = #no
+* ^language = #no "Norwegian"
 * ^caseSensitive = true
 * ^compositional = false
 * ^content = #complete
