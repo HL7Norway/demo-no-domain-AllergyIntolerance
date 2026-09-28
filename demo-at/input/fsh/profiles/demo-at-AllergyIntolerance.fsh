@@ -37,6 +37,9 @@ Description: "Profil for registrering av allergi og intoleranse i demo-IG."
 * onsetDateTime ^definition = "Tidspunkt da overfølsomheten eller den uønskede reaksjonen ble konstatert. Tidspunkt kan være spesifikk (dag-tidspunkt) eller uspesifikk (årstall, tiår). "
 * onsetDateTime ^requirements = "EHDS krever dato/tid, alder må konverteres." 
 * onsetDateTime ^short = "Starttidspunkt"
+* abatement[x] MS
+* abatementDateTime ^definition = "Tidspunkt da overfølsomheten eventuelt sluttet. Tidspunkt kan være spesifikt (dag-tidspunkt) eller uspesifikt (årstall, tiår)."
+* abatementDateTime ^short = "Sluttidspunkt"
 * recordedDate 1..1
 
 * recordedDate ^requirements = "Obligatorisk i Kjernejournal"
