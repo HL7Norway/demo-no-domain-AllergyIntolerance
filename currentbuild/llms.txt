@@ -1,4 +1,4 @@
-# hl7.fhir.no.demo-at#0.1.4: Demo AllergyIntolerance Europa (EU Core/EHDS) og Norge
+# hl7.fhir.no.demo-at#0.2.0: Demo AllergyIntolerance Europa (EU Core/EHDS) og Norge
 
 ## Pages
 

@@ -1,4 +1,4 @@
-# DemoAtAllergyIntolerance-1 - Demo AllergyIntolerance Europa (EU Core/EHDS) og Norge v0.1.4
+# DemoAtAllergyIntolerance-1 - Demo AllergyIntolerance Europa (EU Core/EHDS) og Norge v0.2.0
 
 * [**Table of Contents**](toc.md)
 * [**Artifacts Summary**](artifacts.md)

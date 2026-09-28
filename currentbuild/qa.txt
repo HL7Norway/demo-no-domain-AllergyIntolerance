@@ -3,7 +3,7 @@ DemoAT : Validation Results
 
 err = 6, warn = 27, info = 15
 IG Publisher Version: 2.3.4
-Generated Mon Sep 28 07:27:38 UTC 2026. FHIR version 4.0.1 for hl7.fhir.no.demo-at#0.1.4 (canonical = http://hl7.no/fhir/ig/demo-at)
+Generated Mon Sep 28 07:55:35 UTC 2026. FHIR version 4.0.1 for hl7.fhir.no.demo-at#0.2.0 (canonical = http://hl7.no/fhir/ig/demo-at)
  Build Errors : 0 / 5 / 0
  /__w/demo-no-domain-AllergyIntolerance/demo-no-domain-AllergyIntolerance/demo-at/fsh-generated/resources/AllergyIntolerance-DemoAtAllergyIntolerance-1 : 0 / 3 / 5
  /__w/demo-no-domain-AllergyIntolerance/demo-no-domain-AllergyIntolerance/demo-at/fsh-generated/resources/CodeSystem-no-kodeverk-7514.codesystem : 2 / 1 / 2
@@ -22,7 +22,7 @@ WARNING: 3: An HTML fragment from the set [dependency-table.xhtml, dependency-ta
 WARNING: 4: The HTML fragment 'globals-table.xhtml' is not included anywhere in the produced implementation guide
 WARNING: IG: The IG is not for the international realm, and it uses SNOMED CT, so it should fix the SCT edition in the expansion parameters
 == fsh-generated/resources/AllergyIntolerance-DemoAtAllergyIntolerance-1.json ==
-INFORMATION: AllergyIntolerance/DemoAtAllergyIntolerance-1: AllergyIntolerance.code: None of the codings provided are in the value set 'Annen allergi som kritisk informasjon (7514)' (http://hl7.no/fhir/ig/demo-at/ValueSet/annen-allergi-som-kritisk-informasjon-7514|0.1.4), and a coding is recommended to come from this value set (codes = http://snomed.info/sct#91935009)
+INFORMATION: AllergyIntolerance/DemoAtAllergyIntolerance-1: AllergyIntolerance.code: None of the codings provided are in the value set 'Annen allergi som kritisk informasjon (7514)' (http://hl7.no/fhir/ig/demo-at/ValueSet/annen-allergi-som-kritisk-informasjon-7514|0.2.0), and a coding is recommended to come from this value set (codes = http://snomed.info/sct#91935009)
 WARNING: AllergyIntolerance/DemoAtAllergyIntolerance-1: AllergyIntolerance.code: ValueSet 'http://terminology.ehdsi.eu/ValueSet/eHDSIAllergenNoDrug' not found
 INFORMATION: AllergyIntolerance/DemoAtAllergyIntolerance-1: AllergyIntolerance.code: None of the codings provided are in the value set 'WHO ATC - IPS' (http://hl7.org/fhir/uv/ips/ValueSet/whoatc-uv-ips|2.0.1) specified in an additional binding, and a coding is recommended to come from this value set (codes = http://snomed.info/sct#91935009)
 WARNING: AllergyIntolerance/DemoAtAllergyIntolerance-1: AllergyIntolerance.reaction[0].substance: ValueSet 'http://terminology.ehdsi.eu/ValueSet/eHDSIAllergenNoDrug' not found

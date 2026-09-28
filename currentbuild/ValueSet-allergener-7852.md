@@ -1,4 +1,4 @@
-# Allergener (7852) - Demo AllergyIntolerance Europa (EU Core/EHDS) og Norge v0.1.4
+# Allergener (7852) - Demo AllergyIntolerance Europa (EU Core/EHDS) og Norge v0.2.0
 
 * [**Table of Contents**](toc.md)
 * [**Artifacts Summary**](artifacts.md)
@@ -8,7 +8,7 @@
 
 | | |
 | :--- | :--- |
-| *Official URL*:http://hl7.no/fhir/ig/demo-at/ValueSet/allergener-7852 | *Version*:0.1.4 |
+| *Official URL*:http://hl7.no/fhir/ig/demo-at/ValueSet/allergener-7852 | *Version*:0.2.0 |
 | Active as of 2026-09-28 | *Computable Name*:Allergener7852 |
 
  
@@ -46,11 +46,11 @@ This value set is not used here; it may be used elsewhere (e.g. specifications a
   "resourceType" : "ValueSet",
   "id" : "allergener-7852",
   "url" : "http://hl7.no/fhir/ig/demo-at/ValueSet/allergener-7852",
-  "version" : "0.1.4",
+  "version" : "0.2.0",
   "name" : "Allergener7852",
   "title" : "Allergener (7852)",
   "status" : "active",
-  "date" : "2026-09-28T07:25:20+00:00",
+  "date" : "2026-09-28T07:52:08+00:00",
   "publisher" : "Helsedirektoratet",
   "contact" : [{
     "name" : "Helsedirektoratet",

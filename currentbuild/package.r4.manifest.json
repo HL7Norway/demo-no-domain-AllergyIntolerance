@@ -1,6 +1,6 @@
 {
-  "version" : "0.1.4",
-  "date" : "20260928072520",
+  "version" : "0.2.0",
+  "date" : "20260928075208",
   "notForPublication" : true,
   "name" : "hl7.fhir.no.demo-at.r4"
 }

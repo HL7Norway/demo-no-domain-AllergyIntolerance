@@ -1,4 +1,4 @@
-# Demo AllergyIntolerance - Demo AllergyIntolerance Europa (EU Core/EHDS) og Norge v0.1.4
+# Demo AllergyIntolerance - Demo AllergyIntolerance Europa (EU Core/EHDS) og Norge v0.2.0
 
 * [**Table of Contents**](toc.md)
 * [**Artifacts Summary**](artifacts.md)
@@ -8,7 +8,7 @@
 
 | | |
 | :--- | :--- |
-| *Official URL*:http://hl7.no/fhir/ig/demo-at/StructureDefinition/demo-at-allergy-intolerance | *Version*:0.1.4 |
+| *Official URL*:http://hl7.no/fhir/ig/demo-at/StructureDefinition/demo-at-allergy-intolerance | *Version*:0.2.0 |
 | Draft as of 2026-09-15 | *Computable Name*:DemoAtAllergyIntolerance |
 
  
@@ -37,7 +37,7 @@ Other representations of profile: [CSV](StructureDefinition-demo-at-allergy-into
   "resourceType" : "StructureDefinition",
   "id" : "demo-at-allergy-intolerance",
   "url" : "http://hl7.no/fhir/ig/demo-at/StructureDefinition/demo-at-allergy-intolerance",
-  "version" : "0.1.4",
+  "version" : "0.2.0",
   "name" : "DemoAtAllergyIntolerance",
   "title" : "Demo AllergyIntolerance",
   "status" : "draft",
