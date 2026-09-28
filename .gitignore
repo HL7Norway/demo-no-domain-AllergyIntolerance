@@ -52,4 +52,4 @@ package-list.json
 NOTES.md
 .venv/
 demo-at/validator_cli.jar
-sushi-validation.log
+demo-at/sushi-validation.log
