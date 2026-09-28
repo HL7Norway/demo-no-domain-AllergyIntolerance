@@ -1,12 +1,22 @@
-Yes. The profile covers several Helse-NIM concepts already, but I’d consider these additions:
+# AllergyIntolerance Worklist
 
-- [x] End date: add support for FHIR abatement[x] (the optional “Sluttdato”) with a Norwegian definition. It is not present in the profile.
+## Completed
 
-- [x] Severity of the reaction: support reaction.severity separately from criticality. The guide distinguishes severity of the overall allergy from how severe a reaction the patient experienced.
+- [x] Reaction severity is supported separately from overall criticality with a Norwegian definition.
+- [x] Reaction and manifestation are Must Support; manifestation has a Norwegian definition, and the Helse-NIM KJ 7497 recommendation is recorded.
+- [x] Reviewed Helse-NIM end date against FHIR R4: `AllergyIntolerance` has no `abatement[x]`. Removed the invalid rules; this mapping is not implemented as a core element.
 
-- [x] Reaction details: mark reaction and reaction.manifestation as supported, and consider the guide’s recommended KJ 7497 “Reaksjonstype” terminology for manifestations. The example already has a manifestation, but the profile does not explicitly describe or constrain reaction details.
+## Open
 
-- [ ] Agent coding: the guide says the choice depends on the implementation, and recommends drug-brand or active-substance identifiers for medicines; KJ 7514 is for other agent types. The profile currently binds code to KJ 7514 alone, so consider how medicinal agents and the existing allergen value set will be supported too.
-The guide’s Innholdsstatus covers “no known allergies” or missing allergy information. That belongs at the allergy-list or section level, not as a field on an individual AllergyIntolerance.
+- [ ] Decide whether the Helse-NIM end date is required for this IG. If so, design and define an extension; do not map it to `lastOccurrence`, which means the date of the last reaction.
+- [ ] Finalize agent terminology. The profile's `code` binding to KJ 7514 is preferred, not required; determine how to guide use of KJ 7514 for other agents, KJ 7852 for allergens, and medicine product/active-substance identifiers (FEST, with IDMP when available). Clarify the role of `reaction.substance` as well as `code`.
+- [ ] Decide whether/how to bind or demonstrate KJ 7497 for drug-allergy reaction types. The current profile records the recommendation, while the peanut food-allergy example uses SNOMED CT manifestations.
+- [ ] Replace the profile's `Dummy-tekst` description with a final profile description.
+- [ ] Decide whether a translation extension is needed.
+- [ ] Decide whether compatibility with no-basis profiles is in scope and, if so, which constraints need to be added manually.
+- [ ] Run `fsh-validator` and SUSHI with the configured dependencies; local validation has not been completed because the tools/packages were unavailable.
 
-You already cover clinical status, verification status, overall criticality, start-date definition, documentation date, and comment in demo-at-AllergyIntolerance.fsh:19-44. I’d treat the additions above as support and terminology decisions, not assume the guide makes every field mandatory. The page is still marked as a draft and was published for external consultation, so its recommendations should be read in that context: Helse-NIM for overfølsomhet.
+## Notes
+
+- Helse-NIM `Innholdsstatus` describes missing or absent allergy-list information; it is not a field on an individual `AllergyIntolerance` instance.
+- The KJ 7514/KJ 7852 combination question is tracked under agent terminology above. The ValueSets distinguish code systems, so assess overlap by system and code, not code text alone.
