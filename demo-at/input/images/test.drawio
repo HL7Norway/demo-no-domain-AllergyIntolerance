@@ -1,0 +1,36 @@
+<mxfile host="65bd71144e">
+    <diagram name="UML Class Diagram" id="0">
+        <mxGraphModel dx="646" dy="854" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="person" value="Person|+ name: String&#xa;+ age: Integer|+ getName(): String" style="shape=umlClass;whiteSpace=wrap;html=1;boundedLbl=1;" parent="1" vertex="1">
+                    <mxGeometry x="400" y="340" width="180" height="100" as="geometry"/>
+                </mxCell>
+                <mxCell id="employee" value="Employee|+ employeeId: String|+ work(): void" style="shape=umlClass;whiteSpace=wrap;html=1;boundedLbl=1;" parent="1" vertex="1">
+                    <mxGeometry x="130" y="340" width="180" height="100" as="geometry"/>
+                </mxCell>
+                <mxCell id="inheritance" style="endArrow=block;endFill=0;endSize=16;html=1;rounded=0;" parent="1" source="employee" target="person" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+    <diagram name="UML Class Diagram" id="ERF-1fZkJ18m074Pn6Jl">
+        <mxGraphModel dx="800" dy="600" grid="1" gridSize="10" page="1" pageScale="1" pageWidth="827" pageHeight="1169">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="person" value="Person|+ name: String&#xa;+ age: Integer|+ getName(): String" style="shape=umlClass;whiteSpace=wrap;html=1;boundedLbl=1;" vertex="1" parent="1">
+                    <mxGeometry x="120" y="160" width="180" height="100" as="geometry"/>
+                </mxCell>
+                <mxCell id="employee" value="Employee|+ employeeId: String|+ work(): void" style="shape=umlClass;whiteSpace=wrap;html=1;boundedLbl=1;" vertex="1" parent="1">
+                    <mxGeometry x="500" y="160" width="180" height="100" as="geometry"/>
+                </mxCell>
+                <mxCell id="inheritance" style="endArrow=block;endFill=0;endSize=16;html=1;rounded=0;" edge="1" parent="1" source="employee" target="person">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>
