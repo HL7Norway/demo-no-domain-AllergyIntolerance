@@ -28,6 +28,8 @@ jobs:
         run: |
           echo "NPM install fhir r4 core 4.0.1 from package registry"
           npm --registry https://packages.simplifier.net install hl7.fhir.r4.core@4.0.1
+          echo "NPM install hl7.fhir.eu.base 2.0.1 from package registry"
+          npm --registry https://packages.simplifier.net install hl7.fhir.eu.base@2.0.1
           echo "NPM install hl7.fhir.no.basis-2.2.2 from https://github.com/HL7Norway/resources/"
           curl -L -o hl7.fhir.no.basis-2.2.2-snapshots.tgz https://raw.githubusercontent.com/HL7Norway/resources/main/snapshots/hl7.fhir.no.basis-2.2.2-snapshots.tgz
           npm install hl7.fhir.no.basis-2.2.2-snapshots.tgz
