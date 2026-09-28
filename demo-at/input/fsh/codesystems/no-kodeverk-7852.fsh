@@ -6,7 +6,8 @@ Description: "Dette kodeverket angir hvilke allergener som kan forekomme i enter
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value = "urn:oid:2.16.578.1.12.4.1.1.7852"
 * ^version = "1.0.0"
-* ^status = #active
+* ^status = #draft
+* ^experimental = true
 * ^date = "2021-01-13"
 * ^publisher = "Farmalogg AS"
 * ^jurisdiction = urn:iso:std:iso:3166#NO "Norway"

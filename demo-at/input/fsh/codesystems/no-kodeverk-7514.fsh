@@ -6,7 +6,8 @@ Description: "Angir annet allergen enn legemidler som årsak til alvorlig allerg
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value = "urn:oid:2.16.578.1.12.4.1.1.7514"
 * ^version = "1.0.0"
-* ^status = #active
+* ^status = #draft
+* ^experimental = true
 * ^date = "2018-01-03"
 * ^publisher = "Norsk Helsenett"
 * ^jurisdiction = urn:iso:std:iso:3166#NO "Norway"

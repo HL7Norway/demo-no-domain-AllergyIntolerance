@@ -4,6 +4,7 @@ Parent:      PatientEuCore
 Title:       "Demo pasient"
 Description: "Pasientprofil brukt i demo-IG for AllergyIntolerance."
 * ^status = #draft
+* ^experimental = true
 * ^date = "2026-09-15"
 * ^publisher = "Helsedirektoratet"
 
