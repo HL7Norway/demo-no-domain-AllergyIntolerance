@@ -1,8 +1,8 @@
 {
   "resourceType" : "Bundle",
-  "id" : "6374b7b5-acab-47cf-8cda-8e795061af45",
+  "id" : "fd229095-242e-4bbf-8f02-6cc88ec4046c",
   "meta" : {
-    "lastUpdated" : "2026-09-28T10:47:05.629+00:00"
+    "lastUpdated" : "2026-09-28T13:18:55.327+00:00"
   },
   "type" : "collection",
   "entry" : [{
@@ -18,7 +18,8 @@
       "name" : "Allergener7852",
       "title" : "Allergener (7852)",
       "status" : "active",
-      "date" : "2026-09-28T10:47:05+00:00",
+      "experimental" : true,
+      "date" : "2026-09-28T13:18:55+00:00",
       "jurisdiction" : [{
         "coding" : [{
           "system" : "urn:iso:std:iso:3166",
@@ -27,8 +28,8 @@
         }]
       }],
       "expansion" : {
-        "identifier" : "urn:uuid:6f4d2690-3504-4119-bb6b-4520803b01bd",
-        "timestamp" : "2026-09-28T10:48:49+00:00",
+        "identifier" : "urn:uuid:a92d5041-fba3-4148-bcf6-f72cec51a112",
+        "timestamp" : "2026-09-28T13:20:42+00:00",
         "total" : 21,
         "offset" : 0,
         "parameter" : [{
@@ -172,7 +173,8 @@
       "name" : "AnnenAllergiSomKritiskInformasjon7514",
       "title" : "Annen allergi som kritisk informasjon (7514)",
       "status" : "active",
-      "date" : "2026-09-28T10:47:05+00:00",
+      "experimental" : true,
+      "date" : "2026-09-28T13:18:55+00:00",
       "jurisdiction" : [{
         "coding" : [{
           "system" : "urn:iso:std:iso:3166",
@@ -181,8 +183,8 @@
         }]
       }],
       "expansion" : {
-        "identifier" : "urn:uuid:cec3a58b-e766-4951-8901-9d382a351121",
-        "timestamp" : "2026-09-28T10:48:49+00:00",
+        "identifier" : "urn:uuid:80791f93-35b6-4bcc-bc0c-33a849a0d1d2",
+        "timestamp" : "2026-09-28T13:20:42+00:00",
         "total" : 15,
         "offset" : 0,
         "parameter" : [{

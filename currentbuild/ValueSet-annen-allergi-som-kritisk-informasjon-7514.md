@@ -4,7 +4,7 @@
 * [**Artifacts Summary**](artifacts.md)
 * **Annen allergi som kritisk informasjon (7514)**
 
-## ValueSet: Annen allergi som kritisk informasjon (7514) 
+## ValueSet: Annen allergi som kritisk informasjon (7514) (Experimental) 
 
 | | |
 | :--- | :--- |
@@ -50,7 +50,8 @@ Alle koder fra Kjernejournals kodeverk 7514.
   "name" : "AnnenAllergiSomKritiskInformasjon7514",
   "title" : "Annen allergi som kritisk informasjon (7514)",
   "status" : "active",
-  "date" : "2026-09-28T10:47:05+00:00",
+  "experimental" : true,
+  "date" : "2026-09-28T13:18:55+00:00",
   "publisher" : "Helsedirektoratet",
   "contact" : [{
     "name" : "Helsedirektoratet",

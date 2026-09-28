@@ -4,7 +4,7 @@
 * [**Artifacts Summary**](artifacts.md)
 * **Allergener (7852)**
 
-## ValueSet: Allergener (7852) 
+## ValueSet: Allergener (7852) (Experimental) 
 
 | | |
 | :--- | :--- |
@@ -50,7 +50,8 @@ This value set is not used here; it may be used elsewhere (e.g. specifications a
   "name" : "Allergener7852",
   "title" : "Allergener (7852)",
   "status" : "active",
-  "date" : "2026-09-28T10:47:05+00:00",
+  "experimental" : true,
+  "date" : "2026-09-28T13:18:55+00:00",
   "publisher" : "Helsedirektoratet",
   "contact" : [{
     "name" : "Helsedirektoratet",

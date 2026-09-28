@@ -49,7 +49,7 @@ Espen Stranger Seland, Helsedirektoratet
   "name" : "DemoAT",
   "title" : "Demo AllergyIntolerance Europa (EU Core/EHDS) og Norge",
   "status" : "draft",
-  "date" : "2026-09-28T10:47:05+00:00",
+  "date" : "2026-09-28T13:18:55+00:00",
   "publisher" : "Helsedirektoratet",
   "contact" : [{
     "name" : "Helsedirektoratet",
@@ -115,6 +115,28 @@ Espen Stranger Seland, Helsedirektoratet
       {
         "url" : "value",
         "valueString" : "ci-build"
+      }],
+      "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
+    },
+    {
+      "extension" : [{
+        "url" : "code",
+        "valueString" : "special-url"
+      },
+      {
+        "url" : "value",
+        "valueString" : "http://helsedir.no/fhir/CodeSystem/no-kodeverk-7514"
+      }],
+      "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
+    },
+    {
+      "extension" : [{
+        "url" : "code",
+        "valueString" : "special-url"
+      },
+      {
+        "url" : "value",
+        "valueString" : "http://helsedir.no/fhir/CodeSystem/no-kodeverk-7852"
       }],
       "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
     },
@@ -394,6 +416,28 @@ Espen Stranger Seland, Helsedirektoratet
       {
         "url" : "value",
         "valueString" : "ci-build"
+      }],
+      "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
+    },
+    {
+      "extension" : [{
+        "url" : "code",
+        "valueCode" : "special-url"
+      },
+      {
+        "url" : "value",
+        "valueString" : "http://helsedir.no/fhir/CodeSystem/no-kodeverk-7514"
+      }],
+      "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
+    },
+    {
+      "extension" : [{
+        "url" : "code",
+        "valueCode" : "special-url"
+      },
+      {
+        "url" : "value",
+        "valueString" : "http://helsedir.no/fhir/CodeSystem/no-kodeverk-7852"
       }],
       "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
     },
