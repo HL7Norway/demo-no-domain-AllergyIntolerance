@@ -14,7 +14,7 @@
 - [ ] Replace the profile's `Dummy-tekst` description with a final profile description.
 - [ ] Decide whether a translation extension is needed.
 - [ ] Decide whether compatibility with no-basis profiles is in scope and, if so, which constraints need to be added manually.
-- [ ] Run `fsh-validator` and SUSHI with the configured dependencies; local validation has not been completed because the tools/packages were unavailable.
+- [ ] Run `fsh-validator` and SUSHI with the configured dependencies; local validation has not been completed because the tools/packages were unavailable. *Espen kjører denne "hjemme" på Mac'en*.
 
 ## Notes
 
