@@ -66,3 +66,4 @@ Description: "Eksempel på registrert peanøttallergi"
 * recordedDate = "2026-09-15"
 * reaction[0].substance = $sct#762952008 "Peanut"
 * reaction[0].manifestation[0] = $sct#247472004 "Wheal (finding)"
+* reaction[0].severity = #mild
