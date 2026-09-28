@@ -20,6 +20,11 @@ publisher:
 dependencies:
 #  hl7.fhir.no.basis: 2.2.2
   hl7.fhir.eu.base: 2.0.1
+# Disse er midlertidige avhengigheter som brukes for testing og utvikling
+parameters:
+  special-url:
+    - http://helsedir.no/fhir/CodeSystem/no-kodeverk-7514
+    - http://helsedir.no/fhir/CodeSystem/no-kodeverk-7852
 
 # ╭────────────────────────────────────────────menu.xml────────────────────────────────────────────╮
 # │  To use a provided input/includes/menu.xml file, delete the "menu" property below.             │
