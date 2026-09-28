@@ -19,10 +19,12 @@ Workflow navnet er `ig-gh-pages` og er satt opp til å trigges manuelt via GitHu
 
 ```yaml
 env:
-  IG: mal
+  IG_SHORTNAME: demo-at
 ```
 
-Setter miljøvariabelen `IG` til `mal`, som representerer navnet på implementasjonsguiden.
+Setter miljøvariabelen `IG_SHORTNAME` til `demo-at`, som representerer mappen og kortnavnet til implementasjonsguiden.
+
+Workflowen krever også `contents: write`-tillatelse for å kunne publisere til `gh-pages`-branchen.
 
 ### Jobb: Publish
 
@@ -37,47 +39,63 @@ Kjører jobben `publish` på en Ubuntu-latest runner, og bruker en Docker-contai
 
 #### Steg
 
-- **Checkout**
+- **Checkout og Node.js**
 
   ```yaml
-  - uses: actions/checkout@v3
+  - uses: actions/checkout@v7
+  - name: Setup Node.js
+    uses: actions/setup-node@v7
+    with:
+      node-version: "22"
   ```
 
-  Sjekker ut repository koden.
+  Sjekker ut repository-koden og installerer Node.js.
 
-- **Installer FHIR Pakker og Kjør IG Publisher**
+- **Installer FHIR-pakker**
 
   ```yaml
-  - name: Install hl7.fhir.no.basis-2.2.2-snapshots in local cache and run IG Publisher
+  - name: Install FHIR packages
     run: |
-      # Kommandoer for å installere nødvendige pakker og kjøre IG Publisher
+      npm --registry https://packages.simplifier.net install hl7.fhir.r4.core@4.0.1
+      npm --registry https://packages.simplifier.net install hl7.fhir.eu.base@2.0.1
+      curl -L -o hl7.fhir.no.basis-2.2.2-snapshots.tgz https://raw.githubusercontent.com/HL7Norway/resources/main/snapshots/hl7.fhir.no.basis-2.2.2-snapshots.tgz
+      npm install hl7.fhir.no.basis-2.2.2-snapshots.tgz
   ```
 
-  Installerer nødvendige FHIR pakker og kjører IG Publisher for å generere implementasjonsguiden.
+  Installerer FHIR R4 4.0.1, EU Base 2.0.1 og den lokale no-basis 2.2.2-snapshoten. Workflowen kopierer deretter no-basis-pakken til FHIR-pakkecachen.
+
+- **Kjør IG Publisher med SUSHI**
+
+  Workflowen installerer SUSHI globalt, laster ned siste `publisher.jar`, og kjører:
+
+  ```bash
+  cd demo-at
+  java -jar ./input-cache/publisher.jar publisher -ig ig.ini
+  ```
 
 - **Deploy til GitHub Pages**
 
   ```yaml
   - name: 🚀 Deploy to GitHub-Pages
-    uses: peaceiris/actions-gh-pages@v3
+    uses: peaceiris/actions-gh-pages@v4
     with:
       github_token: ${{ secrets.GITHUB_TOKEN }}
-      publish_dir: ${{ env.IG }}/output
+      publish_dir: ${{ env.IG_SHORTNAME }}/output
       destination_dir: currentbuild
-      commit_message: '${{ env.IG }}: ${{ github.event.head_commit.message }}'
+      commit_message: "${{ env.IG_SHORTNAME }}: build triggered by ${{ github.actor }} for commit ${{ github.sha }}"
   ```
 
-  Publiserer den genererte HTML-siden til en separat gren for å hoste den med GitHub Pages.
+  Publiserer den genererte HTML-siden til `gh-pages`-branchen under `currentbuild` for hosting med GitHub Pages.
 
 ## Tilpasning for eget bruk
 
 For å tilpasse dette scriptet til eget bruk, kan du gjøre følgende endringer:
 
-1. **Oppdater Miljøvariabler**
-   Endre verdien av `IG` miljøvariabelen til navnet på din egen implementasjonsguide.
+1. **Oppdater miljøvariabler**
+  Endre verdien av `IG_SHORTNAME` til navnet på din egen implementasjonsguide.
 
-2. **Oppdater URL-er for Pakker**
-   Hvis du bruker andre FHIR pakker, oppdater URL-ene og versjonene i kommandoene for `npm` og `curl`, eksempelvis riktig versjon av no-basis.
+2. **Oppdater pakkeversjoner**
+  Hvis du bruker andre FHIR-pakker, oppdater versjonene i kommandoene for `npm` og `curl` slik at de samsvarer med `sushi-config.yaml`.
 
 ## Nyttige Ressurser
 
