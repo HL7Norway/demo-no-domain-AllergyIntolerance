@@ -50,7 +50,7 @@ Alle koder fra Kjernejournals kodeverk 7514.
   "name" : "AnnenAllergiSomKritiskInformasjon7514",
   "title" : "Annen allergi som kritisk informasjon (7514)",
   "status" : "active",
-  "date" : "2026-09-28T10:10:46+00:00",
+  "date" : "2026-09-28T10:47:05+00:00",
   "publisher" : "Helsedirektoratet",
   "contact" : [{
     "name" : "Helsedirektoratet",

@@ -13,7 +13,7 @@ These define constraints on FHIR resources for systems conforming to this implem
 
 | | |
 | :--- | :--- |
-| [Demo AllergyIntolerance](StructureDefinition-demo-at-allergy-intolerance.md) | Dummy-tekst: Helse-NIM for overfølsomhet er en liste som inneholder informasjon om unormale reaksjoner, symptomer eller funn initiert av eksponering for en definert stimulus i en dose som normalt tolereres av andre. Informasjon om en pasients overfølsomhet er relevant i mange situasjoner, som ved vaksinasjon, kost på institusjon, rekvirering og utlevering av legemidler, herunder inkludert muligheten til å dele informasjon om en avkreftet overfølsomhet. |
+| [Demo AllergyIntolerance](StructureDefinition-demo-at-allergy-intolerance.md) | Demo-profil for registrering av allergi og intoleranse med utgangspunkt i HL7 EU Core og relevante norske føringer for overfølsomhet. |
 | [Demo pasient](StructureDefinition-demo-at-patient.md) | Pasientprofil brukt i demo-IG for AllergyIntolerance. |
 
 ### Terminology: Value Sets 
@@ -41,5 +41,6 @@ These are example instances that show what data produced and consumed by systems
 | | |
 | :--- | :--- |
 | [DemoAtAllergyIntolerance-1](AllergyIntolerance-DemoAtAllergyIntolerance-1.md) | Eksempel på registrert peanøttallergi |
+| [DemoAtAllergyIntolerance-2](AllergyIntolerance-DemoAtAllergyIntolerance-2.md) | Eksempel på bekreftet peanøttallergi med flere reaksjonshendelser |
 | [DemoAtPatient-1](Patient-DemoAtPatient-1.md) | Eksempel på norsk pasient med kontaktinformasjon |
 

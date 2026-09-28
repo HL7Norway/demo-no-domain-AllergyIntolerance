@@ -1,0 +1,160 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix sct: <http://snomed.info/id/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://hl7.no/fhir/ig/demo-at/AllergyIntolerance/DemoAtAllergyIntolerance-2> a fhir:AllergyIntolerance ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:Resource.id [ fhir:value "DemoAtAllergyIntolerance-2"] ;
+  fhir:Resource.meta [
+     fhir:Meta.profile [
+       fhir:value "http://hl7.no/fhir/ig/demo-at/StructureDefinition/demo-at-allergy-intolerance" ;
+       fhir:index 0 ;
+       fhir:link <http://hl7.no/fhir/ig/demo-at/StructureDefinition/demo-at-allergy-intolerance>
+     ]
+  ] ;
+  fhir:DomainResource.text [
+     fhir:Narrative.status [ fhir:value "generated" ] ;
+     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: AllergyIntolerance DemoAtAllergyIntolerance-2</b></p><a name=\"DemoAtAllergyIntolerance-2\"> </a><a name=\"hcDemoAtAllergyIntolerance-2\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\"/><p style=\"margin-bottom: 0px\">Profile: <a href=\"StructureDefinition-demo-at-allergy-intolerance.html\">Demo AllergyIntolerance</a></p></div><p><b>clinicalStatus</b>: <span title=\"Codes:{http://terminology.hl7.org/CodeSystem/allergyintolerance-clinical active}\">Active</span></p><p><b>verificationStatus</b>: <span title=\"Codes:{http://terminology.hl7.org/CodeSystem/allergyintolerance-verification confirmed}\">Confirmed</span></p><p><b>type</b>: Allergy</p><p><b>category</b>: Food</p><p><b>criticality</b>: High Risk</p><p><b>code</b>: <span title=\"Codes:{http://snomed.info/sct 91935009}\">Allergy to peanut (finding)</span></p><p><b>patient</b>: <a href=\"Patient-DemoAtPatient-1.html\">Line Danser  Female, DoB: 1969-11-13 ( urn:oid:2.16.578.1.12.4.1.4.1#13116900216)</a></p><p><b>onset</b>: 2018-06</p><p><b>recordedDate</b>: 2026-09-20</p><p><b>asserter</b>: <a href=\"Patient-DemoAtPatient-1.html\">Line Danser  Female, DoB: 1969-11-13 ( urn:oid:2.16.578.1.12.4.1.4.1#13116900216)</a></p><p><b>lastOccurrence</b>: 2025-08-12</p><p><b>note</b>: </p><blockquote><div><p>Pasienten oppgir kjent peanøttallergi. Reaksjonene oppsto etter utilsiktet inntak.</p>\n</div></blockquote><blockquote><p><b>reaction</b></p><p><b>substance</b>: <span title=\"Codes:{http://snomed.info/sct 762952008}\">Peanut</span></p><p><b>manifestation</b>: <span title=\"Codes:{http://snomed.info/sct 247472004}\">Wheal (finding)</span>, <span title=\"Codes:{http://snomed.info/sct 41291007}\">Angioedema (disorder)</span></p><p><b>description</b>: Generalisert elveblest og angioødem etter inntak av peanøtt.</p><p><b>onset</b>: 2018-06-17 09:30:00+0200</p><p><b>severity</b>: Severe</p><p><b>exposureRoute</b>: <span title=\"Codes:{http://snomed.info/sct 26643006}\">Oral route</span></p><p><b>note</b>: </p><blockquote><div><p>Første kjente reaksjon, ifølge pasienten.</p>\n</div></blockquote></blockquote><blockquote><p><b>reaction</b></p><p><b>substance</b>: <span title=\"Codes:{http://snomed.info/sct 762952008}\">Peanut</span></p><p><b>manifestation</b>: <span title=\"Codes:{http://snomed.info/sct 247472004}\">Wheal (finding)</span></p><p><b>description</b>: Nytt tilfelle med elveblest etter utilsiktet inntak.</p><p><b>onset</b>: 2025-08-12 18:15:00+0200</p><p><b>severity</b>: Moderate</p><p><b>exposureRoute</b>: <span title=\"Codes:{http://snomed.info/sct 26643006}\">Oral route</span></p><p><b>note</b>: </p><blockquote><div><p>Siste kjente reaksjon, ifølge pasienten.</p>\n</div></blockquote></blockquote></div>"
+  ] ;
+  fhir:AllergyIntolerance.clinicalStatus [
+     fhir:CodeableConcept.coding [
+       fhir:index 0 ;
+       fhir:Coding.system [ fhir:value "http://terminology.hl7.org/CodeSystem/allergyintolerance-clinical" ] ;
+       fhir:Coding.code [ fhir:value "active" ] ;
+       fhir:Coding.display [ fhir:value "Active" ]
+     ]
+  ] ;
+  fhir:AllergyIntolerance.verificationStatus [
+     fhir:CodeableConcept.coding [
+       fhir:index 0 ;
+       fhir:Coding.system [ fhir:value "http://terminology.hl7.org/CodeSystem/allergyintolerance-verification" ] ;
+       fhir:Coding.code [ fhir:value "confirmed" ] ;
+       fhir:Coding.display [ fhir:value "Confirmed" ]
+     ]
+  ] ;
+  fhir:AllergyIntolerance.type [ fhir:value "allergy"] ;
+  fhir:AllergyIntolerance.category [
+     fhir:value "food" ;
+     fhir:index 0
+  ] ;
+  fhir:AllergyIntolerance.criticality [ fhir:value "high"] ;
+  fhir:AllergyIntolerance.code [
+     fhir:CodeableConcept.coding [
+       fhir:index 0 ;
+       a sct:91935009 ;
+       fhir:Coding.system [ fhir:value "http://snomed.info/sct" ] ;
+       fhir:Coding.code [ fhir:value "91935009" ] ;
+       fhir:Coding.display [ fhir:value "Allergy to peanut (finding)" ]
+     ]
+  ] ;
+  fhir:AllergyIntolerance.patient [
+     fhir:link <http://hl7.no/fhir/ig/demo-at/Patient/DemoAtPatient-1> ;
+     fhir:Reference.reference [ fhir:value "Patient/DemoAtPatient-1" ]
+  ] ;
+  fhir:AllergyIntolerance.onsetDateTime [ fhir:value "2018-06"^^xsd:gYearMonth] ;
+  fhir:AllergyIntolerance.recordedDate [ fhir:value "2026-09-20"^^xsd:date] ;
+  fhir:AllergyIntolerance.asserter [
+     fhir:link <http://hl7.no/fhir/ig/demo-at/Patient/DemoAtPatient-1> ;
+     fhir:Reference.reference [ fhir:value "Patient/DemoAtPatient-1" ]
+  ] ;
+  fhir:AllergyIntolerance.lastOccurrence [ fhir:value "2025-08-12"^^xsd:date] ;
+  fhir:AllergyIntolerance.note [
+     fhir:index 0 ;
+     fhir:Annotation.text [ fhir:value "Pasienten oppgir kjent peanøttallergi. Reaksjonene oppsto etter utilsiktet inntak." ]
+  ] ;
+  fhir:AllergyIntolerance.reaction [
+     fhir:index 0 ;
+     fhir:AllergyIntolerance.reaction.substance [
+       fhir:CodeableConcept.coding [
+         fhir:index 0 ;
+         a sct:762952008 ;
+         fhir:Coding.system [ fhir:value "http://snomed.info/sct" ] ;
+         fhir:Coding.code [ fhir:value "762952008" ] ;
+         fhir:Coding.display [ fhir:value "Peanut" ]
+       ]
+     ] ;
+     fhir:AllergyIntolerance.reaction.manifestation [
+       fhir:index 0 ;
+       fhir:CodeableConcept.coding [
+         fhir:index 0 ;
+         a sct:247472004 ;
+         fhir:Coding.system [ fhir:value "http://snomed.info/sct" ] ;
+         fhir:Coding.code [ fhir:value "247472004" ] ;
+         fhir:Coding.display [ fhir:value "Wheal (finding)" ]
+       ]
+     ], [
+       fhir:index 1 ;
+       fhir:CodeableConcept.coding [
+         fhir:index 0 ;
+         a sct:41291007 ;
+         fhir:Coding.system [ fhir:value "http://snomed.info/sct" ] ;
+         fhir:Coding.code [ fhir:value "41291007" ] ;
+         fhir:Coding.display [ fhir:value "Angioedema (disorder)" ]
+       ]
+     ] ;
+     fhir:AllergyIntolerance.reaction.description [ fhir:value "Generalisert elveblest og angioødem etter inntak av peanøtt." ] ;
+     fhir:AllergyIntolerance.reaction.onset [ fhir:value "2018-06-17T09:30:00+02:00"^^xsd:dateTime ] ;
+     fhir:AllergyIntolerance.reaction.severity [ fhir:value "severe" ] ;
+     fhir:AllergyIntolerance.reaction.exposureRoute [
+       fhir:CodeableConcept.coding [
+         fhir:index 0 ;
+         a sct:26643006 ;
+         fhir:Coding.system [ fhir:value "http://snomed.info/sct" ] ;
+         fhir:Coding.code [ fhir:value "26643006" ] ;
+         fhir:Coding.display [ fhir:value "Oral route" ]
+       ]
+     ] ;
+     fhir:AllergyIntolerance.reaction.note [
+       fhir:index 0 ;
+       fhir:Annotation.text [ fhir:value "Første kjente reaksjon, ifølge pasienten." ]
+     ]
+  ], [
+     fhir:index 1 ;
+     fhir:AllergyIntolerance.reaction.substance [
+       fhir:CodeableConcept.coding [
+         fhir:index 0 ;
+         a sct:762952008 ;
+         fhir:Coding.system [ fhir:value "http://snomed.info/sct" ] ;
+         fhir:Coding.code [ fhir:value "762952008" ] ;
+         fhir:Coding.display [ fhir:value "Peanut" ]
+       ]
+     ] ;
+     fhir:AllergyIntolerance.reaction.manifestation [
+       fhir:index 0 ;
+       fhir:CodeableConcept.coding [
+         fhir:index 0 ;
+         a sct:247472004 ;
+         fhir:Coding.system [ fhir:value "http://snomed.info/sct" ] ;
+         fhir:Coding.code [ fhir:value "247472004" ] ;
+         fhir:Coding.display [ fhir:value "Wheal (finding)" ]
+       ]
+     ] ;
+     fhir:AllergyIntolerance.reaction.description [ fhir:value "Nytt tilfelle med elveblest etter utilsiktet inntak." ] ;
+     fhir:AllergyIntolerance.reaction.onset [ fhir:value "2025-08-12T18:15:00+02:00"^^xsd:dateTime ] ;
+     fhir:AllergyIntolerance.reaction.severity [ fhir:value "moderate" ] ;
+     fhir:AllergyIntolerance.reaction.exposureRoute [
+       fhir:CodeableConcept.coding [
+         fhir:index 0 ;
+         a sct:26643006 ;
+         fhir:Coding.system [ fhir:value "http://snomed.info/sct" ] ;
+         fhir:Coding.code [ fhir:value "26643006" ] ;
+         fhir:Coding.display [ fhir:value "Oral route" ]
+       ]
+     ] ;
+     fhir:AllergyIntolerance.reaction.note [
+       fhir:index 0 ;
+       fhir:Annotation.text [ fhir:value "Siste kjente reaksjon, ifølge pasienten." ]
+     ]
+  ] .
+
+# - ontology header ------------------------------------------------------------
+
+<http://hl7.no/fhir/ig/demo-at/AllergyIntolerance/DemoAtAllergyIntolerance-2.ttl> a owl:Ontology ;
+  owl:imports fhir:fhir.ttl .
+
+# -------------------------------------------------------------------------------------
+

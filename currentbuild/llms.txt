@@ -29,4 +29,5 @@
 ### Examples
 
 * [DemoAtAllergyIntolerance-1 (AllergyIntolerance)](AllergyIntolerance-DemoAtAllergyIntolerance-1.md)
+* [DemoAtAllergyIntolerance-2 (AllergyIntolerance)](AllergyIntolerance-DemoAtAllergyIntolerance-2.md)
 * [DemoAtPatient-1 (Patient)](Patient-DemoAtPatient-1.md)

@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<AllergyIntolerance xmlns="http://hl7.org/fhir">
+  <id value="DemoAtAllergyIntolerance-2"/>
+  <meta>
+    <profile value="http://hl7.no/fhir/ig/demo-at/StructureDefinition/demo-at-allergy-intolerance"/>
+  </meta>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Generated Narrative: AllergyIntolerance DemoAtAllergyIntolerance-2</b></p><a name="DemoAtAllergyIntolerance-2"> </a><a name="hcDemoAtAllergyIntolerance-2"> </a><div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px"/><p style="margin-bottom: 0px">Profile: <a href="StructureDefinition-demo-at-allergy-intolerance.html">Demo AllergyIntolerance</a></p></div><p><b>clinicalStatus</b>: <span title="Codes:{http://terminology.hl7.org/CodeSystem/allergyintolerance-clinical active}">Active</span></p><p><b>verificationStatus</b>: <span title="Codes:{http://terminology.hl7.org/CodeSystem/allergyintolerance-verification confirmed}">Confirmed</span></p><p><b>type</b>: Allergy</p><p><b>category</b>: Food</p><p><b>criticality</b>: High Risk</p><p><b>code</b>: <span title="Codes:{http://snomed.info/sct 91935009}">Allergy to peanut (finding)</span></p><p><b>patient</b>: <a href="Patient-DemoAtPatient-1.html">Line Danser  Female, DoB: 1969-11-13 ( urn:oid:2.16.578.1.12.4.1.4.1#13116900216)</a></p><p><b>onset</b>: 2018-06</p><p><b>recordedDate</b>: 2026-09-20</p><p><b>asserter</b>: <a href="Patient-DemoAtPatient-1.html">Line Danser  Female, DoB: 1969-11-13 ( urn:oid:2.16.578.1.12.4.1.4.1#13116900216)</a></p><p><b>lastOccurrence</b>: 2025-08-12</p><p><b>note</b>: </p><blockquote><div><p>Pasienten oppgir kjent peanøttallergi. Reaksjonene oppsto etter utilsiktet inntak.</p>
+</div></blockquote><blockquote><p><b>reaction</b></p><p><b>substance</b>: <span title="Codes:{http://snomed.info/sct 762952008}">Peanut</span></p><p><b>manifestation</b>: <span title="Codes:{http://snomed.info/sct 247472004}">Wheal (finding)</span>, <span title="Codes:{http://snomed.info/sct 41291007}">Angioedema (disorder)</span></p><p><b>description</b>: Generalisert elveblest og angioødem etter inntak av peanøtt.</p><p><b>onset</b>: 2018-06-17 09:30:00+0200</p><p><b>severity</b>: Severe</p><p><b>exposureRoute</b>: <span title="Codes:{http://snomed.info/sct 26643006}">Oral route</span></p><p><b>note</b>: </p><blockquote><div><p>Første kjente reaksjon, ifølge pasienten.</p>
+</div></blockquote></blockquote><blockquote><p><b>reaction</b></p><p><b>substance</b>: <span title="Codes:{http://snomed.info/sct 762952008}">Peanut</span></p><p><b>manifestation</b>: <span title="Codes:{http://snomed.info/sct 247472004}">Wheal (finding)</span></p><p><b>description</b>: Nytt tilfelle med elveblest etter utilsiktet inntak.</p><p><b>onset</b>: 2025-08-12 18:15:00+0200</p><p><b>severity</b>: Moderate</p><p><b>exposureRoute</b>: <span title="Codes:{http://snomed.info/sct 26643006}">Oral route</span></p><p><b>note</b>: </p><blockquote><div><p>Siste kjente reaksjon, ifølge pasienten.</p>
+</div></blockquote></blockquote></div>
+  </text>
+  <clinicalStatus>
+    <coding>
+      <system value="http://terminology.hl7.org/CodeSystem/allergyintolerance-clinical"/>
+      <code value="active"/>
+      <display value="Active"/>
+    </coding>
+  </clinicalStatus>
+  <verificationStatus>
+    <coding>
+      <system value="http://terminology.hl7.org/CodeSystem/allergyintolerance-verification"/>
+      <code value="confirmed"/>
+      <display value="Confirmed"/>
+    </coding>
+  </verificationStatus>
+  <type value="allergy"/>
+  <category value="food"/>
+  <criticality value="high"/>
+  <code>
+    <coding>
+      <system value="http://snomed.info/sct"/>
+      <code value="91935009"/>
+      <display value="Allergy to peanut (finding)"/>
+    </coding>
+  </code>
+  <patient>
+    <reference value="Patient/DemoAtPatient-1"/>
+  </patient>
+  <onsetDateTime value="2018-06"/>
+  <recordedDate value="2026-09-20"/>
+  <asserter>
+    <reference value="Patient/DemoAtPatient-1"/>
+  </asserter>
+  <lastOccurrence value="2025-08-12"/>
+  <note>
+    <text value="Pasienten oppgir kjent peanøttallergi. Reaksjonene oppsto etter utilsiktet inntak."/>
+  </note>
+  <reaction>
+    <substance>
+      <coding>
+        <system value="http://snomed.info/sct"/>
+        <code value="762952008"/>
+        <display value="Peanut"/>
+      </coding>
+    </substance>
+    <manifestation>
+      <coding>
+        <system value="http://snomed.info/sct"/>
+        <code value="247472004"/>
+        <display value="Wheal (finding)"/>
+      </coding>
+    </manifestation>
+    <manifestation>
+      <coding>
+        <system value="http://snomed.info/sct"/>
+        <code value="41291007"/>
+        <display value="Angioedema (disorder)"/>
+      </coding>
+    </manifestation>
+    <description value="Generalisert elveblest og angioødem etter inntak av peanøtt."/>
+    <onset value="2018-06-17T09:30:00+02:00"/>
+    <severity value="severe"/>
+    <exposureRoute>
+      <coding>
+        <system value="http://snomed.info/sct"/>
+        <code value="26643006"/>
+        <display value="Oral route"/>
+      </coding>
+    </exposureRoute>
+    <note>
+      <text value="Første kjente reaksjon, ifølge pasienten."/>
+    </note>
+  </reaction>
+  <reaction>
+    <substance>
+      <coding>
+        <system value="http://snomed.info/sct"/>
+        <code value="762952008"/>
+        <display value="Peanut"/>
+      </coding>
+    </substance>
+    <manifestation>
+      <coding>
+        <system value="http://snomed.info/sct"/>
+        <code value="247472004"/>
+        <display value="Wheal (finding)"/>
+      </coding>
+    </manifestation>
+    <description value="Nytt tilfelle med elveblest etter utilsiktet inntak."/>
+    <onset value="2025-08-12T18:15:00+02:00"/>
+    <severity value="moderate"/>
+    <exposureRoute>
+      <coding>
+        <system value="http://snomed.info/sct"/>
+        <code value="26643006"/>
+        <display value="Oral route"/>
+      </coding>
+    </exposureRoute>
+    <note>
+      <text value="Siste kjente reaksjon, ifølge pasienten."/>
+    </note>
+  </reaction>
+</AllergyIntolerance>

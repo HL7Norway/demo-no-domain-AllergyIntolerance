@@ -12,11 +12,11 @@
 | Draft as of 2026-09-15 | *Computable Name*:DemoAtAllergyIntolerance |
 
  
-Dummy-tekst: Helse-NIM for overfølsomhet er en liste som inneholder informasjon om unormale reaksjoner, symptomer eller funn initiert av eksponering for en definert stimulus i en dose som normalt tolereres av andre. Informasjon om en pasients overfølsomhet er relevant i mange situasjoner, som ved vaksinasjon, kost på institusjon, rekvirering og utlevering av legemidler, herunder inkludert muligheten til å dele informasjon om en avkreftet overfølsomhet. 
+Demo-profil for registrering av allergi og intoleranse med utgangspunkt i HL7 EU Core og relevante norske føringer for overfølsomhet. 
 
 **Usages:**
 
-* Examples for this Profile: [AllergyIntolerance/DemoAtAllergyIntolerance-1](AllergyIntolerance-DemoAtAllergyIntolerance-1.md)
+* Examples for this Profile: [AllergyIntolerance/DemoAtAllergyIntolerance-1](AllergyIntolerance-DemoAtAllergyIntolerance-1.md) and [AllergyIntolerance/DemoAtAllergyIntolerance-2](AllergyIntolerance-DemoAtAllergyIntolerance-2.md)
 
 You can also check for [usages in the FHIR IG Statistics](https://packages2.fhir.org/xig/resource/hl7.fhir.no.demo-at|current/StructureDefinition/StructureDefinition-demo-at-allergy-intolerance.json)
 
@@ -51,7 +51,7 @@ Other representations of profile: [CSV](StructureDefinition-demo-at-allergy-into
       "value" : "https://www.helsedirektoratet.no"
     }]
   }],
-  "description" : "Dummy-tekst: Helse-NIM for overfølsomhet er en liste som inneholder informasjon om unormale reaksjoner, symptomer eller funn initiert av eksponering for en definert stimulus i en dose som normalt tolereres av andre. Informasjon om en pasients overfølsomhet er relevant i mange situasjoner, som ved vaksinasjon, kost på institusjon, rekvirering og utlevering av legemidler, herunder inkludert muligheten til å dele informasjon om en avkreftet overfølsomhet.",
+  "description" : "Demo-profil for registrering av allergi og intoleranse med utgangspunkt i HL7 EU Core og relevante norske føringer for overfølsomhet.",
   "jurisdiction" : [{
     "coding" : [{
       "system" : "urn:iso:std:iso:3166",

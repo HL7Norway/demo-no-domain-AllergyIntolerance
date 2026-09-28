@@ -27,6 +27,7 @@ Dette kodeverket angir hvilke allergener som kan forekomme i enterale ernærings
 {
   "resourceType" : "CodeSystem",
   "id" : "no-kodeverk-7852.codesystem",
+  "language" : "no",
   "url" : "http://helsedir.no/fhir/CodeSystem/no-kodeverk-7852",
   "identifier" : [{
     "system" : "urn:ietf:rfc:3986",

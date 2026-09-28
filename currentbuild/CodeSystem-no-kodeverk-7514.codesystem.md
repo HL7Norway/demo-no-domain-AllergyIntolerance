@@ -27,6 +27,7 @@ Angir annet allergen enn legemidler som årsak til alvorlig allergisk reaksjon r
 {
   "resourceType" : "CodeSystem",
   "id" : "no-kodeverk-7514.codesystem",
+  "language" : "no",
   "url" : "http://helsedir.no/fhir/CodeSystem/no-kodeverk-7514",
   "identifier" : [{
     "system" : "urn:ietf:rfc:3986",

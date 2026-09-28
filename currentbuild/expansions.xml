@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <Bundle xmlns="http://hl7.org/fhir">
-  <id value="1e88c92b-59ac-4b09-bd7e-1bfa34e860a7"/>
+  <id value="6374b7b5-acab-47cf-8cda-8e795061af45"/>
   <meta>
-    <lastUpdated value="2026-09-28T10:10:46.814+00:00"/>
+    <lastUpdated value="2026-09-28T10:47:05.629+00:00"/>
   </meta>
   <type value="collection"/>
   <entry>
@@ -47,15 +47,15 @@
                 <td style="white-space:nowrap">  
                   <a href="CodeSystem-no-kodeverk-7852.codesystem.html#no-kodeverk-7852.codesystem-1">1</a>
                 </td>
-                <td/>
+                <td>Gluten</td>
                 <td>
                   <span class="copy-text-inline">
-                    <button data-clipboard-text="{&quot;system&quot;: &quot;http://helsedir.no/fhir/CodeSystem/no-kodeverk-7852&quot;, &quot;version&quot;: &quot;0.2.1&quot;, &quot;code&quot;: &quot;1&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;http://helsedir.no/fhir/CodeSystem/no-kodeverk-7852&quot;, &quot;version&quot;: &quot;0.2.1&quot;, &quot;code&quot;: &quot;1&quot;, &quot;display&quot;: &quot;Gluten&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
                   </span>
                 </td>
                 <td>
                   <span class="copy-text-inline">
-                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://helsedir.no/fhir/CodeSystem/no-kodeverk-7852&quot;&gt;&lt;version value=&quot;0.2.1&quot;&gt;&lt;code value=&quot;1&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://helsedir.no/fhir/CodeSystem/no-kodeverk-7852&quot;&gt;&lt;version value=&quot;0.2.1&quot;&gt;&lt;code value=&quot;1&quot;&gt;&lt;display value=&quot;Gluten&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
                   </span>
                 </td>
               </tr>
@@ -67,15 +67,15 @@
                 <td style="white-space:nowrap">  
                   <a href="CodeSystem-no-kodeverk-7852.codesystem.html#no-kodeverk-7852.codesystem-2">2</a>
                 </td>
-                <td/>
+                <td>Hvete</td>
                 <td>
                   <span class="copy-text-inline">
-                    <button data-clipboard-text="{&quot;system&quot;: &quot;http://helsedir.no/fhir/CodeSystem/no-kodeverk-7852&quot;, &quot;version&quot;: &quot;0.2.1&quot;, &quot;code&quot;: &quot;2&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;http://helsedir.no/fhir/CodeSystem/no-kodeverk-7852&quot;, &quot;version&quot;: &quot;0.2.1&quot;, &quot;code&quot;: &quot;2&quot;, &quot;display&quot;: &quot;Hvete&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
                   </span>
                 </td>
                 <td>
                   <span class="copy-text-inline">
-                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://helsedir.no/fhir/CodeSystem/no-kodeverk-7852&quot;&gt;&lt;version value=&quot;0.2.1&quot;&gt;&lt;code value=&quot;2&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://helsedir.no/fhir/CodeSystem/no-kodeverk-7852&quot;&gt;&lt;version value=&quot;0.2.1&quot;&gt;&lt;code value=&quot;2&quot;&gt;&lt;display value=&quot;Hvete&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
                   </span>
                 </td>
               </tr>
@@ -87,15 +87,15 @@
                 <td style="white-space:nowrap">  
                   <a href="CodeSystem-no-kodeverk-7852.codesystem.html#no-kodeverk-7852.codesystem-3">3</a>
                 </td>
-                <td/>
+                <td>Rug</td>
                 <td>
                   <span class="copy-text-inline">
-                    <button data-clipboard-text="{&quot;system&quot;: &quot;http://helsedir.no/fhir/CodeSystem/no-kodeverk-7852&quot;, &quot;version&quot;: &quot;0.2.1&quot;, &quot;code&quot;: &quot;3&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;http://helsedir.no/fhir/CodeSystem/no-kodeverk-7852&quot;, &quot;version&quot;: &quot;0.2.1&quot;, &quot;code&quot;: &quot;3&quot;, &quot;display&quot;: &quot;Rug&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
                   </span>
                 </td>
                 <td>
                   <span class="copy-text-inline">
-                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://helsedir.no/fhir/CodeSystem/no-kodeverk-7852&quot;&gt;&lt;version value=&quot;0.2.1&quot;&gt;&lt;code value=&quot;3&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://helsedir.no/fhir/CodeSystem/no-kodeverk-7852&quot;&gt;&lt;version value=&quot;0.2.1&quot;&gt;&lt;code value=&quot;3&quot;&gt;&lt;display value=&quot;Rug&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
                   </span>
                 </td>
               </tr>
@@ -107,15 +107,15 @@
                 <td style="white-space:nowrap">  
                   <a href="CodeSystem-no-kodeverk-7852.codesystem.html#no-kodeverk-7852.codesystem-4">4</a>
                 </td>
-                <td/>
+                <td>Bygg</td>
                 <td>
                   <span class="copy-text-inline">
-                    <button data-clipboard-text="{&quot;system&quot;: &quot;http://helsedir.no/fhir/CodeSystem/no-kodeverk-7852&quot;, &quot;version&quot;: &quot;0.2.1&quot;, &quot;code&quot;: &quot;4&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;http://helsedir.no/fhir/CodeSystem/no-kodeverk-7852&quot;, &quot;version&quot;: &quot;0.2.1&quot;, &quot;code&quot;: &quot;4&quot;, &quot;display&quot;: &quot;Bygg&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
                   </span>
                 </td>
                 <td>
                   <span class="copy-text-inline">
-                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://helsedir.no/fhir/CodeSystem/no-kodeverk-7852&quot;&gt;&lt;version value=&quot;0.2.1&quot;&gt;&lt;code value=&quot;4&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://helsedir.no/fhir/CodeSystem/no-kodeverk-7852&quot;&gt;&lt;version value=&quot;0.2.1&quot;&gt;&lt;code value=&quot;4&quot;&gt;&lt;display value=&quot;Bygg&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
                   </span>
                 </td>
               </tr>
@@ -127,15 +127,15 @@
                 <td style="white-space:nowrap">  
                   <a href="CodeSystem-no-kodeverk-7852.codesystem.html#no-kodeverk-7852.codesystem-5">5</a>
                 </td>
-                <td/>
+                <td>Havre</td>
                 <td>
                   <span class="copy-text-inline">
-                    <button data-clipboard-text="{&quot;system&quot;: &quot;http://helsedir.no/fhir/CodeSystem/no-kodeverk-7852&quot;, &quot;version&quot;: &quot;0.2.1&quot;, &quot;code&quot;: &quot;5&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;http://helsedir.no/fhir/CodeSystem/no-kodeverk-7852&quot;, &quot;version&quot;: &quot;0.2.1&quot;, &quot;code&quot;: &quot;5&quot;, &quot;display&quot;: &quot;Havre&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
                   </span>
                 </td>
                 <td>
                   <span class="copy-text-inline">
-                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://helsedir.no/fhir/CodeSystem/no-kodeverk-7852&quot;&gt;&lt;version value=&quot;0.2.1&quot;&gt;&lt;code value=&quot;5&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://helsedir.no/fhir/CodeSystem/no-kodeverk-7852&quot;&gt;&lt;version value=&quot;0.2.1&quot;&gt;&lt;code value=&quot;5&quot;&gt;&lt;display value=&quot;Havre&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
                   </span>
                 </td>
               </tr>
@@ -147,15 +147,15 @@
                 <td style="white-space:nowrap">  
                   <a href="CodeSystem-no-kodeverk-7852.codesystem.html#no-kodeverk-7852.codesystem-6">6</a>
                 </td>
-                <td/>
+                <td>Skalldyr</td>
                 <td>
                   <span class="copy-text-inline">
-                    <button data-clipboard-text="{&quot;system&quot;: &quot;http://helsedir.no/fhir/CodeSystem/no-kodeverk-7852&quot;, &quot;version&quot;: &quot;0.2.1&quot;, &quot;code&quot;: &quot;6&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;http://helsedir.no/fhir/CodeSystem/no-kodeverk-7852&quot;, &quot;version&quot;: &quot;0.2.1&quot;, &quot;code&quot;: &quot;6&quot;, &quot;display&quot;: &quot;Skalldyr&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
                   </span>
                 </td>
                 <td>
                   <span class="copy-text-inline">
-                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://helsedir.no/fhir/CodeSystem/no-kodeverk-7852&quot;&gt;&lt;version value=&quot;0.2.1&quot;&gt;&lt;code value=&quot;6&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://helsedir.no/fhir/CodeSystem/no-kodeverk-7852&quot;&gt;&lt;version value=&quot;0.2.1&quot;&gt;&lt;code value=&quot;6&quot;&gt;&lt;display value=&quot;Skalldyr&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
                   </span>
                 </td>
               </tr>
@@ -167,15 +167,15 @@
                 <td style="white-space:nowrap">  
                   <a href="CodeSystem-no-kodeverk-7852.codesystem.html#no-kodeverk-7852.codesystem-7">7</a>
                 </td>
-                <td/>
+                <td>Egg (spiselig)</td>
                 <td>
                   <span class="copy-text-inline">
-                    <button data-clipboard-text="{&quot;system&quot;: &quot;http://helsedir.no/fhir/CodeSystem/no-kodeverk-7852&quot;, &quot;version&quot;: &quot;0.2.1&quot;, &quot;code&quot;: &quot;7&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;http://helsedir.no/fhir/CodeSystem/no-kodeverk-7852&quot;, &quot;version&quot;: &quot;0.2.1&quot;, &quot;code&quot;: &quot;7&quot;, &quot;display&quot;: &quot;Egg (spiselig)&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
                   </span>
                 </td>
                 <td>
                   <span class="copy-text-inline">
-                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://helsedir.no/fhir/CodeSystem/no-kodeverk-7852&quot;&gt;&lt;version value=&quot;0.2.1&quot;&gt;&lt;code value=&quot;7&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://helsedir.no/fhir/CodeSystem/no-kodeverk-7852&quot;&gt;&lt;version value=&quot;0.2.1&quot;&gt;&lt;code value=&quot;7&quot;&gt;&lt;display value=&quot;Egg (spiselig)&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
                   </span>
                 </td>
               </tr>
@@ -187,15 +187,15 @@
                 <td style="white-space:nowrap">  
                   <a href="CodeSystem-no-kodeverk-7852.codesystem.html#no-kodeverk-7852.codesystem-8">8</a>
                 </td>
-                <td/>
+                <td>Fisk</td>
                 <td>
                   <span class="copy-text-inline">
-                    <button data-clipboard-text="{&quot;system&quot;: &quot;http://helsedir.no/fhir/CodeSystem/no-kodeverk-7852&quot;, &quot;version&quot;: &quot;0.2.1&quot;, &quot;code&quot;: &quot;8&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;http://helsedir.no/fhir/CodeSystem/no-kodeverk-7852&quot;, &quot;version&quot;: &quot;0.2.1&quot;, &quot;code&quot;: &quot;8&quot;, &quot;display&quot;: &quot;Fisk&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
                   </span>
                 </td>
                 <td>
                   <span class="copy-text-inline">
-                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://helsedir.no/fhir/CodeSystem/no-kodeverk-7852&quot;&gt;&lt;version value=&quot;0.2.1&quot;&gt;&lt;code value=&quot;8&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://helsedir.no/fhir/CodeSystem/no-kodeverk-7852&quot;&gt;&lt;version value=&quot;0.2.1&quot;&gt;&lt;code value=&quot;8&quot;&gt;&lt;display value=&quot;Fisk&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
                   </span>
                 </td>
               </tr>
@@ -207,15 +207,15 @@
                 <td style="white-space:nowrap">  
                   <a href="CodeSystem-no-kodeverk-7852.codesystem.html#no-kodeverk-7852.codesystem-9">9</a>
                 </td>
-                <td/>
+                <td>Nøtt</td>
                 <td>
                   <span class="copy-text-inline">
-                    <button data-clipboard-text="{&quot;system&quot;: &quot;http://helsedir.no/fhir/CodeSystem/no-kodeverk-7852&quot;, &quot;version&quot;: &quot;0.2.1&quot;, &quot;code&quot;: &quot;9&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;http://helsedir.no/fhir/CodeSystem/no-kodeverk-7852&quot;, &quot;version&quot;: &quot;0.2.1&quot;, &quot;code&quot;: &quot;9&quot;, &quot;display&quot;: &quot;Nøtt&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
                   </span>
                 </td>
                 <td>
                   <span class="copy-text-inline">
-                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://helsedir.no/fhir/CodeSystem/no-kodeverk-7852&quot;&gt;&lt;version value=&quot;0.2.1&quot;&gt;&lt;code value=&quot;9&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://helsedir.no/fhir/CodeSystem/no-kodeverk-7852&quot;&gt;&lt;version value=&quot;0.2.1&quot;&gt;&lt;code value=&quot;9&quot;&gt;&lt;display value=&quot;Nøtt&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
                   </span>
                 </td>
               </tr>
@@ -227,15 +227,15 @@
                 <td style="white-space:nowrap">  
                   <a href="CodeSystem-no-kodeverk-7852.codesystem.html#no-kodeverk-7852.codesystem-10">10</a>
                 </td>
-                <td/>
+                <td>Peanøtt</td>
                 <td>
                   <span class="copy-text-inline">
-                    <button data-clipboard-text="{&quot;system&quot;: &quot;http://helsedir.no/fhir/CodeSystem/no-kodeverk-7852&quot;, &quot;version&quot;: &quot;0.2.1&quot;, &quot;code&quot;: &quot;10&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;http://helsedir.no/fhir/CodeSystem/no-kodeverk-7852&quot;, &quot;version&quot;: &quot;0.2.1&quot;, &quot;code&quot;: &quot;10&quot;, &quot;display&quot;: &quot;Peanøtt&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
                   </span>
                 </td>
                 <td>
                   <span class="copy-text-inline">
-                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://helsedir.no/fhir/CodeSystem/no-kodeverk-7852&quot;&gt;&lt;version value=&quot;0.2.1&quot;&gt;&lt;code value=&quot;10&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://helsedir.no/fhir/CodeSystem/no-kodeverk-7852&quot;&gt;&lt;version value=&quot;0.2.1&quot;&gt;&lt;code value=&quot;10&quot;&gt;&lt;display value=&quot;Peanøtt&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
                   </span>
                 </td>
               </tr>
@@ -247,15 +247,15 @@
                 <td style="white-space:nowrap">  
                   <a href="CodeSystem-no-kodeverk-7852.codesystem.html#no-kodeverk-7852.codesystem-11">11</a>
                 </td>
-                <td/>
+                <td>Soyabønner</td>
                 <td>
                   <span class="copy-text-inline">
-                    <button data-clipboard-text="{&quot;system&quot;: &quot;http://helsedir.no/fhir/CodeSystem/no-kodeverk-7852&quot;, &quot;version&quot;: &quot;0.2.1&quot;, &quot;code&quot;: &quot;11&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;http://helsedir.no/fhir/CodeSystem/no-kodeverk-7852&quot;, &quot;version&quot;: &quot;0.2.1&quot;, &quot;code&quot;: &quot;11&quot;, &quot;display&quot;: &quot;Soyabønner&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
                   </span>
                 </td>
                 <td>
                   <span class="copy-text-inline">
-                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://helsedir.no/fhir/CodeSystem/no-kodeverk-7852&quot;&gt;&lt;version value=&quot;0.2.1&quot;&gt;&lt;code value=&quot;11&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://helsedir.no/fhir/CodeSystem/no-kodeverk-7852&quot;&gt;&lt;version value=&quot;0.2.1&quot;&gt;&lt;code value=&quot;11&quot;&gt;&lt;display value=&quot;Soyabønner&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
                   </span>
                 </td>
               </tr>
@@ -267,15 +267,15 @@
                 <td style="white-space:nowrap">  
                   <a href="CodeSystem-no-kodeverk-7852.codesystem.html#no-kodeverk-7852.codesystem-12">12</a>
                 </td>
-                <td/>
+                <td>Kumelk</td>
                 <td>
                   <span class="copy-text-inline">
-                    <button data-clipboard-text="{&quot;system&quot;: &quot;http://helsedir.no/fhir/CodeSystem/no-kodeverk-7852&quot;, &quot;version&quot;: &quot;0.2.1&quot;, &quot;code&quot;: &quot;12&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;http://helsedir.no/fhir/CodeSystem/no-kodeverk-7852&quot;, &quot;version&quot;: &quot;0.2.1&quot;, &quot;code&quot;: &quot;12&quot;, &quot;display&quot;: &quot;Kumelk&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
                   </span>
                 </td>
                 <td>
                   <span class="copy-text-inline">
-                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://helsedir.no/fhir/CodeSystem/no-kodeverk-7852&quot;&gt;&lt;version value=&quot;0.2.1&quot;&gt;&lt;code value=&quot;12&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://helsedir.no/fhir/CodeSystem/no-kodeverk-7852&quot;&gt;&lt;version value=&quot;0.2.1&quot;&gt;&lt;code value=&quot;12&quot;&gt;&lt;display value=&quot;Kumelk&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
                   </span>
                 </td>
               </tr>
@@ -287,15 +287,15 @@
                 <td style="white-space:nowrap">  
                   <a href="CodeSystem-no-kodeverk-7852.codesystem.html#no-kodeverk-7852.codesystem-13">13</a>
                 </td>
-                <td/>
+                <td>Kumelksprotein</td>
                 <td>
                   <span class="copy-text-inline">
-                    <button data-clipboard-text="{&quot;system&quot;: &quot;http://helsedir.no/fhir/CodeSystem/no-kodeverk-7852&quot;, &quot;version&quot;: &quot;0.2.1&quot;, &quot;code&quot;: &quot;13&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;http://helsedir.no/fhir/CodeSystem/no-kodeverk-7852&quot;, &quot;version&quot;: &quot;0.2.1&quot;, &quot;code&quot;: &quot;13&quot;, &quot;display&quot;: &quot;Kumelksprotein&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
                   </span>
                 </td>
                 <td>
                   <span class="copy-text-inline">
-                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://helsedir.no/fhir/CodeSystem/no-kodeverk-7852&quot;&gt;&lt;version value=&quot;0.2.1&quot;&gt;&lt;code value=&quot;13&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://helsedir.no/fhir/CodeSystem/no-kodeverk-7852&quot;&gt;&lt;version value=&quot;0.2.1&quot;&gt;&lt;code value=&quot;13&quot;&gt;&lt;display value=&quot;Kumelksprotein&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
                   </span>
                 </td>
               </tr>
@@ -307,15 +307,15 @@
                 <td style="white-space:nowrap">  
                   <a href="CodeSystem-no-kodeverk-7852.codesystem.html#no-kodeverk-7852.codesystem-14">14</a>
                 </td>
-                <td/>
+                <td>Laktose</td>
                 <td>
                   <span class="copy-text-inline">
-                    <button data-clipboard-text="{&quot;system&quot;: &quot;http://helsedir.no/fhir/CodeSystem/no-kodeverk-7852&quot;, &quot;version&quot;: &quot;0.2.1&quot;, &quot;code&quot;: &quot;14&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;http://helsedir.no/fhir/CodeSystem/no-kodeverk-7852&quot;, &quot;version&quot;: &quot;0.2.1&quot;, &quot;code&quot;: &quot;14&quot;, &quot;display&quot;: &quot;Laktose&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
                   </span>
                 </td>
                 <td>
                   <span class="copy-text-inline">
-                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://helsedir.no/fhir/CodeSystem/no-kodeverk-7852&quot;&gt;&lt;version value=&quot;0.2.1&quot;&gt;&lt;code value=&quot;14&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://helsedir.no/fhir/CodeSystem/no-kodeverk-7852&quot;&gt;&lt;version value=&quot;0.2.1&quot;&gt;&lt;code value=&quot;14&quot;&gt;&lt;display value=&quot;Laktose&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
                   </span>
                 </td>
               </tr>
@@ -327,15 +327,15 @@
                 <td style="white-space:nowrap">  
                   <a href="CodeSystem-no-kodeverk-7852.codesystem.html#no-kodeverk-7852.codesystem-15">15</a>
                 </td>
-                <td/>
+                <td>Selleri</td>
                 <td>
                   <span class="copy-text-inline">
-                    <button data-clipboard-text="{&quot;system&quot;: &quot;http://helsedir.no/fhir/CodeSystem/no-kodeverk-7852&quot;, &quot;version&quot;: &quot;0.2.1&quot;, &quot;code&quot;: &quot;15&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;http://helsedir.no/fhir/CodeSystem/no-kodeverk-7852&quot;, &quot;version&quot;: &quot;0.2.1&quot;, &quot;code&quot;: &quot;15&quot;, &quot;display&quot;: &quot;Selleri&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
                   </span>
                 </td>
                 <td>
                   <span class="copy-text-inline">
-                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://helsedir.no/fhir/CodeSystem/no-kodeverk-7852&quot;&gt;&lt;version value=&quot;0.2.1&quot;&gt;&lt;code value=&quot;15&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://helsedir.no/fhir/CodeSystem/no-kodeverk-7852&quot;&gt;&lt;version value=&quot;0.2.1&quot;&gt;&lt;code value=&quot;15&quot;&gt;&lt;display value=&quot;Selleri&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
                   </span>
                 </td>
               </tr>
@@ -347,15 +347,15 @@
                 <td style="white-space:nowrap">  
                   <a href="CodeSystem-no-kodeverk-7852.codesystem.html#no-kodeverk-7852.codesystem-16">16</a>
                 </td>
-                <td/>
+                <td>Sennepsfrø</td>
                 <td>
                   <span class="copy-text-inline">
-                    <button data-clipboard-text="{&quot;system&quot;: &quot;http://helsedir.no/fhir/CodeSystem/no-kodeverk-7852&quot;, &quot;version&quot;: &quot;0.2.1&quot;, &quot;code&quot;: &quot;16&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;http://helsedir.no/fhir/CodeSystem/no-kodeverk-7852&quot;, &quot;version&quot;: &quot;0.2.1&quot;, &quot;code&quot;: &quot;16&quot;, &quot;display&quot;: &quot;Sennepsfrø&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
                   </span>
                 </td>
                 <td>
                   <span class="copy-text-inline">
-                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://helsedir.no/fhir/CodeSystem/no-kodeverk-7852&quot;&gt;&lt;version value=&quot;0.2.1&quot;&gt;&lt;code value=&quot;16&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://helsedir.no/fhir/CodeSystem/no-kodeverk-7852&quot;&gt;&lt;version value=&quot;0.2.1&quot;&gt;&lt;code value=&quot;16&quot;&gt;&lt;display value=&quot;Sennepsfrø&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
                   </span>
                 </td>
               </tr>
@@ -367,15 +367,15 @@
                 <td style="white-space:nowrap">  
                   <a href="CodeSystem-no-kodeverk-7852.codesystem.html#no-kodeverk-7852.codesystem-17">17</a>
                 </td>
-                <td/>
+                <td>Sesamfrø</td>
                 <td>
                   <span class="copy-text-inline">
-                    <button data-clipboard-text="{&quot;system&quot;: &quot;http://helsedir.no/fhir/CodeSystem/no-kodeverk-7852&quot;, &quot;version&quot;: &quot;0.2.1&quot;, &quot;code&quot;: &quot;17&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;http://helsedir.no/fhir/CodeSystem/no-kodeverk-7852&quot;, &quot;version&quot;: &quot;0.2.1&quot;, &quot;code&quot;: &quot;17&quot;, &quot;display&quot;: &quot;Sesamfrø&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
                   </span>
                 </td>
                 <td>
                   <span class="copy-text-inline">
-                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://helsedir.no/fhir/CodeSystem/no-kodeverk-7852&quot;&gt;&lt;version value=&quot;0.2.1&quot;&gt;&lt;code value=&quot;17&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://helsedir.no/fhir/CodeSystem/no-kodeverk-7852&quot;&gt;&lt;version value=&quot;0.2.1&quot;&gt;&lt;code value=&quot;17&quot;&gt;&lt;display value=&quot;Sesamfrø&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
                   </span>
                 </td>
               </tr>
@@ -387,15 +387,15 @@
                 <td style="white-space:nowrap">  
                   <a href="CodeSystem-no-kodeverk-7852.codesystem.html#no-kodeverk-7852.codesystem-18">18</a>
                 </td>
-                <td/>
+                <td>Svoveldioksid</td>
                 <td>
                   <span class="copy-text-inline">
-                    <button data-clipboard-text="{&quot;system&quot;: &quot;http://helsedir.no/fhir/CodeSystem/no-kodeverk-7852&quot;, &quot;version&quot;: &quot;0.2.1&quot;, &quot;code&quot;: &quot;18&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;http://helsedir.no/fhir/CodeSystem/no-kodeverk-7852&quot;, &quot;version&quot;: &quot;0.2.1&quot;, &quot;code&quot;: &quot;18&quot;, &quot;display&quot;: &quot;Svoveldioksid&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
                   </span>
                 </td>
                 <td>
                   <span class="copy-text-inline">
-                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://helsedir.no/fhir/CodeSystem/no-kodeverk-7852&quot;&gt;&lt;version value=&quot;0.2.1&quot;&gt;&lt;code value=&quot;18&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://helsedir.no/fhir/CodeSystem/no-kodeverk-7852&quot;&gt;&lt;version value=&quot;0.2.1&quot;&gt;&lt;code value=&quot;18&quot;&gt;&lt;display value=&quot;Svoveldioksid&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
                   </span>
                 </td>
               </tr>
@@ -407,15 +407,15 @@
                 <td style="white-space:nowrap">  
                   <a href="CodeSystem-no-kodeverk-7852.codesystem.html#no-kodeverk-7852.codesystem-19">19</a>
                 </td>
-                <td/>
+                <td>Sulfitt og sulfittderivater</td>
                 <td>
                   <span class="copy-text-inline">
-                    <button data-clipboard-text="{&quot;system&quot;: &quot;http://helsedir.no/fhir/CodeSystem/no-kodeverk-7852&quot;, &quot;version&quot;: &quot;0.2.1&quot;, &quot;code&quot;: &quot;19&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;http://helsedir.no/fhir/CodeSystem/no-kodeverk-7852&quot;, &quot;version&quot;: &quot;0.2.1&quot;, &quot;code&quot;: &quot;19&quot;, &quot;display&quot;: &quot;Sulfitt og sulfittderivater&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
                   </span>
                 </td>
                 <td>
                   <span class="copy-text-inline">
-                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://helsedir.no/fhir/CodeSystem/no-kodeverk-7852&quot;&gt;&lt;version value=&quot;0.2.1&quot;&gt;&lt;code value=&quot;19&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://helsedir.no/fhir/CodeSystem/no-kodeverk-7852&quot;&gt;&lt;version value=&quot;0.2.1&quot;&gt;&lt;code value=&quot;19&quot;&gt;&lt;display value=&quot;Sulfitt og sulfittderivater&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
                   </span>
                 </td>
               </tr>
@@ -427,15 +427,15 @@
                 <td style="white-space:nowrap">  
                   <a href="CodeSystem-no-kodeverk-7852.codesystem.html#no-kodeverk-7852.codesystem-20">20</a>
                 </td>
-                <td/>
+                <td>Lupinfrø</td>
                 <td>
                   <span class="copy-text-inline">
-                    <button data-clipboard-text="{&quot;system&quot;: &quot;http://helsedir.no/fhir/CodeSystem/no-kodeverk-7852&quot;, &quot;version&quot;: &quot;0.2.1&quot;, &quot;code&quot;: &quot;20&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;http://helsedir.no/fhir/CodeSystem/no-kodeverk-7852&quot;, &quot;version&quot;: &quot;0.2.1&quot;, &quot;code&quot;: &quot;20&quot;, &quot;display&quot;: &quot;Lupinfrø&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
                   </span>
                 </td>
                 <td>
                   <span class="copy-text-inline">
-                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://helsedir.no/fhir/CodeSystem/no-kodeverk-7852&quot;&gt;&lt;version value=&quot;0.2.1&quot;&gt;&lt;code value=&quot;20&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://helsedir.no/fhir/CodeSystem/no-kodeverk-7852&quot;&gt;&lt;version value=&quot;0.2.1&quot;&gt;&lt;code value=&quot;20&quot;&gt;&lt;display value=&quot;Lupinfrø&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
                   </span>
                 </td>
               </tr>
@@ -447,15 +447,15 @@
                 <td style="white-space:nowrap">  
                   <a href="CodeSystem-no-kodeverk-7852.codesystem.html#no-kodeverk-7852.codesystem-21">21</a>
                 </td>
-                <td/>
+                <td>Sjøbløtdyr</td>
                 <td>
                   <span class="copy-text-inline">
-                    <button data-clipboard-text="{&quot;system&quot;: &quot;http://helsedir.no/fhir/CodeSystem/no-kodeverk-7852&quot;, &quot;version&quot;: &quot;0.2.1&quot;, &quot;code&quot;: &quot;21&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;http://helsedir.no/fhir/CodeSystem/no-kodeverk-7852&quot;, &quot;version&quot;: &quot;0.2.1&quot;, &quot;code&quot;: &quot;21&quot;, &quot;display&quot;: &quot;Sjøbløtdyr&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
                   </span>
                 </td>
                 <td>
                   <span class="copy-text-inline">
-                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://helsedir.no/fhir/CodeSystem/no-kodeverk-7852&quot;&gt;&lt;version value=&quot;0.2.1&quot;&gt;&lt;code value=&quot;21&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://helsedir.no/fhir/CodeSystem/no-kodeverk-7852&quot;&gt;&lt;version value=&quot;0.2.1&quot;&gt;&lt;code value=&quot;21&quot;&gt;&lt;display value=&quot;Sjøbløtdyr&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
                   </span>
                 </td>
               </tr>
@@ -467,7 +467,7 @@
         <name value="Allergener7852"/>
         <title value="Allergener (7852)"/>
         <status value="active"/>
-        <date value="2026-09-28T10:10:46+00:00"/>
+        <date value="2026-09-28T10:47:05+00:00"/>
         <jurisdiction>
           <coding>
             <system value="urn:iso:std:iso:3166"/>
@@ -476,8 +476,8 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:33f62066-3a35-468b-9ae1-009a6345e38a"/>
-          <timestamp value="2026-09-28T10:12:37+00:00"/>
+          <identifier value="urn:uuid:6f4d2690-3504-4119-bb6b-4520803b01bd"/>
+          <timestamp value="2026-09-28T10:48:49+00:00"/>
           <total value="21"/>
           <offset value="0"/>
           <parameter>
@@ -503,86 +503,107 @@
           <contains>
             <system value="http://helsedir.no/fhir/CodeSystem/no-kodeverk-7852"/>
             <code value="1"/>
+            <display value="Gluten"/>
           </contains>
           <contains>
             <system value="http://helsedir.no/fhir/CodeSystem/no-kodeverk-7852"/>
             <code value="2"/>
+            <display value="Hvete"/>
           </contains>
           <contains>
             <system value="http://helsedir.no/fhir/CodeSystem/no-kodeverk-7852"/>
             <code value="3"/>
+            <display value="Rug"/>
           </contains>
           <contains>
             <system value="http://helsedir.no/fhir/CodeSystem/no-kodeverk-7852"/>
             <code value="4"/>
+            <display value="Bygg"/>
           </contains>
           <contains>
             <system value="http://helsedir.no/fhir/CodeSystem/no-kodeverk-7852"/>
             <code value="5"/>
+            <display value="Havre"/>
           </contains>
           <contains>
             <system value="http://helsedir.no/fhir/CodeSystem/no-kodeverk-7852"/>
             <code value="6"/>
+            <display value="Skalldyr"/>
           </contains>
           <contains>
             <system value="http://helsedir.no/fhir/CodeSystem/no-kodeverk-7852"/>
             <code value="7"/>
+            <display value="Egg (spiselig)"/>
           </contains>
           <contains>
             <system value="http://helsedir.no/fhir/CodeSystem/no-kodeverk-7852"/>
             <code value="8"/>
+            <display value="Fisk"/>
           </contains>
           <contains>
             <system value="http://helsedir.no/fhir/CodeSystem/no-kodeverk-7852"/>
             <code value="9"/>
+            <display value="Nøtt"/>
           </contains>
           <contains>
             <system value="http://helsedir.no/fhir/CodeSystem/no-kodeverk-7852"/>
             <code value="10"/>
+            <display value="Peanøtt"/>
           </contains>
           <contains>
             <system value="http://helsedir.no/fhir/CodeSystem/no-kodeverk-7852"/>
             <code value="11"/>
+            <display value="Soyabønner"/>
           </contains>
           <contains>
             <system value="http://helsedir.no/fhir/CodeSystem/no-kodeverk-7852"/>
             <code value="12"/>
+            <display value="Kumelk"/>
           </contains>
           <contains>
             <system value="http://helsedir.no/fhir/CodeSystem/no-kodeverk-7852"/>
             <code value="13"/>
+            <display value="Kumelksprotein"/>
           </contains>
           <contains>
             <system value="http://helsedir.no/fhir/CodeSystem/no-kodeverk-7852"/>
             <code value="14"/>
+            <display value="Laktose"/>
           </contains>
           <contains>
             <system value="http://helsedir.no/fhir/CodeSystem/no-kodeverk-7852"/>
             <code value="15"/>
+            <display value="Selleri"/>
           </contains>
           <contains>
             <system value="http://helsedir.no/fhir/CodeSystem/no-kodeverk-7852"/>
             <code value="16"/>
+            <display value="Sennepsfrø"/>
           </contains>
           <contains>
             <system value="http://helsedir.no/fhir/CodeSystem/no-kodeverk-7852"/>
             <code value="17"/>
+            <display value="Sesamfrø"/>
           </contains>
           <contains>
             <system value="http://helsedir.no/fhir/CodeSystem/no-kodeverk-7852"/>
             <code value="18"/>
+            <display value="Svoveldioksid"/>
           </contains>
           <contains>
             <system value="http://helsedir.no/fhir/CodeSystem/no-kodeverk-7852"/>
             <code value="19"/>
+            <display value="Sulfitt og sulfittderivater"/>
           </contains>
           <contains>
             <system value="http://helsedir.no/fhir/CodeSystem/no-kodeverk-7852"/>
             <code value="20"/>
+            <display value="Lupinfrø"/>
           </contains>
           <contains>
             <system value="http://helsedir.no/fhir/CodeSystem/no-kodeverk-7852"/>
             <code value="21"/>
+            <display value="Sjøbløtdyr"/>
           </contains>
         </expansion>
       </ValueSet>
@@ -629,15 +650,15 @@
                 <td style="white-space:nowrap">  
                   <a href="CodeSystem-no-kodeverk-7514.codesystem.html#no-kodeverk-7514.codesystem-1">1</a>
                 </td>
-                <td/>
+                <td>Melk</td>
                 <td>
                   <span class="copy-text-inline">
-                    <button data-clipboard-text="{&quot;system&quot;: &quot;http://helsedir.no/fhir/CodeSystem/no-kodeverk-7514&quot;, &quot;version&quot;: &quot;0.2.1&quot;, &quot;code&quot;: &quot;1&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;http://helsedir.no/fhir/CodeSystem/no-kodeverk-7514&quot;, &quot;version&quot;: &quot;0.2.1&quot;, &quot;code&quot;: &quot;1&quot;, &quot;display&quot;: &quot;Melk&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
                   </span>
                 </td>
                 <td>
                   <span class="copy-text-inline">
-                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://helsedir.no/fhir/CodeSystem/no-kodeverk-7514&quot;&gt;&lt;version value=&quot;0.2.1&quot;&gt;&lt;code value=&quot;1&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://helsedir.no/fhir/CodeSystem/no-kodeverk-7514&quot;&gt;&lt;version value=&quot;0.2.1&quot;&gt;&lt;code value=&quot;1&quot;&gt;&lt;display value=&quot;Melk&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
                   </span>
                 </td>
               </tr>
@@ -649,15 +670,15 @@
                 <td style="white-space:nowrap">  
                   <a href="CodeSystem-no-kodeverk-7514.codesystem.html#no-kodeverk-7514.codesystem-2">2</a>
                 </td>
-                <td/>
+                <td>Egg</td>
                 <td>
                   <span class="copy-text-inline">
-                    <button data-clipboard-text="{&quot;system&quot;: &quot;http://helsedir.no/fhir/CodeSystem/no-kodeverk-7514&quot;, &quot;version&quot;: &quot;0.2.1&quot;, &quot;code&quot;: &quot;2&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;http://helsedir.no/fhir/CodeSystem/no-kodeverk-7514&quot;, &quot;version&quot;: &quot;0.2.1&quot;, &quot;code&quot;: &quot;2&quot;, &quot;display&quot;: &quot;Egg&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
                   </span>
                 </td>
                 <td>
                   <span class="copy-text-inline">
-                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://helsedir.no/fhir/CodeSystem/no-kodeverk-7514&quot;&gt;&lt;version value=&quot;0.2.1&quot;&gt;&lt;code value=&quot;2&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://helsedir.no/fhir/CodeSystem/no-kodeverk-7514&quot;&gt;&lt;version value=&quot;0.2.1&quot;&gt;&lt;code value=&quot;2&quot;&gt;&lt;display value=&quot;Egg&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
                   </span>
                 </td>
               </tr>
@@ -669,15 +690,15 @@
                 <td style="white-space:nowrap">  
                   <a href="CodeSystem-no-kodeverk-7514.codesystem.html#no-kodeverk-7514.codesystem-3">3</a>
                 </td>
-                <td/>
+                <td>Hvete</td>
                 <td>
                   <span class="copy-text-inline">
-                    <button data-clipboard-text="{&quot;system&quot;: &quot;http://helsedir.no/fhir/CodeSystem/no-kodeverk-7514&quot;, &quot;version&quot;: &quot;0.2.1&quot;, &quot;code&quot;: &quot;3&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;http://helsedir.no/fhir/CodeSystem/no-kodeverk-7514&quot;, &quot;version&quot;: &quot;0.2.1&quot;, &quot;code&quot;: &quot;3&quot;, &quot;display&quot;: &quot;Hvete&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
                   </span>
                 </td>
                 <td>
                   <span class="copy-text-inline">
-                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://helsedir.no/fhir/CodeSystem/no-kodeverk-7514&quot;&gt;&lt;version value=&quot;0.2.1&quot;&gt;&lt;code value=&quot;3&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://helsedir.no/fhir/CodeSystem/no-kodeverk-7514&quot;&gt;&lt;version value=&quot;0.2.1&quot;&gt;&lt;code value=&quot;3&quot;&gt;&lt;display value=&quot;Hvete&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
                   </span>
                 </td>
               </tr>
@@ -689,15 +710,15 @@
                 <td style="white-space:nowrap">  
                   <a href="CodeSystem-no-kodeverk-7514.codesystem.html#no-kodeverk-7514.codesystem-4">4</a>
                 </td>
-                <td/>
+                <td>Skalldyr</td>
                 <td>
                   <span class="copy-text-inline">
-                    <button data-clipboard-text="{&quot;system&quot;: &quot;http://helsedir.no/fhir/CodeSystem/no-kodeverk-7514&quot;, &quot;version&quot;: &quot;0.2.1&quot;, &quot;code&quot;: &quot;4&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;http://helsedir.no/fhir/CodeSystem/no-kodeverk-7514&quot;, &quot;version&quot;: &quot;0.2.1&quot;, &quot;code&quot;: &quot;4&quot;, &quot;display&quot;: &quot;Skalldyr&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
                   </span>
                 </td>
                 <td>
                   <span class="copy-text-inline">
-                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://helsedir.no/fhir/CodeSystem/no-kodeverk-7514&quot;&gt;&lt;version value=&quot;0.2.1&quot;&gt;&lt;code value=&quot;4&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://helsedir.no/fhir/CodeSystem/no-kodeverk-7514&quot;&gt;&lt;version value=&quot;0.2.1&quot;&gt;&lt;code value=&quot;4&quot;&gt;&lt;display value=&quot;Skalldyr&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
                   </span>
                 </td>
               </tr>
@@ -709,15 +730,15 @@
                 <td style="white-space:nowrap">  
                   <a href="CodeSystem-no-kodeverk-7514.codesystem.html#no-kodeverk-7514.codesystem-5">5</a>
                 </td>
-                <td/>
+                <td>Fisk</td>
                 <td>
                   <span class="copy-text-inline">
-                    <button data-clipboard-text="{&quot;system&quot;: &quot;http://helsedir.no/fhir/CodeSystem/no-kodeverk-7514&quot;, &quot;version&quot;: &quot;0.2.1&quot;, &quot;code&quot;: &quot;5&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;http://helsedir.no/fhir/CodeSystem/no-kodeverk-7514&quot;, &quot;version&quot;: &quot;0.2.1&quot;, &quot;code&quot;: &quot;5&quot;, &quot;display&quot;: &quot;Fisk&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
                   </span>
                 </td>
                 <td>
                   <span class="copy-text-inline">
-                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://helsedir.no/fhir/CodeSystem/no-kodeverk-7514&quot;&gt;&lt;version value=&quot;0.2.1&quot;&gt;&lt;code value=&quot;5&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://helsedir.no/fhir/CodeSystem/no-kodeverk-7514&quot;&gt;&lt;version value=&quot;0.2.1&quot;&gt;&lt;code value=&quot;5&quot;&gt;&lt;display value=&quot;Fisk&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
                   </span>
                 </td>
               </tr>
@@ -729,15 +750,15 @@
                 <td style="white-space:nowrap">  
                   <a href="CodeSystem-no-kodeverk-7514.codesystem.html#no-kodeverk-7514.codesystem-6">6</a>
                 </td>
-                <td/>
+                <td>Erter</td>
                 <td>
                   <span class="copy-text-inline">
-                    <button data-clipboard-text="{&quot;system&quot;: &quot;http://helsedir.no/fhir/CodeSystem/no-kodeverk-7514&quot;, &quot;version&quot;: &quot;0.2.1&quot;, &quot;code&quot;: &quot;6&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;http://helsedir.no/fhir/CodeSystem/no-kodeverk-7514&quot;, &quot;version&quot;: &quot;0.2.1&quot;, &quot;code&quot;: &quot;6&quot;, &quot;display&quot;: &quot;Erter&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
                   </span>
                 </td>
                 <td>
                   <span class="copy-text-inline">
-                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://helsedir.no/fhir/CodeSystem/no-kodeverk-7514&quot;&gt;&lt;version value=&quot;0.2.1&quot;&gt;&lt;code value=&quot;6&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://helsedir.no/fhir/CodeSystem/no-kodeverk-7514&quot;&gt;&lt;version value=&quot;0.2.1&quot;&gt;&lt;code value=&quot;6&quot;&gt;&lt;display value=&quot;Erter&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
                   </span>
                 </td>
               </tr>
@@ -749,15 +770,15 @@
                 <td style="white-space:nowrap">  
                   <a href="CodeSystem-no-kodeverk-7514.codesystem.html#no-kodeverk-7514.codesystem-7">7</a>
                 </td>
-                <td/>
+                <td>Soya</td>
                 <td>
                   <span class="copy-text-inline">
-                    <button data-clipboard-text="{&quot;system&quot;: &quot;http://helsedir.no/fhir/CodeSystem/no-kodeverk-7514&quot;, &quot;version&quot;: &quot;0.2.1&quot;, &quot;code&quot;: &quot;7&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;http://helsedir.no/fhir/CodeSystem/no-kodeverk-7514&quot;, &quot;version&quot;: &quot;0.2.1&quot;, &quot;code&quot;: &quot;7&quot;, &quot;display&quot;: &quot;Soya&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
                   </span>
                 </td>
                 <td>
                   <span class="copy-text-inline">
-                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://helsedir.no/fhir/CodeSystem/no-kodeverk-7514&quot;&gt;&lt;version value=&quot;0.2.1&quot;&gt;&lt;code value=&quot;7&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://helsedir.no/fhir/CodeSystem/no-kodeverk-7514&quot;&gt;&lt;version value=&quot;0.2.1&quot;&gt;&lt;code value=&quot;7&quot;&gt;&lt;display value=&quot;Soya&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
                   </span>
                 </td>
               </tr>
@@ -769,15 +790,15 @@
                 <td style="white-space:nowrap">  
                   <a href="CodeSystem-no-kodeverk-7514.codesystem.html#no-kodeverk-7514.codesystem-8">8</a>
                 </td>
-                <td/>
+                <td>Lupin</td>
                 <td>
                   <span class="copy-text-inline">
-                    <button data-clipboard-text="{&quot;system&quot;: &quot;http://helsedir.no/fhir/CodeSystem/no-kodeverk-7514&quot;, &quot;version&quot;: &quot;0.2.1&quot;, &quot;code&quot;: &quot;8&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;http://helsedir.no/fhir/CodeSystem/no-kodeverk-7514&quot;, &quot;version&quot;: &quot;0.2.1&quot;, &quot;code&quot;: &quot;8&quot;, &quot;display&quot;: &quot;Lupin&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
                   </span>
                 </td>
                 <td>
                   <span class="copy-text-inline">
-                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://helsedir.no/fhir/CodeSystem/no-kodeverk-7514&quot;&gt;&lt;version value=&quot;0.2.1&quot;&gt;&lt;code value=&quot;8&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://helsedir.no/fhir/CodeSystem/no-kodeverk-7514&quot;&gt;&lt;version value=&quot;0.2.1&quot;&gt;&lt;code value=&quot;8&quot;&gt;&lt;display value=&quot;Lupin&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
                   </span>
                 </td>
               </tr>
@@ -789,15 +810,15 @@
                 <td style="white-space:nowrap">  
                   <a href="CodeSystem-no-kodeverk-7514.codesystem.html#no-kodeverk-7514.codesystem-9">9</a>
                 </td>
-                <td/>
+                <td>Bukkhornskløver</td>
                 <td>
                   <span class="copy-text-inline">
-                    <button data-clipboard-text="{&quot;system&quot;: &quot;http://helsedir.no/fhir/CodeSystem/no-kodeverk-7514&quot;, &quot;version&quot;: &quot;0.2.1&quot;, &quot;code&quot;: &quot;9&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;http://helsedir.no/fhir/CodeSystem/no-kodeverk-7514&quot;, &quot;version&quot;: &quot;0.2.1&quot;, &quot;code&quot;: &quot;9&quot;, &quot;display&quot;: &quot;Bukkhornskløver&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
                   </span>
                 </td>
                 <td>
                   <span class="copy-text-inline">
-                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://helsedir.no/fhir/CodeSystem/no-kodeverk-7514&quot;&gt;&lt;version value=&quot;0.2.1&quot;&gt;&lt;code value=&quot;9&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://helsedir.no/fhir/CodeSystem/no-kodeverk-7514&quot;&gt;&lt;version value=&quot;0.2.1&quot;&gt;&lt;code value=&quot;9&quot;&gt;&lt;display value=&quot;Bukkhornskløver&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
                   </span>
                 </td>
               </tr>
@@ -809,15 +830,15 @@
                 <td style="white-space:nowrap">  
                   <a href="CodeSystem-no-kodeverk-7514.codesystem.html#no-kodeverk-7514.codesystem-10">10</a>
                 </td>
-                <td/>
+                <td>Peanøtt</td>
                 <td>
                   <span class="copy-text-inline">
-                    <button data-clipboard-text="{&quot;system&quot;: &quot;http://helsedir.no/fhir/CodeSystem/no-kodeverk-7514&quot;, &quot;version&quot;: &quot;0.2.1&quot;, &quot;code&quot;: &quot;10&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;http://helsedir.no/fhir/CodeSystem/no-kodeverk-7514&quot;, &quot;version&quot;: &quot;0.2.1&quot;, &quot;code&quot;: &quot;10&quot;, &quot;display&quot;: &quot;Peanøtt&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
                   </span>
                 </td>
                 <td>
                   <span class="copy-text-inline">
-                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://helsedir.no/fhir/CodeSystem/no-kodeverk-7514&quot;&gt;&lt;version value=&quot;0.2.1&quot;&gt;&lt;code value=&quot;10&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://helsedir.no/fhir/CodeSystem/no-kodeverk-7514&quot;&gt;&lt;version value=&quot;0.2.1&quot;&gt;&lt;code value=&quot;10&quot;&gt;&lt;display value=&quot;Peanøtt&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
                   </span>
                 </td>
               </tr>
@@ -829,15 +850,15 @@
                 <td style="white-space:nowrap">  
                   <a href="CodeSystem-no-kodeverk-7514.codesystem.html#no-kodeverk-7514.codesystem-11">11</a>
                 </td>
-                <td/>
+                <td>Andre nøtter enn peanøtter</td>
                 <td>
                   <span class="copy-text-inline">
-                    <button data-clipboard-text="{&quot;system&quot;: &quot;http://helsedir.no/fhir/CodeSystem/no-kodeverk-7514&quot;, &quot;version&quot;: &quot;0.2.1&quot;, &quot;code&quot;: &quot;11&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;http://helsedir.no/fhir/CodeSystem/no-kodeverk-7514&quot;, &quot;version&quot;: &quot;0.2.1&quot;, &quot;code&quot;: &quot;11&quot;, &quot;display&quot;: &quot;Andre nøtter enn peanøtter&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
                   </span>
                 </td>
                 <td>
                   <span class="copy-text-inline">
-                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://helsedir.no/fhir/CodeSystem/no-kodeverk-7514&quot;&gt;&lt;version value=&quot;0.2.1&quot;&gt;&lt;code value=&quot;11&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://helsedir.no/fhir/CodeSystem/no-kodeverk-7514&quot;&gt;&lt;version value=&quot;0.2.1&quot;&gt;&lt;code value=&quot;11&quot;&gt;&lt;display value=&quot;Andre nøtter enn peanøtter&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
                   </span>
                 </td>
               </tr>
@@ -849,15 +870,15 @@
                 <td style="white-space:nowrap">  
                   <a href="CodeSystem-no-kodeverk-7514.codesystem.html#no-kodeverk-7514.codesystem-12">12</a>
                 </td>
-                <td/>
+                <td>Valmuefrø</td>
                 <td>
                   <span class="copy-text-inline">
-                    <button data-clipboard-text="{&quot;system&quot;: &quot;http://helsedir.no/fhir/CodeSystem/no-kodeverk-7514&quot;, &quot;version&quot;: &quot;0.2.1&quot;, &quot;code&quot;: &quot;12&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;http://helsedir.no/fhir/CodeSystem/no-kodeverk-7514&quot;, &quot;version&quot;: &quot;0.2.1&quot;, &quot;code&quot;: &quot;12&quot;, &quot;display&quot;: &quot;Valmuefrø&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
                   </span>
                 </td>
                 <td>
                   <span class="copy-text-inline">
-                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://helsedir.no/fhir/CodeSystem/no-kodeverk-7514&quot;&gt;&lt;version value=&quot;0.2.1&quot;&gt;&lt;code value=&quot;12&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://helsedir.no/fhir/CodeSystem/no-kodeverk-7514&quot;&gt;&lt;version value=&quot;0.2.1&quot;&gt;&lt;code value=&quot;12&quot;&gt;&lt;display value=&quot;Valmuefrø&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
                   </span>
                 </td>
               </tr>
@@ -869,15 +890,15 @@
                 <td style="white-space:nowrap">  
                   <a href="CodeSystem-no-kodeverk-7514.codesystem.html#no-kodeverk-7514.codesystem-13">13</a>
                 </td>
-                <td/>
+                <td>Insektgift</td>
                 <td>
                   <span class="copy-text-inline">
-                    <button data-clipboard-text="{&quot;system&quot;: &quot;http://helsedir.no/fhir/CodeSystem/no-kodeverk-7514&quot;, &quot;version&quot;: &quot;0.2.1&quot;, &quot;code&quot;: &quot;13&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;http://helsedir.no/fhir/CodeSystem/no-kodeverk-7514&quot;, &quot;version&quot;: &quot;0.2.1&quot;, &quot;code&quot;: &quot;13&quot;, &quot;display&quot;: &quot;Insektgift&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
                   </span>
                 </td>
                 <td>
                   <span class="copy-text-inline">
-                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://helsedir.no/fhir/CodeSystem/no-kodeverk-7514&quot;&gt;&lt;version value=&quot;0.2.1&quot;&gt;&lt;code value=&quot;13&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://helsedir.no/fhir/CodeSystem/no-kodeverk-7514&quot;&gt;&lt;version value=&quot;0.2.1&quot;&gt;&lt;code value=&quot;13&quot;&gt;&lt;display value=&quot;Insektgift&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
                   </span>
                 </td>
               </tr>
@@ -889,15 +910,15 @@
                 <td style="white-space:nowrap">  
                   <a href="CodeSystem-no-kodeverk-7514.codesystem.html#no-kodeverk-7514.codesystem-14">14</a>
                 </td>
-                <td/>
+                <td>Latex</td>
                 <td>
                   <span class="copy-text-inline">
-                    <button data-clipboard-text="{&quot;system&quot;: &quot;http://helsedir.no/fhir/CodeSystem/no-kodeverk-7514&quot;, &quot;version&quot;: &quot;0.2.1&quot;, &quot;code&quot;: &quot;14&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;http://helsedir.no/fhir/CodeSystem/no-kodeverk-7514&quot;, &quot;version&quot;: &quot;0.2.1&quot;, &quot;code&quot;: &quot;14&quot;, &quot;display&quot;: &quot;Latex&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
                   </span>
                 </td>
                 <td>
                   <span class="copy-text-inline">
-                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://helsedir.no/fhir/CodeSystem/no-kodeverk-7514&quot;&gt;&lt;version value=&quot;0.2.1&quot;&gt;&lt;code value=&quot;14&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://helsedir.no/fhir/CodeSystem/no-kodeverk-7514&quot;&gt;&lt;version value=&quot;0.2.1&quot;&gt;&lt;code value=&quot;14&quot;&gt;&lt;display value=&quot;Latex&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
                   </span>
                 </td>
               </tr>
@@ -909,15 +930,15 @@
                 <td style="white-space:nowrap">  
                   <a href="CodeSystem-no-kodeverk-7514.codesystem.html#no-kodeverk-7514.codesystem-15">15</a>
                 </td>
-                <td/>
+                <td>Annen viktig allergi</td>
                 <td>
                   <span class="copy-text-inline">
-                    <button data-clipboard-text="{&quot;system&quot;: &quot;http://helsedir.no/fhir/CodeSystem/no-kodeverk-7514&quot;, &quot;version&quot;: &quot;0.2.1&quot;, &quot;code&quot;: &quot;15&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;http://helsedir.no/fhir/CodeSystem/no-kodeverk-7514&quot;, &quot;version&quot;: &quot;0.2.1&quot;, &quot;code&quot;: &quot;15&quot;, &quot;display&quot;: &quot;Annen viktig allergi&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
                   </span>
                 </td>
                 <td>
                   <span class="copy-text-inline">
-                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://helsedir.no/fhir/CodeSystem/no-kodeverk-7514&quot;&gt;&lt;version value=&quot;0.2.1&quot;&gt;&lt;code value=&quot;15&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://helsedir.no/fhir/CodeSystem/no-kodeverk-7514&quot;&gt;&lt;version value=&quot;0.2.1&quot;&gt;&lt;code value=&quot;15&quot;&gt;&lt;display value=&quot;Annen viktig allergi&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
                   </span>
                 </td>
               </tr>
@@ -929,7 +950,7 @@
         <name value="AnnenAllergiSomKritiskInformasjon7514"/>
         <title value="Annen allergi som kritisk informasjon (7514)"/>
         <status value="active"/>
-        <date value="2026-09-28T10:10:46+00:00"/>
+        <date value="2026-09-28T10:47:05+00:00"/>
         <jurisdiction>
           <coding>
             <system value="urn:iso:std:iso:3166"/>
@@ -938,8 +959,8 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:04dc9f85-c0fd-432f-a1af-0cb862f82cf7"/>
-          <timestamp value="2026-09-28T10:12:37+00:00"/>
+          <identifier value="urn:uuid:cec3a58b-e766-4951-8901-9d382a351121"/>
+          <timestamp value="2026-09-28T10:48:49+00:00"/>
           <total value="15"/>
           <offset value="0"/>
           <parameter>
@@ -965,62 +986,77 @@
           <contains>
             <system value="http://helsedir.no/fhir/CodeSystem/no-kodeverk-7514"/>
             <code value="1"/>
+            <display value="Melk"/>
           </contains>
           <contains>
             <system value="http://helsedir.no/fhir/CodeSystem/no-kodeverk-7514"/>
             <code value="2"/>
+            <display value="Egg"/>
           </contains>
           <contains>
             <system value="http://helsedir.no/fhir/CodeSystem/no-kodeverk-7514"/>
             <code value="3"/>
+            <display value="Hvete"/>
           </contains>
           <contains>
             <system value="http://helsedir.no/fhir/CodeSystem/no-kodeverk-7514"/>
             <code value="4"/>
+            <display value="Skalldyr"/>
           </contains>
           <contains>
             <system value="http://helsedir.no/fhir/CodeSystem/no-kodeverk-7514"/>
             <code value="5"/>
+            <display value="Fisk"/>
           </contains>
           <contains>
             <system value="http://helsedir.no/fhir/CodeSystem/no-kodeverk-7514"/>
             <code value="6"/>
+            <display value="Erter"/>
           </contains>
           <contains>
             <system value="http://helsedir.no/fhir/CodeSystem/no-kodeverk-7514"/>
             <code value="7"/>
+            <display value="Soya"/>
           </contains>
           <contains>
             <system value="http://helsedir.no/fhir/CodeSystem/no-kodeverk-7514"/>
             <code value="8"/>
+            <display value="Lupin"/>
           </contains>
           <contains>
             <system value="http://helsedir.no/fhir/CodeSystem/no-kodeverk-7514"/>
             <code value="9"/>
+            <display value="Bukkhornskløver"/>
           </contains>
           <contains>
             <system value="http://helsedir.no/fhir/CodeSystem/no-kodeverk-7514"/>
             <code value="10"/>
+            <display value="Peanøtt"/>
           </contains>
           <contains>
             <system value="http://helsedir.no/fhir/CodeSystem/no-kodeverk-7514"/>
             <code value="11"/>
+            <display value="Andre nøtter enn peanøtter"/>
           </contains>
           <contains>
             <system value="http://helsedir.no/fhir/CodeSystem/no-kodeverk-7514"/>
             <code value="12"/>
+            <display value="Valmuefrø"/>
           </contains>
           <contains>
             <system value="http://helsedir.no/fhir/CodeSystem/no-kodeverk-7514"/>
             <code value="13"/>
+            <display value="Insektgift"/>
           </contains>
           <contains>
             <system value="http://helsedir.no/fhir/CodeSystem/no-kodeverk-7514"/>
             <code value="14"/>
+            <display value="Latex"/>
           </contains>
           <contains>
             <system value="http://helsedir.no/fhir/CodeSystem/no-kodeverk-7514"/>
             <code value="15"/>
+            <display value="Annen viktig allergi"/>
           </contains>
         </expansion>
       </ValueSet>

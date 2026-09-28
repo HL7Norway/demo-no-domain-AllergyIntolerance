@@ -49,7 +49,7 @@ Espen Stranger Seland, Helsedirektoratet
   "name" : "DemoAT",
   "title" : "Demo AllergyIntolerance Europa (EU Core/EHDS) og Norge",
   "status" : "draft",
-  "date" : "2026-09-28T10:10:46+00:00",
+  "date" : "2026-09-28T10:47:05+00:00",
   "publisher" : "Helsedirektoratet",
   "contact" : [{
     "name" : "Helsedirektoratet",
@@ -727,7 +727,7 @@ Espen Stranger Seland, Helsedirektoratet
         "reference" : "StructureDefinition/demo-at-allergy-intolerance"
       },
       "name" : "Demo AllergyIntolerance",
-      "description" : "Dummy-tekst: Helse-NIM for overfølsomhet er en liste som inneholder informasjon om unormale reaksjoner, symptomer eller funn initiert av eksponering for en definert stimulus i en dose som normalt tolereres av andre. Informasjon om en pasients overfølsomhet er relevant i mange situasjoner, som ved vaksinasjon, kost på institusjon, rekvirering og utlevering av legemidler, herunder inkludert muligheten til å dele informasjon om en avkreftet overfølsomhet.",
+      "description" : "Demo-profil for registrering av allergi og intoleranse med utgangspunkt i HL7 EU Core og relevante norske føringer for overfølsomhet.",
       "exampleBoolean" : false
     },
     {
@@ -760,6 +760,22 @@ Espen Stranger Seland, Helsedirektoratet
       },
       "name" : "DemoAtAllergyIntolerance-1",
       "description" : "Eksempel på registrert peanøttallergi",
+      "exampleCanonical" : "http://hl7.no/fhir/ig/demo-at/StructureDefinition/demo-at-allergy-intolerance"
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "AllergyIntolerance"
+      },
+      {
+        "url" : "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+        "valueUri" : "AllergyIntolerance-DemoAtAllergyIntolerance-2.html"
+      }],
+      "reference" : {
+        "reference" : "AllergyIntolerance/DemoAtAllergyIntolerance-2"
+      },
+      "name" : "DemoAtAllergyIntolerance-2",
+      "description" : "Eksempel på bekreftet peanøttallergi med flere reaksjonshendelser",
       "exampleCanonical" : "http://hl7.no/fhir/ig/demo-at/StructureDefinition/demo-at-allergy-intolerance"
     },
     {
