@@ -1,4 +1,4 @@
-# Demo AllergyIntolerance - Demo AllergyIntolerance Europa (EU Core/EHDS) og Norge v0.2.0
+# Demo AllergyIntolerance - Demo AllergyIntolerance Europa (EU Core/EHDS) og Norge v0.2.1
 
 * [**Table of Contents**](toc.md)
 * [**Artifacts Summary**](artifacts.md)
@@ -8,7 +8,7 @@
 
 | | |
 | :--- | :--- |
-| *Official URL*:http://hl7.no/fhir/ig/demo-at/StructureDefinition/demo-at-allergy-intolerance | *Version*:0.2.0 |
+| *Official URL*:http://hl7.no/fhir/ig/demo-at/StructureDefinition/demo-at-allergy-intolerance | *Version*:0.2.1 |
 | Draft as of 2026-09-15 | *Computable Name*:DemoAtAllergyIntolerance |
 
  
@@ -37,7 +37,7 @@ Other representations of profile: [CSV](StructureDefinition-demo-at-allergy-into
   "resourceType" : "StructureDefinition",
   "id" : "demo-at-allergy-intolerance",
   "url" : "http://hl7.no/fhir/ig/demo-at/StructureDefinition/demo-at-allergy-intolerance",
-  "version" : "0.2.0",
+  "version" : "0.2.1",
   "name" : "DemoAtAllergyIntolerance",
   "title" : "Demo AllergyIntolerance",
   "status" : "draft",
@@ -135,6 +135,24 @@ Other representations of profile: [CSV](StructureDefinition-demo-at-allergy-into
       "id" : "AllergyIntolerance.note",
       "path" : "AllergyIntolerance.note",
       "definition" : "Kommentar eller supplerende opplysninger."
+    },
+    {
+      "id" : "AllergyIntolerance.reaction",
+      "path" : "AllergyIntolerance.reaction",
+      "mustSupport" : true
+    },
+    {
+      "id" : "AllergyIntolerance.reaction.manifestation",
+      "path" : "AllergyIntolerance.reaction.manifestation",
+      "definition" : "Hvilken reaksjon pasienten har hatt.",
+      "comment" : "Helse-NIM anbefaler KJ 7497 (Reaksjonstype) for koding av manifestasjon.",
+      "mustSupport" : true
+    },
+    {
+      "id" : "AllergyIntolerance.reaction.severity",
+      "path" : "AllergyIntolerance.reaction.severity",
+      "definition" : "Hvor alvorlig reaksjon pasienten har hatt.",
+      "mustSupport" : true
     }]
   }
 }

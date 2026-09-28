@@ -6,11 +6,11 @@
     "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: ImplementationGuide hl7.fhir.no.demo-at</b></p><a name=\"hl7.fhir.no.demo-at\"> </a><a name=\"hchl7.fhir.no.demo-at\"> </a><h2>DemoAT</h2><p>The official URL for this implementation guide is: </p><pre>http://hl7.no/fhir/ig/demo-at/ImplementationGuide/hl7.fhir.no.demo-at</pre><div><p>Demo implementation guide for AllergyIntolerance.</p>\n</div></div>"
   },
   "url" : "http://hl7.no/fhir/ig/demo-at/ImplementationGuide/hl7.fhir.no.demo-at",
-  "version" : "0.2.0",
+  "version" : "0.2.1",
   "name" : "DemoAT",
   "title" : "Demo AllergyIntolerance Europa (EU Core/EHDS) og Norge",
   "status" : "draft",
-  "date" : "2026-09-28T07:52:08+00:00",
+  "date" : "2026-09-28T10:10:46+00:00",
   "publisher" : "Helsedirektoratet",
   "contact" : [{
     "name" : "Helsedirektoratet",

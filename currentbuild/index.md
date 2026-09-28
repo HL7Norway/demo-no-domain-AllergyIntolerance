@@ -1,4 +1,4 @@
-# Home - Demo AllergyIntolerance Europa (EU Core/EHDS) og Norge v0.2.0
+# Home - Demo AllergyIntolerance Europa (EU Core/EHDS) og Norge v0.2.1
 
 * [**Table of Contents**](toc.md)
 * **Home**
@@ -7,7 +7,7 @@
 
 | | |
 | :--- | :--- |
-| *Official URL*:http://hl7.no/fhir/ig/demo-at/ImplementationGuide/hl7.fhir.no.demo-at | *Version*:0.2.0 |
+| *Official URL*:http://hl7.no/fhir/ig/demo-at/ImplementationGuide/hl7.fhir.no.demo-at | *Version*:0.2.1 |
 | Draft as of 2026-09-28 | *Computable Name*:DemoAT |
 
 ### Demo AllergyIntolerance Europa og Norge
@@ -45,11 +45,11 @@ Espen Stranger Seland, Helsedirektoratet
   "resourceType" : "ImplementationGuide",
   "id" : "hl7.fhir.no.demo-at",
   "url" : "http://hl7.no/fhir/ig/demo-at/ImplementationGuide/hl7.fhir.no.demo-at",
-  "version" : "0.2.0",
+  "version" : "0.2.1",
   "name" : "DemoAT",
   "title" : "Demo AllergyIntolerance Europa (EU Core/EHDS) og Norge",
   "status" : "draft",
-  "date" : "2026-09-28T07:52:08+00:00",
+  "date" : "2026-09-28T10:10:46+00:00",
   "publisher" : "Helsedirektoratet",
   "contact" : [{
     "name" : "Helsedirektoratet",

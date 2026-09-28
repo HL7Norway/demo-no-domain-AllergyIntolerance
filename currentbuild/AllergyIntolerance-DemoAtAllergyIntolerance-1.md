@@ -1,4 +1,4 @@
-# DemoAtAllergyIntolerance-1 - Demo AllergyIntolerance Europa (EU Core/EHDS) og Norge v0.2.0
+# DemoAtAllergyIntolerance-1 - Demo AllergyIntolerance Europa (EU Core/EHDS) og Norge v0.2.1
 
 * [**Table of Contents**](toc.md)
 * [**Artifacts Summary**](artifacts.md)
@@ -26,10 +26,10 @@ Profile: [Demo AllergyIntolerance](StructureDefinition-demo-at-allergy-intoleran
 
 ### Reactions
 
-| | | |
-| :--- | :--- | :--- |
-| - | **Substance** | **Manifestation** |
-| * | Peanut | Wheal (finding) |
+| | | | |
+| :--- | :--- | :--- | :--- |
+| - | **Substance** | **Manifestation** | **Severity** |
+| * | Peanut | Wheal (finding) | Mild |
 
 
 
@@ -84,7 +84,8 @@ Profile: [Demo AllergyIntolerance](StructureDefinition-demo-at-allergy-intoleran
         "code" : "247472004",
         "display" : "Wheal (finding)"
       }]
-    }]
+    }],
+    "severity" : "mild"
   }]
 }
 
