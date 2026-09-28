@@ -45,6 +45,10 @@ Description: "Profil for registrering av allergi og intoleranse i demo-IG."
 * recordedDate ^requirements = "Obligatorisk i Kjernejournal"
 * recordedDate ^short = "Registreringsdato"
 * note ^definition = "Kommentar eller supplerende opplysninger."
+* reaction MS
+* reaction.manifestation MS
+* reaction.manifestation ^definition = "Hvilken reaksjon pasienten har hatt."
+* reaction.manifestation ^comment = "Helse-NIM anbefaler KJ 7497 (Reaksjonstype) for koding av manifestasjon."
 * reaction.severity MS
 * reaction.severity ^definition = "Hvor alvorlig reaksjon pasienten har hatt."
 
