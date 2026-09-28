@@ -1,4 +1,4 @@
-# Artifacts Summary - Demo AllergyIntolerance Europa (EU Core/EHDS) og Norge v0.1.3
+# Artifacts Summary - Demo AllergyIntolerance Europa (EU Core/EHDS) og Norge v0.1.4
 
 * [**Table of Contents**](toc.md)
 * **Artifacts Summary**

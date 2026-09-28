@@ -1,4 +1,4 @@
-# Demo AllergyIntolerance - Demo AllergyIntolerance Europa (EU Core/EHDS) og Norge v0.1.3
+# Demo AllergyIntolerance - Demo AllergyIntolerance Europa (EU Core/EHDS) og Norge v0.1.4
 
 * [**Table of Contents**](toc.md)
 * [**Artifacts Summary**](artifacts.md)
@@ -8,7 +8,7 @@
 
 | | |
 | :--- | :--- |
-| *Official URL*:http://hl7.no/fhir/ig/demo-at/StructureDefinition/demo-at-allergy-intolerance | *Version*:0.1.3 |
+| *Official URL*:http://hl7.no/fhir/ig/demo-at/StructureDefinition/demo-at-allergy-intolerance | *Version*:0.1.4 |
 | Draft as of 2026-09-15 | *Computable Name*:DemoAtAllergyIntolerance |
 
  
@@ -37,7 +37,7 @@ Other representations of profile: [CSV](StructureDefinition-demo-at-allergy-into
   "resourceType" : "StructureDefinition",
   "id" : "demo-at-allergy-intolerance",
   "url" : "http://hl7.no/fhir/ig/demo-at/StructureDefinition/demo-at-allergy-intolerance",
-  "version" : "0.1.3",
+  "version" : "0.1.4",
   "name" : "DemoAtAllergyIntolerance",
   "title" : "Demo AllergyIntolerance",
   "status" : "draft",
@@ -93,7 +93,14 @@ Other representations of profile: [CSV](StructureDefinition-demo-at-allergy-into
     {
       "id" : "AllergyIntolerance.verificationStatus",
       "path" : "AllergyIntolerance.verificationStatus",
-      "mustSupport" : true
+      "comment" : "Import need to handle missing verificationStatus",
+      "min" : 1
+    },
+    {
+      "id" : "AllergyIntolerance.criticality",
+      "path" : "AllergyIntolerance.criticality",
+      "comment" : "Import need to handle missing criticality",
+      "min" : 1
     },
     {
       "id" : "AllergyIntolerance.code",

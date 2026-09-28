@@ -1,7 +1,7 @@
 {
   "codeSystems" : [{
     "url" : "http://hl7.no/fhir/ig/demo-at/ValueSet/allergener-7852",
-    "version" : "0.1.3",
+    "version" : "0.1.4",
     "status" : "active",
     "name" : "Allergener7852",
     "title" : "Allergener (7852)",
@@ -10,7 +10,7 @@
   },
   {
     "url" : "http://hl7.no/fhir/ig/demo-at/ValueSet/annen-allergi-som-kritisk-informasjon-7514",
-    "version" : "0.1.3",
+    "version" : "0.1.4",
     "status" : "active",
     "name" : "AnnenAllergiSomKritiskInformasjon7514",
     "title" : "Annen allergi som kritisk informasjon (7514)",
@@ -206,7 +206,7 @@
   },
   {
     "url" : "http://hl7.org/fhir/uv/ips/ValueSet/allergy-reaction-uv-ips",
-    "version" : "2.0.0",
+    "version" : "2.0.1",
     "status" : "active",
     "name" : "AllergyReactionUvIps",
     "title" : "Allergy Reaction - IPS",
@@ -218,40 +218,12 @@
   },
   {
     "url" : "http://hl7.org/fhir/uv/ips/ValueSet/whoatc-uv-ips",
-    "version" : "2.0.0",
+    "version" : "2.0.1",
     "status" : "active",
     "name" : "WhoAtcUvIps",
     "title" : "WHO ATC - IPS",
     "description" : "World Health Organization Anatomical Therapeutic Chemical (ATC) classification system.",
     "systems" : ["http://www.whocc.no/atc"],
-    "uses" : {
-    },
-    "StructureDefinition-demo-at-allergy-intolerance.html" : "Demo AllergyIntolerance"
-  },
-  {
-    "url" : "http://terminology.ehdsi.eu/ValueSet/eHDSIAllergenNoDrug",
-    "version" : "0.2.0",
-    "status" : "active",
-    "name" : "eHDSIAllergenNoDrug",
-    "title" : "eHDSI Allergen No Drug",
-    "description" : "The value set is used to code the patient's kind of adverse reactions against substance, food or drugs",
-    "systems" : ["http://snomed.info/sct"],
-    "oids" : ["1.3.6.1.4.1.12559.11.10.1.3.1.42.19"],
-    "sources" : ["1.3.6.1.4.1.12559.11.10.1.3.1.42.19"],
-    "uses" : {
-    },
-    "StructureDefinition-demo-at-allergy-intolerance.html" : "Demo AllergyIntolerance"
-  },
-  {
-    "url" : "http://terminology.ehdsi.eu/ValueSet/eHDSIReactionAllergy",
-    "version" : "0.2.0",
-    "status" : "active",
-    "name" : "eHDSIReactionAllergy",
-    "title" : "eHDSI Reaction Allergy",
-    "description" : "Value Set is used to encode clinical manifestation of the allergic reaction.",
-    "systems" : ["http://snomed.info/sct"],
-    "oids" : ["1.3.6.1.4.1.12559.11.10.1.3.1.42.11"],
-    "sources" : ["1.3.6.1.4.1.12559.11.10.1.3.1.42.11"],
     "uses" : {
     },
     "StructureDefinition-demo-at-allergy-intolerance.html" : "Demo AllergyIntolerance"
